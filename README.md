@@ -1,6 +1,6 @@
 # Blockchain Voting Gas Analysis
 
-In this repository we show how we analyzed the Ethereum Mainnet for e-voting smart contracts.
+In this repository we show how we analyzed the Ethereum Mainnet for e-voting smart contracts. All tables with our results can be downloaded from [./export/tables/](./export/tables/) or analyzed again with the following instructions.
 
 Required prerequisites:
 - [Ethereum ETL](https://github.com/blockchain-etl/ethereum-etl)
@@ -8,9 +8,9 @@ Required prerequisites:
 - Voting method signatures from [EIP-1202](http://github.com/ethereum/EIPs/blob/master/EIPS/eip-1202.md) and [4byte.directory](http://4byte.directory)
 - Node.js and npm
 
-We generated the following tables for caching results.
+We generated the following tables for caching/saving results.
 
-> **Important note:** we limit our SQL analysis to 2020-04-21 due to rerepeatability for our paper.
+> **Important note:** we limit our SQL analysis to 2020-04-21 due to repeatability for our paper.
 
 ## Method Signatures
 Expected voting method signatures and their sources. For the 4byte.directory we searched for the keywords and scrapped them with the API. We then generated SQL inserts for the functionSighashes table (see below).
@@ -120,4 +120,111 @@ WHERE DATE(contracts.block_timestamp) <= "2020-04-21" AND DATE(transactions.bloc
       count.address = contracts.address
   AND count.voting_methods >  1
   AND contracts.address = transactions.to_address
+```
+
+## Free Gas Measurements
+
+### Measurements results table
+
+Table **gasMeasurements** for saving the measurement results.
+
+| Field             | Type      | Mode     |
+|-------------------|-----------|----------|
+| date              | DATE      | NULLABLE |
+| gas               | INTEGER   | NULLABLE |
+| block             | INTEGER   | NULLABLE |
+| blocks            | INTEGER   | NULLABLE |
+| duration          | INTEGER   | NULLABLE |
+| from_timestamp    | TIMESTAMP | NULLABLE |
+| to_timestamp      | TIMESTAMP | NULLABLE |
+| from_block        | INTEGER   | NULLABLE |
+| to_block          | INTEGER   | NULLABLE |
+| blockgaslimit_avg | INTEGER   | NULLABLE |
+
+
+### Measuring needed blocks for given amount of gas in a given time perdiod with monthly interval
+
+> **Caution:** Runs potentially long and may cost some real $$$ ;-)
+
+```sql
+--- INPUT
+DECLARE day DATE DEFAULT "2020-04-21"; -- Start date
+DECLARE max DATE DEFAULT "2015-07-30"; -- Genesis
+DECLARE gas INT64 DEFAULT 791970000;   -- Free gas needed
+
+--- RUN
+DECLARE foundBlock INT64 DEFAULT 0;
+DECLARE dayTimestamp TIMESTAMP DEFAULT TIMESTAMP(day);
+  
+CREATE TEMP FUNCTION measureNeededBlocks (gas INT64, startDate DATE)
+  RETURNS INT64 AS ( (
+    SELECT
+      number
+    FROM (
+      SELECT number, SUM(gas_limit - gas_used) OVER (ORDER BY number DESC) AS gas_free_sum,
+      FROM `bigquery-public-data.crypto_ethereum.blocks`
+      WHERE DATE(timestamp) <= startDate
+      ORDER BY number DESC )
+    WHERE
+      gas_free_sum > gas
+    LIMIT 1 ));
+    
+LOOP
+  SET dayTimestamp = (SELECT MAX(b.timestamp) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE DATE(b.timestamp) = day );
+  
+  SET foundBlock = (SELECT measureNeededBlocks(gas, day));
+  
+  INSERT INTO evotinggasanalysis.20200421.gasMeasurements (
+    date,
+    gas,
+    block,
+    blocks,
+    duration,
+    `from_timestamp`,
+    `to_timestamp`,
+    `from_block`,
+    `to_block`,
+    `blockgaslimit_avg`)
+  VALUES
+    (day, gas, foundBlock,
+  
+    (SELECT MAX(number) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE date(b.timestamp) = day) - foundBlock,
+    (SELECT TIMESTAMP_DIFF(dayTimestamp, bb.timestamp, MINUTE) FROM `bigquery-public-data`.crypto_ethereum.blocks bb WHERE bb.number = foundBlock),
+    dayTimestamp,
+    (SELECT bb.timestamp FROM `bigquery-public-data`.crypto_ethereum.blocks bb WHERE bb.number = foundBlock),
+    (SELECT MAX(number) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE date(b.timestamp) = day),
+    foundBlock,
+    (SELECT CAST(AVG(gas_limit) AS INT64) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE b.number >= foundBlock AND b.number <= (SELECT MAX(bc.number) FROM `bigquery-public-data`.crypto_ethereum.blocks bc WHERE date(bc.timestamp) = day))
+  );
+SET day = DATE_ADD(day, INTERVAL -1 month);
+IF day < max THEN
+  LEAVE ;
+END IF ;
+END LOOP ;
+```
+
+### Get median of gas measurement results
+Get the median of all gas measurement results (grouped by initial gas input).
+
+```sql
+CREATE TEMP FUNCTION MEDIAN(arr ANY TYPE) AS ((
+  SELECT IF(
+      MOD(ARRAY_LENGTH(arr), 2) = 0,
+      (arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2) - 1)] + arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2))]) / 2,
+      arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2))] )
+  FROM (SELECT ARRAY_AGG(x ORDER BY x) AS arr FROM UNNEST(arr) AS x)
+)); -- Source: https://stackoverflow.com/a/55529409
+
+SELECT
+  gas,
+  CAST(CEIL(MEDIAN(ARRAY_AGG(blocks))) AS INT64) blocks_median,
+  CAST(CEIL(AVG(blocks)) AS INT64) blocks_avg,
+  CAST(STDDEV(blocks) AS INT64) blocks_std,
+  CAST(CEIL(MEDIAN(ARRAY_AGG(duration))) AS INT64) duration_median,
+  CAST(STDDEV(duration) AS INT64) duration_std,
+  CAST(CEIL(MEDIAN(ARRAY_AGG(blockgaslimit_avg))) AS INT64) blockgaslimit_median,
+  CAST(STDDEV(blockgaslimit_avg) AS INT64) blockgaslimit_std,
+  COUNT(*) as datapoints
+FROM (SELECT DISTINCT * FROM `evotinggasanalysis.20200421.gasMeasurements` WHERE blocks IS NOT NULL)
+GROUP BY gas
 ```
