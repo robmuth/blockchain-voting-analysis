@@ -22,7 +22,7 @@ Expected voting method signatures and their sources. For the 4byte.directory we 
 | [voteSignatures.json](./data/signatures/voteSignatures.json)       | vote    | [4byte.directory](http://4byte.directory)  |
 | [votingSignatures.json](./data/signatures/votingSignatures.json)   | voting  | [4byte.directory](http://4byte.directory)  |
 
-Our scraper tool [4byte_scraper.js](./script/4byte_scraper.js) is written in Node.JS and needs ```sync-request``` module from npm repo (```npm install sync-request```). Next, our transformer script [insertSignaturesTransform.js](./script/insertSignaturesTransform.js) transform the JSON signatures into SQL inserts [insertSignatures.sql](./data/sql/insertSignatures.sql) (note: maybe the SQL insert is too long and must be split into multiple statements).
+Our scraper tool [4byte_scraper.js](./script/4byte_scraper.js) is written in Node.JS and needs ```sync-request``` module from npm repo (```npm install sync-request```). Next, our transformer script [insertSignaturesTransform.js](./script/insertSignaturesTransform.js) transform the JSON signatures into SQL inserts [insertSignatures.sql](./sql/insertSignatures.sql) (note: maybe the SQL insert is too long and must be split into multiple statements).
 
 ## SQL Tables
 ### functionSighashes
@@ -34,7 +34,7 @@ List of expected voting method signature hashes.
 | signature  | STRING  | NULLABLE |
 | is_erc1202 | BOOLEAN | NULLABLE |
 
-Inserts see [functionSighashes.sql](./data/sql/insertSignatures.sql).
+Inserts see [functionSighashes.sql](./sql/insertSignatures.sql).
 
 ### votingContracts
 Deployed smart contracts which have expected voting method signatures in their bytecodes.
@@ -49,7 +49,7 @@ Deployed smart contracts which have expected voting method signatures in their b
 | block_timestamp    | TIMESTAMP | NULLABLE |
 | block_number       | INTEGER   | NULLABLE |
 
-Table filled with querying the Mainnet dataset by [cacheVotingContracts.sql](./data/sql/cacheVotingContracts.sql).
+Table filled with querying the Mainnet dataset by [cacheVotingContracts.sql](./sql/cacheVotingContracts.sql).
 
 ### votingContractMethods
 Cache table which saves how many expected voting method signature hashes are in a deployed smart contract.
@@ -59,7 +59,7 @@ Cache table which saves how many expected voting method signature hashes are in 
 | address        | STRING  | REQUIRED |
 | voting_methods | INTEGER | NULLABLE |
 
-Table filled with querying the votingContracts table by [cacheVotingMethodsCount.sql](./data/sql/cacheVotingMethodsCount.sql).
+Table filled with querying the votingContracts table by [cacheVotingMethodsCount.sql](./sql/cacheVotingMethodsCount.sql).
 
 ## SQL Queries
 ### Number of voting contracts and sum of their Ether balance
