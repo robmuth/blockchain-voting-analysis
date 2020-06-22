@@ -1,0 +1,52 @@
+[
+  {
+    "hash": "0xb384abef",
+    "is_erc1202": true,
+    "signature": "vote(uint256,uint256)"
+  },
+  {
+    "hash": "0x8719e8ac",
+    "is_erc1202": true,
+    "signature": "setStatus(uint256,bool)"
+  },
+  {
+    "hash": "0x1e01a172",
+    "is_erc1202": true,
+    "signature": "issueDescription(uint256)"
+  },
+  {
+    "hash": "0xc36fff2d",
+    "is_erc1202": true,
+    "signature": "availableOptions(uint256)"
+  },
+  {
+    "hash": "0xea2bc862",
+    "is_erc1202": true,
+    "signature": "optionDescription(uint256,uint256)"
+  },
+  {
+    "hash": "0x32ec991c",
+    "is_erc1202": true,
+    "signature": "ballotOf(uint256,address)"
+  },
+  {
+    "hash": "0x8935ced5",
+    "is_erc1202": true,
+    "signature": "weightOf(uint256,address)"
+  },
+  {
+    "hash": "0x5c622a0e",
+    "is_erc1202": true,
+    "signature": "getStatus(uint256)"
+  },
+  {
+    "hash": "0x6e6a1dc3",
+    "is_erc1202": true,
+    "signature": "weightedVoteCountsOf(uint256,uint256)"
+  },
+  {
+    "hash": "0xaff9e954",
+    "is_erc1202": true,
+    "signature": "topOptions(uint256,uint256)"
+  }
+]
