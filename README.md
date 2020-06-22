@@ -59,7 +59,7 @@ Cache table which saves how many expected voting method signature hashes are in 
 | address        | STRING  | REQUIRED |
 | voting_methods | INTEGER | NULLABLE |
 
-Table filled with querying the votingContracts table by [cacheVotingMethondsCount.sql](./data/sql/cacheVotingMethondsCount.sql).
+Table filled with querying the votingContracts table by [cacheVotingMethodsCount.sql](./data/sql/cacheVotingMethodsCount.sql).
 
 ## SQL Queries
 ### Number of voting contracts and sum of their Ether balance
