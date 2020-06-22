@@ -228,3 +228,11 @@ SELECT
 FROM (SELECT DISTINCT * FROM `evotinggasanalysis.20200421.gasMeasurements` WHERE blocks IS NOT NULL)
 GROUP BY gas
 ```
+
+## Minimal Implementations
+The minimal voting implementations are implemented within the [Truffle Framework](https://www.trufflesuite.com). Our measurements can be reproduced with the test cases (run ```truffle test```). The test cases require an npm/Node.JS environment and ganache-cli.
+
+Truffle project: [./minimalImplementations/](./minimalImplementations/)
+Smart contracts: [./minimalImplementations/contracts/](./minimalImplementations/contracts/)
+
+For generating the ZoKrates zero-knowledge-proof the hash/proof files can be found in [./minimalImplementations/zokrates/](./minimalImplementations/zokrates/) and require a ZoKrates environment or the corresponding [Remix](http://remix.ethereum.org/) Plugin.
