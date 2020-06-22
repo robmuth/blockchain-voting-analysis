@@ -1,6 +1,6 @@
 # Blockchain Voting Gas Analysis
 
-In this repository we show how we analyzed the Ethereum Mainnet for e-voting smart contracts. All tables with our results can be downloaded from [./export/tables/](./export/tables/) or analyzed again with the following instructions.
+In this repository we show how we analyzed the Ethereum Mainnet for e-voting smart contracts. All tables with our results can be downloaded from [./results/](./results/) or analyzed again with the following instructions.
 
 Required prerequisites:
 - [Ethereum ETL](https://github.com/blockchain-etl/ethereum-etl)
