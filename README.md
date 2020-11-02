@@ -61,6 +61,24 @@ Cache table which saves how many expected voting method signature hashes are in 
 
 Table filled with querying the votingContracts table by [cacheVotingMethodsCount.sql](./sql/cacheVotingMethodsCount.sql).
 
+### votingTransactions
+Cache table for all transactions which call a voting method.
+
+| Field              | Type      | Mode     |
+|--------------------|-----------|----------|
+| hash               | STRING    |          |
+| from_address       | STRING    |          |
+| to_address         | STRING    |          |
+| gas                | INTEGER   |          |
+| gas_price          | INTEGER   |          |
+| value              | NUMERIC   |          |
+| receipt_gas_used   | INTEGER   |          |
+| block_number       | INTEGER   |          |
+| block_timestamp    | TIMESTAMP |          |
+| function_sighash   | STRING    |          |
+
+Inserts see [functionSighashes.sql](./sql/insertVotingTransactions.sql).
+
 ## SQL Queries
 ### Number of voting contracts and sum of their Ether balance
 ```sql
