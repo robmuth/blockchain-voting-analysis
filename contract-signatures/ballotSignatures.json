@@ -1,0 +1,514 @@
+[
+  {
+    "signature": "revealManyBallots(uint256,address[],bytes[],uint256[])",
+    "hash": "0xc9657441"
+  },
+  {
+    "signature": "revealBallot(uint256,address,address[],uint256[],uint256[],uint256)",
+    "hash": "0x59a3b0cf"
+  },
+  {
+    "signature": "commitBallot(address,bytes32,uint256)",
+    "hash": "0x4d47e7eb"
+  },
+  {
+    "signature": "ballots(uint256)",
+    "hash": "0x5c632b38"
+  },
+  {
+    "signature": "getBallotPapper(uint256,uint256,uint256)",
+    "hash": "0xc2577661"
+  },
+  {
+    "signature": "getBallotBook(uint256,uint256,uint256)",
+    "hash": "0x7d103f14"
+  },
+  {
+    "signature": "addUNISSUEDBALLOTPAPERS(uint256,uint256,uint256,uint256,uint256)",
+    "hash": "0xa50569b7"
+  },
+  {
+    "signature": "addSrNOfBallotPapper(uint256,uint256,uint256,uint256,uint256)",
+    "hash": "0x3e5a907f"
+  },
+  {
+    "signature": "_getFechHpbBallotAddrInterface()",
+    "hash": "0xddff0346"
+  },
+  {
+    "signature": "updateHpbBallotAddress(address,address)",
+    "hash": "0xd3d3dd85"
+  },
+  {
+    "signature": "addHpbBallotAddress(address)",
+    "hash": "0x14307c48"
+  },
+  {
+    "signature": "setFechHpbBallotAddrAddresss(address)",
+    "hash": "0x8c523e27"
+  },
+  {
+    "signature": "noActiveBallotExists()",
+    "hash": "0x1923e5d4"
+  },
+  {
+    "signature": "getBallotInfo(uint256)",
+    "hash": "0x141bd92a"
+  },
+  {
+    "signature": "createBallot(uint256,uint256,address,string)",
+    "hash": "0x55ca92f8"
+  },
+  {
+    "signature": "cancelNewBallot()",
+    "hash": "0xa8d1fcff"
+  },
+  {
+    "signature": "ballotCancelingThreshold()",
+    "hash": "0x2b633f77"
+  },
+  {
+    "signature": "nextBallotId()",
+    "hash": "0xdc6bfbb5"
+  },
+  {
+    "signature": "getBallotsStorage()",
+    "hash": "0x36ee7773"
+  },
+  {
+    "signature": "getBallotOfSender()",
+    "hash": "0xeef55c72"
+  },
+  {
+    "signature": "submitBallot(bool)",
+    "hash": "0x94ddc8c0"
+  },
+  {
+    "signature": "submitBallot(bytes32,bytes32)",
+    "hash": "0x13c04769"
+  },
+  {
+    "signature": "ballotOptions(uint32,uint32)",
+    "hash": "0xb5e989c7"
+  },
+  {
+    "signature": "encryptedBallots(uint256)",
+    "hash": "0x6b6d5c82"
+  },
+  {
+    "signature": "ballotNames(uint32)",
+    "hash": "0x80f89a31"
+  },
+  {
+    "signature": "ballotVoteCount(uint32,uint32)",
+    "hash": "0xe927ea7a"
+  },
+  {
+    "signature": "FinishBallot(uint256)",
+    "hash": "0x4b813478"
+  },
+  {
+    "signature": "CreatedBallot(address,uint256,uint256,bytes32)",
+    "hash": "0x39ff8ff9"
+  },
+  {
+    "signature": "ballotDetails(uint32)",
+    "hash": "0xcdc62d39"
+  },
+  {
+    "signature": "closeBallot()",
+    "hash": "0xa97b8b4d"
+  },
+  {
+    "signature": "voterToBallotID(address)",
+    "hash": "0x432ba8be"
+  },
+  {
+    "signature": "ballotVoters(uint32,address)",
+    "hash": "0x51b9a2f8"
+  },
+  {
+    "signature": "pollBallot(uint256,uint256)",
+    "hash": "0x91854684"
+  },
+  {
+    "signature": "createBallot(string,bytes32[],uint256)",
+    "hash": "0x2c642950"
+  },
+  {
+    "signature": "getBallotOptNumber()",
+    "hash": "0x497b8018"
+  },
+  {
+    "signature": "currentRefundInvestorsBallot()",
+    "hash": "0x0d11dd70"
+  },
+  {
+    "signature": "ballotEncryptionSeckey()",
+    "hash": "0x245b565d"
+  },
+  {
+    "signature": "getBallotOptions()",
+    "hash": "0x0c0075a3"
+  },
+  {
+    "signature": "ballot()",
+    "hash": "0xac3910a2"
+  },
+  {
+    "signature": "ballotStarted()",
+    "hash": "0xe3aec30c"
+  },
+  {
+    "signature": "curentBallotId()",
+    "hash": "0xe4eacd70"
+  },
+  {
+    "signature": "commBallotPriceWei()",
+    "hash": "0xd36ae26b"
+  },
+  {
+    "signature": "ballotEncryptionPubkey()",
+    "hash": "0x14534ba7"
+  },
+  {
+    "signature": "currentIncreaseWithdrawalTeamBallot()",
+    "hash": "0xea2f43c3"
+  },
+  {
+    "signature": "numBallots()",
+    "hash": "0x4beb031b"
+  },
+  {
+    "signature": "ballotFee()",
+    "hash": "0xdbf1bfee"
+  },
+  {
+    "signature": "deployCommunityBallot(bytes32,bytes32,uint128)",
+    "hash": "0x7c54aa1a"
+  },
+  {
+    "signature": "getCommunityBallotsEnabled()",
+    "hash": "0xe13245b1"
+  },
+  {
+    "signature": "setCommunityBallotStatus(bool)",
+    "hash": "0xf321653a"
+  },
+  {
+    "signature": "_checkEvenIfCommBallot(bytes32)",
+    "hash": "0xed7546b7"
+  },
+  {
+    "signature": "_deployBallotChecks(bytes32,uint64)",
+    "hash": "0x5757a66a"
+  },
+  {
+    "signature": "setCommunityBallotCentsPrice(uint256)",
+    "hash": "0x6c5649d8"
+  },
+  {
+    "signature": "_ballotIdToNamespace(uint256)",
+    "hash": "0xc92728a1"
+  },
+  {
+    "signature": "ballotOf(address)",
+    "hash": "0xdc012626"
+  },
+  {
+    "signature": "ballotOf(uint256,address)",
+    "hash": "0x32ec991c"
+  },
+  {
+    "signature": "BallotO(address[],uint256[])",
+    "hash": "0x7644ecbf"
+  },
+  {
+    "signature": "initBallotProxy(uint8,bytes32,bytes32,bytes32[4])",
+    "hash": "0x94f6e8ed"
+  },
+  {
+    "signature": "getCommunityBallotWeiPrice()",
+    "hash": "0x5f8bad42"
+  },
+  {
+    "signature": "getCommunityBallotCentsPrice()",
+    "hash": "0x0f5e7348"
+  },
+  {
+    "signature": "GlobalLotteryToken()",
+    "hash": "0x51df6d27"
+  },
+  {
+    "signature": "getDaysPassedSinceLastTeamFundsBallot()",
+    "hash": "0x63d5243a"
+  },
+  {
+    "signature": "getDaysPassedSinceLastRefundBallot()",
+    "hash": "0xca5a3f38"
+  },
+  {
+    "signature": "startRefundInvestorsBallot()",
+    "hash": "0x8fa65488"
+  },
+  {
+    "signature": "RefundInvestorsBallot(address)",
+    "hash": "0xf4d0b2a5"
+  },
+  {
+    "signature": "Ballot(address)",
+    "hash": "0x3ada121c"
+  },
+  {
+    "signature": "ballotLog(address,uint256)",
+    "hash": "0x0d5be2df"
+  },
+  {
+    "signature": "ballotLog(bytes32[2])",
+    "hash": "0xfab93805"
+  },
+  {
+    "signature": "getBasicBallotsPer30Days()",
+    "hash": "0x5429a417"
+  },
+  {
+    "signature": "getBasicExtraBallotFeeWei()",
+    "hash": "0xb2148d38"
+  },
+  {
+    "signature": "setBasicBallotsPer30Days(uint256)",
+    "hash": "0xa05e3bb0"
+  },
+  {
+    "signature": "setBallotOwner(uint256,address)",
+    "hash": "0x07858f0e"
+  },
+  {
+    "signature": "getNBallots()",
+    "hash": "0x1b58c943"
+  },
+  {
+    "signature": "_addBallot(bytes32,uint256,uint256,bool)",
+    "hash": "0xa99f0d9f"
+  },
+  {
+    "signature": "_deployBallot(bytes32,bytes32,bytes32,uint256,bool,bool)",
+    "hash": "0x94e93017"
+  },
+  {
+    "signature": "dDeployBallot(bytes32,bytes32,bytes32,uint256)",
+    "hash": "0x39ade9aa"
+  },
+  {
+    "signature": "dDeployCommunityBallot(bytes32,bytes32,bytes32,uint128)",
+    "hash": "0xa942bf05"
+  },
+  {
+    "signature": "dAddBallot(bytes32,uint256,uint256)",
+    "hash": "0xe42a8bc9"
+  },
+  {
+    "signature": "_commitBallot(bytes32,uint256,uint256,bool)",
+    "hash": "0xa9225743"
+  },
+  {
+    "signature": "getDCommBallotsEnabled(bytes32)",
+    "hash": "0x6627ace5"
+  },
+  {
+    "signature": "getDCountedBasicBallotID(bytes32,uint256)",
+    "hash": "0x62c0ffa8"
+  },
+  {
+    "signature": "getDCountedBasicBallotsN(bytes32)",
+    "hash": "0xf72f34db"
+  },
+  {
+    "signature": "getDBallotID(bytes32,uint256)",
+    "hash": "0xe23d0996"
+  },
+  {
+    "signature": "getDBallotsN(bytes32)",
+    "hash": "0x889b59d9"
+  },
+  {
+    "signature": "dAddBallot(bytes32,uint256,uint256,bool)",
+    "hash": "0x960834f4"
+  },
+  {
+    "signature": "dSetCommunityBallotsEnabled(bytes32,bool)",
+    "hash": "0x336481d4"
+  },
+  {
+    "signature": "qualifiesAsCommunityBallot(uint16)",
+    "hash": "0x2025867b"
+  },
+  {
+    "signature": "getBallotLogN(address)",
+    "hash": "0xc98a79fb"
+  },
+  {
+    "signature": "noteBallotDeployed(bytes32)",
+    "hash": "0x0ba5890a"
+  },
+  {
+    "signature": "addBallotAndVoterNoPk(bytes32)",
+    "hash": "0xd33b79d9"
+  },
+  {
+    "signature": "addBallotAndVoterWithPk(bytes32,bytes32)",
+    "hash": "0x158e7986"
+  },
+  {
+    "signature": "submitBallotNoPk(bytes32)",
+    "hash": "0xdea7b768"
+  },
+  {
+    "signature": "submitBallotWithPk(bytes32,bytes32)",
+    "hash": "0xbc19bcbf"
+  },
+  {
+    "signature": "SVLightBallotBox(bytes32,uint64[2],bool[2])",
+    "hash": "0x9a5666b8"
+  },
+  {
+    "signature": "deployBallot(bytes32,bytes32,bytes32,uint64[2],bool[2])",
+    "hash": "0x62981b18"
+  },
+  {
+    "signature": "addBallot(bytes32,bytes32,address)",
+    "hash": "0xa1a1efe7"
+  },
+  {
+    "signature": "_commitBallot(bytes32,bytes32,bytes32,address,uint64)",
+    "hash": "0x245e70f0"
+  },
+  {
+    "signature": "getNthBallot(bytes32,uint256)",
+    "hash": "0x88257016"
+  },
+  {
+    "signature": "nBallots(bytes32)",
+    "hash": "0xcf2317d5"
+  },
+  {
+    "signature": "setWhitelistBallot(address,bool)",
+    "hash": "0x1badfbae"
+  },
+  {
+    "signature": "BallotPreferential()",
+    "hash": "0xc0d129d4"
+  },
+  {
+    "signature": "hasAddressVotedInBallot(uint32,address)",
+    "hash": "0xba9a4d6e"
+  },
+  {
+    "signature": "isBallotSealed(uint32)",
+    "hash": "0x108e161b"
+  },
+  {
+    "signature": "hasBallotEnded(uint32)",
+    "hash": "0x71aeae44"
+  },
+  {
+    "signature": "isBallotInProgress(uint32)",
+    "hash": "0x80c324cf"
+  },
+  {
+    "signature": "adminSealBallot(uint32)",
+    "hash": "0x2db78d88"
+  },
+  {
+    "signature": "adminEditBallotOption(uint32,uint32,string)",
+    "hash": "0x64445d9e"
+  },
+  {
+    "signature": "adminAddBallotOption(uint32,string)",
+    "hash": "0xa95bfd36"
+  },
+  {
+    "signature": "adminAmendBallot(uint32,string,uint256,uint256)",
+    "hash": "0xdda0c1d6"
+  },
+  {
+    "signature": "adminAddBallot(string,uint256,uint256)",
+    "hash": "0x62ec8e53"
+  },
+  {
+    "signature": "Ballot(string,string,string,uint256,address[],uint256[],uint256[])",
+    "hash": "0x21fa1730"
+  },
+  {
+    "signature": "setBallotFactory(address)",
+    "hash": "0x36a7cf1f"
+  },
+  {
+    "signature": "getLastBallot()",
+    "hash": "0x077e43b4"
+  },
+  {
+    "signature": "createBallot(uint256,address,string,string)",
+    "hash": "0xc90d2cd9"
+  },
+  {
+    "signature": "PublicBallot(address,string,string)",
+    "hash": "0xd9f1a1a9"
+  },
+  {
+    "signature": "stopBallot()",
+    "hash": "0x1719d726"
+  },
+  {
+    "signature": "startBallot()",
+    "hash": "0x452ddecc"
+  },
+  {
+    "signature": "BasicBallot(address,string,string)",
+    "hash": "0xf1ffde45"
+  },
+  {
+    "signature": "Ballot(string,bytes32[])",
+    "hash": "0xe3669d7c"
+  },
+  {
+    "signature": "finishBallot(bytes32)",
+    "hash": "0x6faaeca2"
+  },
+  {
+    "signature": "startNewBallot(bytes32,bool,bytes32[])",
+    "hash": "0xf3df0bbe"
+  },
+  {
+    "signature": "getBallotIndex(address,bytes32)",
+    "hash": "0x99cac223"
+  },
+  {
+    "signature": "getBallotsNum(address)",
+    "hash": "0xe2e1ff4d"
+  },
+  {
+    "signature": "Ballot(bytes32[],bytes32[])",
+    "hash": "0xa9820ead"
+  },
+  {
+    "signature": "BallotUp()",
+    "hash": "0xf2a5630a"
+  },
+  {
+    "signature": "testCreateBallotContract()",
+    "hash": "0x1cff3e09"
+  },
+  {
+    "signature": "Ballot()",
+    "hash": "0xb655f822"
+  },
+  {
+    "signature": "Ballot(uint8)",
+    "hash": "0x940f851c"
+  },
+  {
+    "signature": "Ballot(bytes32[])",
+    "hash": "0x61a00f6d"
+  }
+]

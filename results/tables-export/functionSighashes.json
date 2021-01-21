@@ -1,0 +1,7362 @@
+[
+  {
+    "hash": "0x77c0891f",
+    "signature": "setVotingParams(uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0deb866e",
+    "signature": "getVoteDisputable(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x68bb8bb6",
+    "signature": "vote(uint256,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5e8254ea",
+    "signature": "commitVoteOnProposal(bytes32,uint8,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa636f4a1",
+    "signature": "VoterAdded(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x18bffce9",
+    "signature": "voteToResult(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x815bc7a0",
+    "signature": "vote_reward_pool_amount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x15e82e87",
+    "signature": "Free_vote_for_candidate_B()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x22518a75",
+    "signature": "getVotersCandidateVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xde79fb92",
+    "signature": "UKTTokenVoting(uint256,bytes32[],address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeab98430",
+    "signature": "vote(address,uint256,uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24160baa",
+    "signature": "newVote(bytes,string,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb36afdcd",
+    "signature": "_canVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7ec82929",
+    "signature": "setFunctionIdVoteRules(bytes4,bool,uint256[5])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x77a9037b",
+    "signature": "updateLastVotedOnParameter(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x15373e3d",
+    "signature": "castVote(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf276e1c7",
+    "signature": "voteResultPublish(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1364326c",
+    "signature": "countVotes(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf2a5630a",
+    "signature": "BallotUp()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbcca1fd3",
+    "signature": "changeVotingRules(uint256,uint256,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0b1c5b76",
+    "signature": "fetchVoteMainInfoBySnapshotBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x78a29c66",
+    "signature": "votesAvailable(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x93997075",
+    "signature": "AddCommitteeVoteEvent(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea5b561f",
+    "signature": "guardian1Vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf9bbcc6d",
+    "signature": "setMinVoteWeightK(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbc3f931f",
+    "signature": "getVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb21bce4c",
+    "signature": "vote(bytes,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7e4d25c5",
+    "signature": "Refundably_if_gasprice_more50gwei_Send_Votes_From_Your_Balance(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd4ebc5ff",
+    "signature": "voteUp(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb54c71eb",
+    "signature": "weightedVoteCountsOf(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9bb192fd",
+    "signature": "getVotes(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa48515fc",
+    "signature": "castConstitutionVote(uint8,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x52a554a1",
+    "signature": "voteBoardProposal(uint256,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe23d0996",
+    "signature": "getDBallotID(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x88b51ac0",
+    "signature": "gernerateVoting(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2260b98b",
+    "signature": "finalizeVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc2a15e7e",
+    "signature": "votingEndsInHHMM()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x706247a1",
+    "signature": "SetVotingDescripion(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd454f92e",
+    "signature": "mNumVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7b5bc2e4",
+    "signature": "isVoted()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb84fe73b",
+    "signature": "voteAll(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdfeb1fd3",
+    "signature": "getUserVotes(address,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc05e5776",
+    "signature": "giveRightToVote(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7318b453",
+    "signature": "setVotetUntil(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4da74ee6",
+    "signature": "setVoteIntention(uint256,bool,bool,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5757a66a",
+    "signature": "_deployBallotChecks(bytes32,uint64)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcfa558ba",
+    "signature": "hasVotedInFavorOf(uint256,uint8,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8884b807",
+    "signature": "getVoters(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a6dfeff",
+    "signature": "totalVotesForParty(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdc012626",
+    "signature": "ballotOf(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2197021b",
+    "signature": "proxyVotingContract()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x04cd1819",
+    "signature": "disableVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x81269a18",
+    "signature": "voteBalance(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x85dacd5b",
+    "signature": "voteSnapshotBalanceAuto(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x07df18d3",
+    "signature": "test0Vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb1610d7e",
+    "signature": "VOTING_PERIOD()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x69bc1a55",
+    "signature": "testFail_doubleVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x158059e2",
+    "signature": "changeVotingRules(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x28f44901",
+    "signature": "voteOnBehalfOf(address[],uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xffa59501",
+    "signature": "votesRemaining(uint64,uint64,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3e1b0d29",
+    "signature": "fechAllVotersBySnapshotBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe3ccb809",
+    "signature": "voteOnProposal(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x182ae5f2",
+    "signature": "getVotesForItem(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4d8c3ea6",
+    "signature": "getTxVoteDetails(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa7771ee3",
+    "signature": "isVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xedfbf7b6",
+    "signature": "setVotingDeadline(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4a915ea2",
+    "signature": "votedHarvest()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1b538bcc",
+    "signature": "getCurrentVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb2deae83",
+    "signature": "changeDelegatedVotingPeriod(uint64)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9f8792e",
+    "signature": "votingProxyContract()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3c946028",
+    "signature": "_castVote(address,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeb3a867b",
+    "signature": "LogVote(bytes32,bool,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc90189e4",
+    "signature": "fechAllVoteResultPreStageByBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x249559ad",
+    "signature": "computeVoteOutcome(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbbc64582",
+    "signature": "getVotesCount(address,uint256,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc4b7c4cf",
+    "signature": "communityVote(bytes32,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x323082d7",
+    "signature": "Vote(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6627ace5",
+    "signature": "getDCommBallotsEnabled(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5bae2120",
+    "signature": "test_doubleVotingFor()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0e5d4b99",
+    "signature": "fechVoteMainInfoForVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6b0dd90f",
+    "signature": "getVote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5dfd3278",
+    "signature": "VOTE_AGAINST()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2269f1c9",
+    "signature": "voteA(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xef2fd54d",
+    "signature": "viewVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcdf05ab5",
+    "signature": "voteTime(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb18019bd",
+    "signature": "_executeVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x585f9b7a",
+    "signature": "addVoteOption(uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x19eb8d48",
+    "signature": "canVote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf4ab9adf",
+    "signature": "addVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa05e3bb0",
+    "signature": "setBasicBallotsPer30Days(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1856e01b",
+    "signature": "setVotingController(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7e4173a8",
+    "signature": "voteExists(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x878edb66",
+    "signature": "getVotesByPollingStation(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd723bb73",
+    "signature": "fetchVoteInfoForVoterBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9fa50ab2",
+    "signature": "voteDescription()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8820e2d6",
+    "signature": "newVote(address,string,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa3ec138d",
+    "signature": "voters(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xce53ee2d",
+    "signature": "voteNoLockByAdmin(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2277466b",
+    "signature": "voteToClose()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc7e975b8",
+    "signature": "partner2_voted_update_marriage_status()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xacb09dde",
+    "signature": "fechVoteNumForCandidate()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x08891c0a",
+    "signature": "addVoter(address,address,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8c523e27",
+    "signature": "setFechHpbBallotAddrAddresss(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa943c21f",
+    "signature": "getVotingResult(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2877c748",
+    "signature": "claimVotingProposal()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x19e7998c",
+    "signature": "votingInfo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9eb003ea",
+    "signature": "redeemVote(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8e69eeb9",
+    "signature": "setDefaultVoteRules(uint256[5])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe623a93b",
+    "signature": "votesForAnswer()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcee024dc",
+    "signature": "getNumberOfVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf2d73dc6",
+    "signature": "VoteZoneToken()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6cf75170",
+    "signature": "cancelVote(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa6593562",
+    "signature": "getamountvotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x047f993d",
+    "signature": "_vote(bytes32,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x246d41a9",
+    "signature": "incrementTotalVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa7aad3db",
+    "signature": "voterReward(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x49aa4ee2",
+    "signature": "removeVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x55ca92f8",
+    "signature": "createBallot(uint256,uint256,address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe3669d7c",
+    "signature": "Ballot(string,bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x17e760bb",
+    "signature": "votingAllowed()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a163c44",
+    "signature": "currentVotingAmount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfac6fb16",
+    "signature": "getVoteStatusFromProposal(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x79a3510d",
+    "signature": "thisVoterExists()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x86a66dc3",
+    "signature": "getVoteResults()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc906a5aa",
+    "signature": "testDeleteVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb3f98adc",
+    "signature": "vote(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x921f98bb",
+    "signature": "resolveFailVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x18160ddd",
+    "signature": "voting_var(address,uint256,int128,int128)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3f3a4966",
+    "signature": "getVotingPower(uint256,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbbeadcad",
+    "signature": "invalidateVotingAtIndex(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x74804316",
+    "signature": "voteOnBehalfOf(uint256,bool,address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbe29783f",
+    "signature": "commitVoteOnSpecialProposal(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfa07153a",
+    "signature": "commitVote(uint256,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9f16529",
+    "signature": "thisVotersChoice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2c684eb6",
+    "signature": "afterVoteNoCashBackTime()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf72918ef",
+    "signature": "addVoterVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7fc5f05c",
+    "signature": "changeVoters(bytes32,address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x735a80b1",
+    "signature": "test_voteSpammingAgainst()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa5e8c5d6",
+    "signature": "setVoteRight(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x245e70f0",
+    "signature": "_commitBallot(bytes32,bytes32,bytes32,address,uint64)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x407e5e5d",
+    "signature": "newVoting(bytes,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa1ccc49c",
+    "signature": "addDataPatternVoteRules(uint256,uint256,bytes,bytes,uint256[5])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xedc41d06",
+    "signature": "canCloseVoteRevealPhase(address,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x98063de4",
+    "signature": "LogPollVoted(bytes32,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xddb6e116",
+    "signature": "vote(uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x850a1532",
+    "signature": "voteSnapshotBalance(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xca1c3bb3",
+    "signature": "testNonExistingVoteWeight()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x63472fad",
+    "signature": "setVote(address,string,uint256,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0469d644",
+    "signature": "storeSecretVote(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd5db2c80",
+    "signature": "newVote(bytes,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a19ac6d",
+    "signature": "fechAllVoteResultPreRoundByBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x49231598",
+    "signature": "fetchAllVotersBySnapshotBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe5fe7870",
+    "signature": "vote(string,uint128,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb3e7c2bd",
+    "signature": "getVote(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x76e4ca0d",
+    "signature": "voteQuorum(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xac3910a2",
+    "signature": "ballot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0ba5890a",
+    "signature": "noteBallotDeployed(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xca8f9651",
+    "signature": "voterVotingTime(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf336e80a",
+    "signature": "setMaximumVotingWindow(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcc2ddda8",
+    "signature": "_newVote(bytes,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x056bcc72",
+    "signature": "_getVoteInterface(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd2f1f712",
+    "signature": "getVoters(uint128)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x32aae34d",
+    "signature": "LogVoteToFreeze(address,uint256,uint8,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd10c504f",
+    "signature": "has_voted(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x53358fc4",
+    "signature": "castVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x07f5888b",
+    "signature": "vote02YesCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x49330cb8",
+    "signature": "getVote(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x58ae8bcf",
+    "signature": "voteInMasterKey(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x13e468b3",
+    "signature": "getVotingToChangeProxy()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4efd0848",
+    "signature": "_refreshVoteForVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd3cc0c37",
+    "signature": "batchVote(address,address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x76f9fd38",
+    "signature": "castVote(string,uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6a27c41d",
+    "signature": "revealVote(address,bytes32,bytes32,address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24d1c28b",
+    "signature": "changeVoteRules(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1d69ccdc",
+    "signature": "SuccessfulVote(address,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5a52da30",
+    "signature": "didVoteForName(address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x21d3523c",
+    "signature": "voteToHarvestFund()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9dcee160",
+    "signature": "voteC()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7d112d64",
+    "signature": "authenticateVoter(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b4159da",
+    "signature": "voteProposal(address,address,uint256,string,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xee89bb87",
+    "signature": "unlockVoterMusic(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x064c4ebc",
+    "signature": "backDevvoteOwner()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7701f361",
+    "signature": "test_newProposalAndNotEnoughVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x36cd24aa",
+    "signature": "prepareVote(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf7553098",
+    "signature": "voteForOutcome(int256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf25d2422",
+    "signature": "fetchVoteInfoForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc7dea777",
+    "signature": "areOldMiningKeysVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe89927ef",
+    "signature": "voteForCandidate(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4a3d3510",
+    "signature": "updateVotesOnTransfer(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0021d364",
+    "signature": "getNOVotesByEntity(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc6384071",
+    "signature": "voteCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x023e36d8",
+    "signature": "nVotesCast()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x92893fb9",
+    "signature": "hasAddressVoted()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8b67430e",
+    "signature": "voteToCandidateIndex(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0d11dd70",
+    "signature": "currentRefundInvestorsBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe55a6ef6",
+    "signature": "votingPeriodStartTime()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2ae1158d",
+    "signature": "votingWeightOf(address,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb3a2273f",
+    "signature": "totalVoted()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9cb61295",
+    "signature": "getVoterFromProposal(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x58b255ea",
+    "signature": "fechVoteNumForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaadc3b72",
+    "signature": "hasVoted(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a6d9926",
+    "signature": "_newVote(bytes,string,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x37246f43",
+    "signature": "getVoteRulesOfTransaction(address,uint256,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1391ff43",
+    "signature": "fetchVoteInfoForVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8d0fc05a",
+    "signature": "votesYes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6c6c39fb",
+    "signature": "votersLength()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24d6d601",
+    "signature": "voteFor(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe13245b1",
+    "signature": "getCommunityBallotsEnabled()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x57500bba",
+    "signature": "deactivateVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa8fe43ce",
+    "signature": "getVotingProxy(uint32,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x818097c5",
+    "signature": "getVotesForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8c6b6085",
+    "signature": "supportNewVoter(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc71f4253",
+    "signature": "getNumberOfVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x119ce91b",
+    "signature": "voteInfo(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf1e6bb1c",
+    "signature": "getVoteOptions(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd36ae26b",
+    "signature": "commBallotPriceWei()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8d7af473",
+    "signature": "numberOfProposals()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7cbcd571",
+    "signature": "removeVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x84b00eb6",
+    "signature": "fetchVoteNumForCandidateByIndex(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x25387eed",
+    "signature": "tallyTheVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe50beffb",
+    "signature": "voteStart(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf7efd408",
+    "signature": "votesIter(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd4d0e931",
+    "signature": "resetAllVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe7e9e106",
+    "signature": "rewardVote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfd609b91",
+    "signature": "DelVoteMemberCandidate(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf43532ac",
+    "signature": "changeWaveVoteContract(address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa942bf05",
+    "signature": "dDeployCommunityBallot(bytes32,bytes32,bytes32,uint128)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1badfbae",
+    "signature": "setWhitelistBallot(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x749f9889",
+    "signature": "changeAllowedRecipients(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe9512fa4",
+    "signature": "setVotingQuestions(string,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdeb0e09b",
+    "signature": "getVotingDuration()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0cc3b1c8",
+    "signature": "resetVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x30ca60d4",
+    "signature": "getFirstChoiceVotes(uint256,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc1440167",
+    "signature": "Voterplayer()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbd0ae405",
+    "signature": "voterReward(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc9620770",
+    "signature": "doVote(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x58c8c0a7",
+    "signature": "getVoteNumberList()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xffaa3608",
+    "signature": "voteFor()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf6d72acd",
+    "signature": "setVoter(uint256,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x01cb0261",
+    "signature": "getWeightedVote(bytes20,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaa284a4a",
+    "signature": "ProofPublicVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2784e3f3",
+    "signature": "refundVotingTokens(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x911ef2e9",
+    "signature": "Voted(uint256,bool,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7973c57f",
+    "signature": "fechVoteNumForCandidateBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x65e93b3f",
+    "signature": "getUserVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfc36e15b",
+    "signature": "vote(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4d47e7eb",
+    "signature": "commitBallot(address,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x11b1a2c1",
+    "signature": "_decodeVoteId(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8ce7ff4a",
+    "signature": "getVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x288fa739",
+    "signature": "isValidVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4dc3ba8f",
+    "signature": "assignVoterMoreVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x40ad654c",
+    "signature": "transferForVote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd6106696",
+    "signature": "withdrawal_last_voter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x14a1231f",
+    "signature": "guardian2Vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdc6bfbb5",
+    "signature": "nextBallotId()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4beb031b",
+    "signature": "numBallots()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62ec8e53",
+    "signature": "adminAddBallot(string,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf821a17c",
+    "signature": "getVotingNetworkDetails()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b930294",
+    "signature": "voteTokenBalance(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5d307c6f",
+    "signature": "giveToVoter(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd9e95a98",
+    "signature": "addVoter(address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6d4d907c",
+    "signature": "maxNumVotesPerAccount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa39ad747",
+    "signature": "minVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1ea5efc4",
+    "signature": "partner1_voted_update_marriage_status()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x47c66140",
+    "signature": "getProposalVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x077e43b4",
+    "signature": "getLastBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf2bbca67",
+    "signature": "checkVotingForChangeBuySellLimits()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x89975389",
+    "signature": "newVoting(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x98da8121",
+    "signature": "lock_vote_amount(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb109bc6d",
+    "signature": "getUpVoteCount(bytes12,bytes12)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc8a4c767",
+    "signature": "kickCommitteeVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0242fc62",
+    "signature": "voteNo(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xba3b60ed",
+    "signature": "rawVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1565f12f",
+    "signature": "createVote(bytes32,address,address,uint256,bool,string,string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaf91c5fd",
+    "signature": "getVotersChoice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4093b49c",
+    "signature": "votes_for()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1187d66e",
+    "signature": "votedNo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5ba1a1d4",
+    "signature": "viewKarmaVotesBySymbol(string,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x632a9a52",
+    "signature": "vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x99cac223",
+    "signature": "getBallotIndex(address,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd246a8c9",
+    "signature": "lastNegativeVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa25236fe",
+    "signature": "requestVotingRights(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3de46340",
+    "signature": "getBlockVoterBalance(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x30e44278",
+    "signature": "howVotesHasDispute(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb2bbae69",
+    "signature": "payForVote(address,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa7bc8c46",
+    "signature": "howManyVoters(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x189ca316",
+    "signature": "setVoteWeight(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5d95738b",
+    "signature": "vHasVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc851ed7c",
+    "signature": "startNewVote(uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x94ddc8c0",
+    "signature": "submitBallot(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9444991d",
+    "signature": "getVotingListCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x200308ee",
+    "signature": "rewardVoteResultForCandidate(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7b6d7a4a",
+    "signature": "VoteIntentionSet(uint256,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x87c19bcb",
+    "signature": "votelog(bool,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0e4a4e8c",
+    "signature": "fechVoteNumForCandidateByStage(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf0ecadcc",
+    "signature": "voteSvp03(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x02aa9be2",
+    "signature": "unvote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x77ca4d11",
+    "signature": "loadVotesForParticipant(bytes32,bytes32,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfdf56d57",
+    "signature": "voteElection(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x63d5243a",
+    "signature": "getDaysPassedSinceLastTeamFundsBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x64445d9e",
+    "signature": "adminEditBallotOption(uint32,uint32,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9bd4d19f",
+    "signature": "VotingDeactivated()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5add8e0f",
+    "signature": "voteSong(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd3c567c1",
+    "signature": "cancelVoteForCandidateByStage(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x72159335",
+    "signature": "voteInitiate(uint256,uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0d2ce376",
+    "signature": "submitVote(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd7c8e90c",
+    "signature": "voteAmendment(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x71aeae44",
+    "signature": "hasBallotEnded(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x732193a6",
+    "signature": "_votingOwner()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xad76325f",
+    "signature": "finishProposalVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd1b53d2d",
+    "signature": "tryFinalizeProposalByVoterIndices(uint256,uint256[],bool,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb1135686",
+    "signature": "votesIter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7c24b295",
+    "signature": "votedYes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x98668b24",
+    "signature": "tokensVotedForDisable()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3f6ec73a",
+    "signature": "itemVoteUp(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd3516b7e",
+    "signature": "setVote(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9e7b8d61",
+    "signature": "giveRightToVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd2a9b6ed",
+    "signature": "getVotingFor(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7cf2b9e4",
+    "signature": "updateVotingContractAddress(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf9094303",
+    "signature": "finishVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x955131ed",
+    "signature": "executeVote(uint256,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc8cfe153",
+    "signature": "revealVote(uint8,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd1a75e0d",
+    "signature": "VOTE_FOR()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x764c6dd3",
+    "signature": "voteToFreeze(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x629f4028",
+    "signature": "getVoteNum(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x308879bf",
+    "signature": "setVoteCost(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a0e7d66",
+    "signature": "getTotalVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b0506f7",
+    "signature": "getVoteByAddress(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x05ac9bce",
+    "signature": "voteVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2717cc7c",
+    "signature": "ParticipatedInVoting(address,address,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe3393a6d",
+    "signature": "voting(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x58b9dcef",
+    "signature": "registerVotingPrepareFailure()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3dfca2ad",
+    "signature": "finishVoting(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb8b359b8",
+    "signature": "voteByIndex(uint256,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x26bf2051",
+    "signature": "KickCommitteeVoteEvent(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7fff9f1a",
+    "signature": "getProposalVoteCount(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x807896d5",
+    "signature": "voteProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x39ff8ff9",
+    "signature": "CreatedBallot(address,uint256,uint256,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf05f3e77",
+    "signature": "developer_voting_info(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb1330ca9",
+    "signature": "startVoting(uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xca854912",
+    "signature": "_voterStateFor(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x535999fe",
+    "signature": "_ensureVoterCanReveal(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf69e739e",
+    "signature": "voteForCandidate(uint256,address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb033cab9",
+    "signature": "voterStakes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x405bd7bb",
+    "signature": "getCurrentNumberOfVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8d1c3b8b",
+    "signature": "sHasDownvoted(uint256,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x788d3851",
+    "signature": "voteOpen()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x336481d4",
+    "signature": "dSetCommunityBallotsEnabled(bytes32,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x82a3f98d",
+    "signature": "VOTING_PERIOD_DURATION()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9386775a",
+    "signature": "votes(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5df8f17b",
+    "signature": "createVote(uint256,address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4170ee08",
+    "signature": "reVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x43de82f3",
+    "signature": "revealVote(uint256,uint8,bytes32,bytes32,uint32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x129b873b",
+    "signature": "addVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6f94e502",
+    "signature": "getVoter(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf25e34a9",
+    "signature": "checkJuryVoted(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8e4fa788",
+    "signature": "accountHasCurrentVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x45ddc85d",
+    "signature": "voteOf(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb2c60690",
+    "signature": "finalizeVoting(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa1fa540d",
+    "signature": "changeVotingBlocks(uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4def5645",
+    "signature": "totalVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdfd0163e",
+    "signature": "voteNoLockBatchByAdmin(address[],address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa54ff9ac",
+    "signature": "downvotePost(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x33756534",
+    "signature": "LogVote(address,bool,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x58480d41",
+    "signature": "setVotesPerProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6b6d5c82",
+    "signature": "encryptedBallots(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc5465a23",
+    "signature": "votingstage()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x19e6e158",
+    "signature": "totalVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe5a3363c",
+    "signature": "luckyVoters(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9ef40238",
+    "signature": "getcoinsvotes(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x033e7ef4",
+    "signature": "registerVoteToken(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x940f851c",
+    "signature": "Ballot(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b12311c",
+    "signature": "getVoterState(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x86abfce9",
+    "signature": "Voted(uint256,bool,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdb93f375",
+    "signature": "startTokenVotes(address[],uint256,uint256,uint256,address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x39500019",
+    "signature": "voteWithSpecifiedAmounts(bytes32,uint256,uint256,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x46d7195d",
+    "signature": "vote_until()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaa6e4858",
+    "signature": "VoteAdvertisement(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaffc0670",
+    "signature": "openVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x036ee850",
+    "signature": "votingDeadline()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x816194f8",
+    "signature": "refreshVoteForAll()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x68784493",
+    "signature": "votesUser(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeae00565",
+    "signature": "getVotesResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0c103837",
+    "signature": "votedHarvest(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbc597d9f",
+    "signature": "getProposalVotesCount(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd32ab21d",
+    "signature": "voteFor(uint8,uint8,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9fd6adb3",
+    "signature": "unVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1f4f9ab1",
+    "signature": "supervisorVote(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa99f0d9f",
+    "signature": "_addBallot(bytes32,uint256,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x85a38635",
+    "signature": "votingEnd()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3297ef5b",
+    "signature": "voting_started()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8f2abe9a",
+    "signature": "Voting(uint8,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x913d6906",
+    "signature": "VotingToken(string,string,uint256,string,string,string,address,address,address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb354d5e0",
+    "signature": "_voteOnBehalfOfMany(address[],uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x150a5655",
+    "signature": "giveVote(string,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6ea521d9",
+    "signature": "_voteAs(address,uint256,uint256,uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe7b3387c",
+    "signature": "getVoteCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfab93805",
+    "signature": "ballotLog(bytes32[2])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2c88837e",
+    "signature": "VotingRightsWithdrawn(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa34d2ff7",
+    "signature": "votingBymy(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc75c6a06",
+    "signature": "batchCancelVoteForCandidateByIndex(uint256,address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x081b8bb4",
+    "signature": "refreshVoteForAllByIndex(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x579fe761",
+    "signature": "vote(uint80,uint80)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa3bef4d7",
+    "signature": "numVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb9223946",
+    "signature": "endVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x38d4d73e",
+    "signature": "isVotedGood(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x00f9ac78",
+    "signature": "setVoteFactory(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x91e0b6c0",
+    "signature": "ProofPublicVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x91854684",
+    "signature": "pollBallot(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa201d102",
+    "signature": "VOTING_END_TIME()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7b02f6e1",
+    "signature": "_vote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6b7ffb92",
+    "signature": "revote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa53830e3",
+    "signature": "numVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x67389944",
+    "signature": "voteB(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6403a9ed",
+    "signature": "getVoteCountForOption(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe048d0fc",
+    "signature": "voteCancelCurrent()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4aa5b398",
+    "signature": "voteCurrentResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3f58f8c0",
+    "signature": "voteRuling(uint256,uint256,uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x176416ed",
+    "signature": "getVotesBetween(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf9c397f8",
+    "signature": "VoteInOrganizationScheme()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8c529628",
+    "signature": "getVoteFromProposal(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x750e443a",
+    "signature": "voteAgainst(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9ae9ff6a",
+    "signature": "withdrawBeforeVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x84f19f37",
+    "signature": "createVoting(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1a6f7be5",
+    "signature": "voteNo(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x56624ce6",
+    "signature": "minVoteWeightK()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x64e08644",
+    "signature": "stakeRemainingToVote_Eth()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6cbef5a7",
+    "signature": "sumVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x84219204",
+    "signature": "minVotedTokensPerc()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x03b103ea",
+    "signature": "Vote(uint256,string,bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbad84416",
+    "signature": "eligibleVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9525c0cc",
+    "signature": "cancelVote(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xddff0346",
+    "signature": "_getFechHpbBallotAddrInterface()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1ffd42ab",
+    "signature": "getVotingScriptAction(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x101574ed",
+    "signature": "canVoteOnBehalfOf(uint256,address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x432b3f85",
+    "signature": "fetchVoteResultForCandidateBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x51de5541",
+    "signature": "castUpgradeVote(uint8,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xec810684",
+    "signature": "registrationVote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x88f34bc2",
+    "signature": "depositAndVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4d318b0e",
+    "signature": "tallyVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbacbe2da",
+    "signature": "cancelVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x43c14b22",
+    "signature": "revokeVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfd994513",
+    "signature": "executeVote(uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x10ccbbdb",
+    "signature": "_checkVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1eda49be",
+    "signature": "AheVotingBrainfood2()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62d55b6d",
+    "signature": "VOTING_TIMESPAN()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x466df592",
+    "signature": "votingPeriodBlockNumber()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6899dac5",
+    "signature": "finishVotingTeam(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x82dfcbaf",
+    "signature": "canVoteOnBehalfOf(uint256,address[],address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf353108b",
+    "signature": "fechVoteResultForCandidate(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc83126ed",
+    "signature": "generateVoteForDelegationSchemaHash(uint16,address,bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62a44fe9",
+    "signature": "has_voted()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xff5feb3e",
+    "signature": "getVoterVotesCount(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x612c56fa",
+    "signature": "submitVote(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe1f69952",
+    "signature": "voteSvp02(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc52cde58",
+    "signature": "getRedeemableTokensVoter(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x860c5ed6",
+    "signature": "testVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5aa94a68",
+    "signature": "computeResultVoteExtraInvestFeesRate()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7b395487",
+    "signature": "voteForUltimateOutcome(bytes32,uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7d103f14",
+    "signature": "getBallotBook(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1719d726",
+    "signature": "stopBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc9d27afe",
+    "signature": "vote(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x862f4517",
+    "signature": "hasVoting(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62c655f5",
+    "signature": "removeVoters(uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x424e94da",
+    "signature": "VoteHub(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b9e7ecd",
+    "signature": "test_1_restrictDoubleVote_shouldThrow()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xefcee869",
+    "signature": "vote(bool,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x10e6e06c",
+    "signature": "vote(bool,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5f8bad42",
+    "signature": "getCommunityBallotWeiPrice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf4d0b2a5",
+    "signature": "RefundInvestorsBallot(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9b8ebc54",
+    "signature": "checkVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6a1cf721",
+    "signature": "voteYes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x921f5dec",
+    "signature": "getBlockVoter(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf1b8a5bf",
+    "signature": "commitPhaseMinVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb5040f0a",
+    "signature": "getLastSessionVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2aebcbb6",
+    "signature": "finishVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x166a3952",
+    "signature": "createVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4d4d2b1c",
+    "signature": "hasVoted(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcb1ba60f",
+    "signature": "voteOnElection(address,address,address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb43d42ec",
+    "signature": "revokeRatioVote(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4c1b8ffd",
+    "signature": "voteCost()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x02d77954",
+    "signature": "getVoteOf(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x51c72c87",
+    "signature": "ProofTeamVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x82495626",
+    "signature": "getVoteAccount(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9bfc80fc",
+    "signature": "TopSciFiVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0fb524ce",
+    "signature": "castVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a5666b8",
+    "signature": "SVLightBallotBox(bytes32,uint64[2],bool[2])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc3403ddf",
+    "signature": "endVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x940aa73f",
+    "signature": "setMinimumVotingWindow(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0a0932da",
+    "signature": "newVote(bytes,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x87dd1908",
+    "signature": "_voteAndContinue()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3ca63675",
+    "signature": "getNumberOfVotes(uint128)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbfa0fc93",
+    "signature": "getVoteResult(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7247390b",
+    "signature": "vote_beneficiary(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x51b9a2f8",
+    "signature": "ballotVoters(uint32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcfd94b01",
+    "signature": "votersLen()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x579f20d8",
+    "signature": "submitProxyVote(bytes32[5],bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x045c6ce0",
+    "signature": "voteForProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5aec60b0",
+    "signature": "_voteOptions(uint256,uint256[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1beb4b5e",
+    "signature": "fetchAllVoteResultBySnapshotBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x82fb3b7c",
+    "signature": "voteNoLockByAdmin()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd1a40ce1",
+    "signature": "_rewardVote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x730ad454",
+    "signature": "vote(bytes32,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x23637e60",
+    "signature": "votePrice(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe3aec30c",
+    "signature": "ballotStarted()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdea7b768",
+    "signature": "submitBallotNoPk(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7fdea25b",
+    "signature": "newVoting(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8171362a",
+    "signature": "votingByXid(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcc5f0240",
+    "signature": "batchCancelVoteForCandidate(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x09f41822",
+    "signature": "batchVoteByIndex(uint256,address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd4bdc45f",
+    "signature": "downvote(uint256,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeb4fe500",
+    "signature": "logoVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x28bc5ee4",
+    "signature": "beginVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcd9745f2",
+    "signature": "voteForTransaction(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8ab21fb6",
+    "signature": "delegateVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x80664ba0",
+    "signature": "ProofTeamVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2c642950",
+    "signature": "createBallot(string,bytes32[],uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x039314b1",
+    "signature": "VotingEnded(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x517afbcf",
+    "signature": "votingController()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x29d07c23",
+    "signature": "registerForVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9a11111",
+    "signature": "QuadraticVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdc4ad377",
+    "signature": "getVoteCaster(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xab6f9e4a",
+    "signature": "votesPerChoice(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1f23a9bc",
+    "signature": "getAcceptedAndRejectedVotes(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62715547",
+    "signature": "castVote(bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5429a417",
+    "signature": "getBasicBallotsPer30Days()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc8dda301",
+    "signature": "VOTING_START_BLOCKNR()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa71ef84d",
+    "signature": "getVotingWinner(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x09eef43e",
+    "signature": "hasVoted(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x843e8d27",
+    "signature": "downVote(bytes12,bytes12)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xad22ccc0",
+    "signature": "committeeJoinVoters(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc31ad7dc",
+    "signature": "voteYes(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2fb9d203",
+    "signature": "VoteSubmitted(address,bytes8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x63d494ea",
+    "signature": "becomeVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xda280fe5",
+    "signature": "resetHasAutoVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x98fb2eca",
+    "signature": "voteStopped()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x85defaf4",
+    "signature": "voteEnds()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x703950ff",
+    "signature": "viewKarmaVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1d7fb62f",
+    "signature": "initVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe2e1ff4d",
+    "signature": "getBallotsNum(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa95824b4",
+    "signature": "votingOpen()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeb4439fb",
+    "signature": "enableVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2772dffd",
+    "signature": "votes(bytes8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x50eba4eb",
+    "signature": "voteSnapshotBalanceBatch(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xecca031f",
+    "signature": "hasVoted(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2632bf20",
+    "signature": "unblockMe()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x77df41b7",
+    "signature": "castVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6fb84e84",
+    "signature": "fetchVoteInfoForVoterByIndex(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0519bb83",
+    "signature": "getVoteStatus(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7315f446",
+    "signature": "votedKickoff()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2d8a4dca",
+    "signature": "committeeKickVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbcbf7229",
+    "signature": "resetVoteCount(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8090f92e",
+    "signature": "revealVotes(uint256[],uint256[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x986ee316",
+    "signature": "VoteMemberCandidate(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x56ce6377",
+    "signature": "WaveVoteContractRegistery()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe42a8bc9",
+    "signature": "dAddBallot(bytes32,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc0d129d4",
+    "signature": "BallotPreferential()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaa01ef7d",
+    "signature": "finishVotingPublic(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b27a2ca",
+    "signature": "fechVoteMainInfoForVoterBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5e983156",
+    "signature": "getJudgeVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfe2dc64b",
+    "signature": "finalizeProposalVoteResults(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd496a4f1",
+    "signature": "cashBackVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7fb0fe14",
+    "signature": "voteCandidateTwo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xad2da239",
+    "signature": "calculateVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x012a08f8",
+    "signature": "_vote(uint256,bool,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x413499f1",
+    "signature": "deleteVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfc78b430",
+    "signature": "delegateVote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4444c51f",
+    "signature": "_recalculateTopQuestionsOnVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x07858f0e",
+    "signature": "setBallotOwner(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdddac167",
+    "signature": "VotingFinished(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x359afa49",
+    "signature": "vote(bytes32,uint256,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcc4d96df",
+    "signature": "_refreshVoteForVoter(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd768d95e",
+    "signature": "fetchVoteMainInfoForVoterBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0eedc7b5",
+    "signature": "voteDescription(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1d755c8d",
+    "signature": "recieveVote(address,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x184c703d",
+    "signature": "LogVoteInitiate(uint256,uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x94a0c1cc",
+    "signature": "cancelVoteForCandidateBySnapshotBlock(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6b863578",
+    "signature": "noVoteSum()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x41f4793a",
+    "signature": "getCurrentImpeachmentVotesSupporting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe47d914a",
+    "signature": "fechVoteInfoForVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9b671604",
+    "signature": "proposeVoter(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1923e5d4",
+    "signature": "noActiveBallotExists()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7a657c53",
+    "signature": "checkVotingForSendWeiFromPayment()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa8bbe5a4",
+    "signature": "ERC20Voting(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xce6a0880",
+    "signature": "removeVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xee6f3a55",
+    "signature": "getAmountOfVotersInProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcd197ff6",
+    "signature": "fechVoteInfoForVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x50ef3bae",
+    "signature": "getQuestionVote(string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfdb357be",
+    "signature": "getVotingForCount(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62b08e70",
+    "signature": "setVotingContractAddress(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1ec6b60a",
+    "signature": "startVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb4b5ea57",
+    "signature": "getCurrentVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf6de4b81",
+    "signature": "_doVote(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8b4a781c",
+    "signature": "getVoters(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdd932c5b",
+    "signature": "voteEnd(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb81c6453",
+    "signature": "vote(uint8,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb4402991",
+    "signature": "userVoteFor(address,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcf756935",
+    "signature": "determineLuckyVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x291e6777",
+    "signature": "sendVote(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xebfed9f2",
+    "signature": "motionVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc2e687f5",
+    "signature": "changeVoteTime(uint64)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x15b7ecc8",
+    "signature": "slashDuplicatePrevote(uint256,uint256,bytes,bytes,bytes,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x60dd1649",
+    "signature": "_unsafeExecuteVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xac516951",
+    "signature": "setAddressVoteRules(address,address,bool,uint256[5])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x18946e8f",
+    "signature": "voteOnParameter(bytes32,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8329ac52",
+    "signature": "voteForCandidate(string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8742fc3b",
+    "signature": "getVoteResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8f33df77",
+    "signature": "countAllVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1cff3e09",
+    "signature": "testCreateBallotContract()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x09c34969",
+    "signature": "VotingActivated()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc3ada1de",
+    "signature": "getMinimumVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4d79ddb2",
+    "signature": "getVotesForItemFromVoterIndex(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc4e12e1d",
+    "signature": "updateMinVotedTokens(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd33b79d9",
+    "signature": "addBallotAndVoterNoPk(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6645c0dc",
+    "signature": "transferVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x80c324cf",
+    "signature": "isBallotInProgress(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4c352323",
+    "signature": "getNewVoting(uint256,bytes32[],address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x09603109",
+    "signature": "Vote_Customly(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa6ba250c",
+    "signature": "fechVoteInfoForVoterBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4cb6f4a5",
+    "signature": "voteRequest(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x64ed31fe",
+    "signature": "authVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5c632b38",
+    "signature": "ballots(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x285078b6",
+    "signature": "activateVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcb79e31b",
+    "signature": "votingRightsOf(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2d776793",
+    "signature": "downvoteComment(bytes32,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x44669e40",
+    "signature": "purgeVoter(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8e455a1d",
+    "signature": "_createVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbcfb9b61",
+    "signature": "voteProposal(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x66b728d5",
+    "signature": "getVoteOptionId(uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x14534ba7",
+    "signature": "ballotEncryptionPubkey()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa60e8bd6",
+    "signature": "setVotingProxy(uint8,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdd515cdb",
+    "signature": "checkVotingForStartPayment()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5d59072a",
+    "signature": "OFFICAL_VOTING_DAY_OF_MONTH()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9b991d9b",
+    "signature": "votingInfoTeam()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7f447d27",
+    "signature": "getVoteDisputableInfo(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x37e531c0",
+    "signature": "fechVoteNumForCandidate(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcc5061da",
+    "signature": "voteForUser(uint16,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb224c40a",
+    "signature": "vote(uint8,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x236ed5a6",
+    "signature": "getVoterProposalsCount(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcfefcfb0",
+    "signature": "VotedForProposal(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3c648ddd",
+    "signature": "voteSvp01(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3c133818",
+    "signature": "winningVote(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdac05adc",
+    "signature": "test_1_ensureVoteWorks_increaseBlocksBy100()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x22d8cf5b",
+    "signature": "CheckUserVote(uint8,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x41095b60",
+    "signature": "voteForUltimateOutcome(bytes,uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa50569b7",
+    "signature": "addUNISSUEDBALLOTPAPERS(uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x452ddecc",
+    "signature": "startBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd8bff5a5",
+    "signature": "votes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3850f804",
+    "signature": "castVote(uint256,uint256[],uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf73294b8",
+    "signature": "isValidatorAlreadyVoted(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x859e25df",
+    "signature": "giveProjectMoreVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x770fe154",
+    "signature": "ApplyVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x17a7eb4c",
+    "signature": "vote02NoCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe2649caf",
+    "signature": "voteToFreezeFund()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x36ee7773",
+    "signature": "getBallotsStorage()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdbf1bfee",
+    "signature": "ballotFee()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x21fa1730",
+    "signature": "Ballot(string,string,string,uint256,address[],uint256[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x062ff957",
+    "signature": "fetchVoteNumForVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc14bfd29",
+    "signature": "hasAlreadyVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe5920ab5",
+    "signature": "getNoVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea22ee15",
+    "signature": "LOG_EmergencyWithdrawalVote(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6a83662e",
+    "signature": "getYESVotesByEntity(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xed5863f6",
+    "signature": "agaisnt_votes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf247016c",
+    "signature": "isVoteOngoing()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xddbe8f09",
+    "signature": "voteEnd()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x44e4d226",
+    "signature": "alreadyVoted(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x245b565d",
+    "signature": "ballotEncryptionSeckey()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc631b292",
+    "signature": "closeVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xab97e196",
+    "signature": "revokeAmountVote(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc34f869b",
+    "signature": "Voted(uint256,bool,address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf594f13f",
+    "signature": "votedFor(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x47115192",
+    "signature": "voteCut()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b9b808d",
+    "signature": "setResetVoteKindnessEvery(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24108475",
+    "signature": "vote(uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x378a2178",
+    "signature": "tallyVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a5cd1ca",
+    "signature": "updateBlockVoter(uint256,address,bytes32,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5d9dacb5",
+    "signature": "OPEN_VOTE_PERIOD()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfc58452e",
+    "signature": "castVote(bytes32,uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf9191b18",
+    "signature": "revealVotes(address,bytes32,bytes32,address[],uint256[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6c973248",
+    "signature": "getVoteCount(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3eaf7591",
+    "signature": "makeVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2495c0ce",
+    "signature": "stopVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x79e097f0",
+    "signature": "addVotePair(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa3b3fff1",
+    "signature": "getVotingToChangeMinThreshold()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xef113b69",
+    "signature": "_internalVote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xefa5d431",
+    "signature": "vote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8ed09bc9",
+    "signature": "registerVoter(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2726f061",
+    "signature": "commitVotes(address[],bytes32[],bytes32[],bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x490fc399",
+    "signature": "votedKickoff(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x591a89b2",
+    "signature": "Voted(address,bool,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2fed3c9e",
+    "signature": "VoteCast(address,uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9e6cb42b",
+    "signature": "voteEndTime()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5008cfcc",
+    "signature": "votePerETH()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x14a0069a",
+    "signature": "getVoter(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea470d33",
+    "signature": "voteForAnswer(uint256,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x87e70933",
+    "signature": "VoteMusic(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9390454",
+    "signature": "DevvotePrefund(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1f2d8d66",
+    "signature": "getNumberVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd4f50f98",
+    "signature": "getVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf2ba18ed",
+    "signature": "calculateVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x12c0af96",
+    "signature": "getVoterOnElection(address,address,uint256,address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1aefce3b",
+    "signature": "ratioVote(bool,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1725b847",
+    "signature": "voteAgree()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe5b7ec88",
+    "signature": "setVoteCut(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x09a55b65",
+    "signature": "votePreProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3c890e4c",
+    "signature": "getVoteStake(uint256,uint256,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9ef1204c",
+    "signature": "vote(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a6655d6",
+    "signature": "vote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62981b18",
+    "signature": "deployBallot(bytes32,bytes32,bytes32,uint64[2],bool[2])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdab306b1",
+    "signature": "votingFee()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x22ce9bac",
+    "signature": "numberOfVotesCast()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x433c39ff",
+    "signature": "transferVoteController(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x00badc85",
+    "signature": "getcvotesid(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbd041c4d",
+    "signature": "vote(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x61a00f6d",
+    "signature": "Ballot(bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x845381c0",
+    "signature": "FailedVote(address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x25746251",
+    "signature": "canVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbf24a794",
+    "signature": "getMostVotedOptions()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8e7a9687",
+    "signature": "check_vote(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x69422924",
+    "signature": "hasVotedOnDocumentPoll(uint8,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5f09952e",
+    "signature": "voteAllowTransactions(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x889b59d9",
+    "signature": "getDBallotsN(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x772e6f03",
+    "signature": "votingProposal(string,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x31c3e2c9",
+    "signature": "VotingProxy(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x973ee33d",
+    "signature": "_getVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe799b059",
+    "signature": "_ensureVoterCanCommit(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0b967584",
+    "signature": "voteForCandidate(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1421c1a4",
+    "signature": "vote_for_candidate_C_for_free()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x728880c2",
+    "signature": "payOutVoterByAddress(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaf0a078e",
+    "signature": "tHasUpvoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x359d04a2",
+    "signature": "voteRuling(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2025867b",
+    "signature": "qualifiesAsCommunityBallot(uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2ec1a4c2",
+    "signature": "delegateVotingRights(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8717ef27",
+    "signature": "setVotingParams(uint256,uint256,uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x220f1aee",
+    "signature": "createVoting(string,string,uint256,bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0ddfaaef",
+    "signature": "_newVote(bytes,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x610af570",
+    "signature": "voteOnDraft(bytes32,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcb0cfaa2",
+    "signature": "finalizeProposalByVoterIndices(uint256,uint256[],bool,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x33b3dc04",
+    "signature": "castVote(string,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6908ea00",
+    "signature": "_checkVotes(uint256,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x881abe3e",
+    "signature": "addProposalVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa828251e",
+    "signature": "voteProposal(bytes32,address,address,uint256,bytes32,string,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2a4a1b73",
+    "signature": "vote(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xee650248",
+    "signature": "vote(uint256,int8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x88257016",
+    "signature": "getNthBallot(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe33734fd",
+    "signature": "changeProposalDeposit(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe193289f",
+    "signature": "setVotingHelper(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfce1ccca",
+    "signature": "voting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8234b7bb",
+    "signature": "mockVoterWeight(address,uint64)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x241b2e42",
+    "signature": "withdrawVoteTokens(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb9ce795f",
+    "signature": "createVoter(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5d69f68c",
+    "signature": "getVotersName()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5dc824b9",
+    "signature": "voteNoLock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x57796e1c",
+    "signature": "setVote(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1c226164",
+    "signature": "isAddressVoted(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb74cf3b6",
+    "signature": "setVoterCount(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaa33ab1b",
+    "signature": "getVoted(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b9f5c98",
+    "signature": "vote(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6635da25",
+    "signature": "Voting(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x70e8c1b3",
+    "signature": "test_complexNewProposalAndVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0bc43490",
+    "signature": "yesVotes(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc6279ab1",
+    "signature": "voteClose()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd8055812",
+    "signature": "votesDecline()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcb1faac1",
+    "signature": "leftVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb8fa7778",
+    "signature": "for_votes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6a7b988c",
+    "signature": "votePopularity(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x523f891c",
+    "signature": "totalEligibleVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xac5d8745",
+    "signature": "voteWithSpecifiedAmounts(bytes32,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd3d3dd85",
+    "signature": "updateHpbBallotAddress(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x50a107cc",
+    "signature": "setVotingPhase()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x91e7f7bc",
+    "signature": "claimVotingRight()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x60da4bd7",
+    "signature": "batchCancelVoteForCandidate(address,address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xda5c5b55",
+    "signature": "noVotes(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x200b0fa6",
+    "signature": "initVote(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7a294055",
+    "signature": "VoteReceived(string,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc3b66bed",
+    "signature": "getProposalVotersCount(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb0417e98",
+    "signature": "checkVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x39c7967d",
+    "signature": "vote(address,uint256,uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xba42c8e5",
+    "signature": "resolveSupervisorVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x94e93017",
+    "signature": "_deployBallot(bytes32,bytes32,bytes32,uint256,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcf33babc",
+    "signature": "VotingStarted(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xedd7716a",
+    "signature": "checkVotingForChangeBuySellPrice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3d2f5bda",
+    "signature": "startVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x10c5d848",
+    "signature": "_voteExists(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb81f3be0",
+    "signature": "deleteVotersWithoutShares(uint256[],uint256[],bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3cc228fd",
+    "signature": "minVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x59198827",
+    "signature": "initiateDocumentVote(string,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2351baca",
+    "signature": "fechVoteNum(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x13e1d1d2",
+    "signature": "multiCancelVoteForCandidate(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0324d0d9",
+    "signature": "calculatVotePrice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5a1e0a46",
+    "signature": "cancelVote(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8912ab5c",
+    "signature": "dropVotes(address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa69beaba",
+    "signature": "vote(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x41c12a70",
+    "signature": "voteNo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa8d1fcff",
+    "signature": "cancelNewBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6faaeca2",
+    "signature": "finishBallot(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x237e9492",
+    "signature": "executeProposal(uint256,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc219c28c",
+    "signature": "votingTokenAddress()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b8ffa5e",
+    "signature": "addVoters(address[],bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0048d680",
+    "signature": "testTransferVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd417f18d",
+    "signature": "getTopicNameAndVotesAt(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4a716adf",
+    "signature": "transferVotes(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x27a5c7c6",
+    "signature": "voteDecline(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0f5e7348",
+    "signature": "getCommunityBallotCentsPrice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3ada121c",
+    "signature": "Ballot(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4dfa2722",
+    "signature": "CryptoWuxiaVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3891c320",
+    "signature": "vote(int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5992f2a1",
+    "signature": "_createVoter(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd4975d71",
+    "signature": "changeVoter(address,address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf79a3c25",
+    "signature": "voteForDisable()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2ab13037",
+    "signature": "votesNo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x07b8ef24",
+    "signature": "votesSupport()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0121b93f",
+    "signature": "vote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc90d2cd9",
+    "signature": "createBallot(uint256,address,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x612e45a3",
+    "signature": "newProposal(address,uint256,string,bytes,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6116ec49",
+    "signature": "VotingFinished(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa328f90b",
+    "signature": "_nextBudgetStartAndEndAndOfficalVotingTime()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbceb514d",
+    "signature": "vote(address,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc26b93df",
+    "signature": "vote(uint80,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe2fc2691",
+    "signature": "upvotePost(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8899fa0d",
+    "signature": "onUnVote(address,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbf7f3cfe",
+    "signature": "getVotesPerProposal()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x80f89a31",
+    "signature": "ballotNames(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x81a1384b",
+    "signature": "LockedVotingTokens()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1c7bfdce",
+    "signature": "test_votingWhenCertified()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9b4a6bdb",
+    "signature": "test_spamVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa58eef81",
+    "signature": "_isVoteOpen(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf0bea8c7",
+    "signature": "downVoteHouse(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3108bd87",
+    "signature": "voteNoLockBatch(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6125fd20",
+    "signature": "voteForRefund(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x35bbe70e",
+    "signature": "getAllVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x091a79b2",
+    "signature": "getVoteAndTime(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xde2237d3",
+    "signature": "getVotersLength()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdf133bca",
+    "signature": "vote(uint256,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf625ca7d",
+    "signature": "lengthOf_addressAndDataPattern_to_voteRulesHash(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7b1c5368",
+    "signature": "fetchVoteMainInfoForVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x359d393d",
+    "signature": "votes_against()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2c70d64e",
+    "signature": "unVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a54d6a4",
+    "signature": "recordVotes(uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf321653a",
+    "signature": "setCommunityBallotStatus(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x445cb2df",
+    "signature": "getVoting(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x80ad639d",
+    "signature": "deleteAddressDataPatternVoteRules(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3402b841",
+    "signature": "closeVoteCommitPhaseIfAllowed(address,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe652f4cc",
+    "signature": "getVoteCount(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xacb02f7c",
+    "signature": "VotePumpCoin0x()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5b68a49d",
+    "signature": "cancelVoteForCandidate(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9ee61c9d",
+    "signature": "testExistingVoteWeight()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc1f1d116",
+    "signature": "internalVote(bytes32,address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0e741a36",
+    "signature": "generateVoteSecret(string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8c8838fb",
+    "signature": "getVoterOutcome(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x98c07938",
+    "signature": "votersCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x90f0fef0",
+    "signature": "test2ContractVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7644ecbf",
+    "signature": "BallotO(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x143b8f27",
+    "signature": "isVoteOpenForVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa438d208",
+    "signature": "VOTING_DURATION()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4634c61f",
+    "signature": "castVoteBySig(uint256,bool,uint8,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x52d3592a",
+    "signature": "VoteExecuted(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf206e7c9",
+    "signature": "fechAllVoteResultBySnapshotBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6e48a035",
+    "signature": "closeVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0c693110",
+    "signature": "getVoted(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbfcdca48",
+    "signature": "CastVote(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2e0ef395",
+    "signature": "voteOnNewEntryFees_only_VIP(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62c0ffa8",
+    "signature": "getDCountedBasicBallotID(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcec3638d",
+    "signature": "VotingChallenge()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x648136d4",
+    "signature": "submitVote(uint256[4],uint256[2],uint256[2],uint256[2],uint256[2],uint256[2])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4e9bea41",
+    "signature": "newTokenAndVote(address,uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2b051b50",
+    "signature": "revealVoteOnProposal(bytes32,uint8,bool,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x02e0b293",
+    "signature": "LogVote(address,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b5251b7",
+    "signature": "getPlayerVoteRewards(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa31f2c52",
+    "signature": "partner2_voted_update_prenup()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1a750945",
+    "signature": "vote03YesCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b7ff404",
+    "signature": "getVotersPartyVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6c720446",
+    "signature": "isVotingPrepare()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x408e2727",
+    "signature": "votingActive()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x17b3c7ea",
+    "signature": "getAllProposalVotersAndVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x36c8c5ee",
+    "signature": "voteForCandidate(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x95c96554",
+    "signature": "cancelVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3bf81b91",
+    "signature": "testAddVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0bf75567",
+    "signature": "voteSuperQuorum(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe45ebe93",
+    "signature": "checkVoteStatus()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a433274",
+    "signature": "executeVoting(uint256,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1a0a617d",
+    "signature": "fetchVoteInfoForCandidateByIndex(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x80e5d7b0",
+    "signature": "Voted(uint256,uint256,uint256,bool,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb6974d87",
+    "signature": "cancelVoteForCashBack()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x01c1de96",
+    "signature": "fechVoteInfoForVoterByStage(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf4916f05",
+    "signature": "VoteSvp002(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcd496e35",
+    "signature": "votePositionOf(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcd3a7531",
+    "signature": "loadVotesForParticipantVerify(bytes32,bytes32,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb11d8bb8",
+    "signature": "revealVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xca5a3f38",
+    "signature": "getDaysPassedSinceLastRefundBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa95bfd36",
+    "signature": "adminAddBallotOption(uint32,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8fa5614f",
+    "signature": "getBylawsProposalVotingDuration()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x64a8a11f",
+    "signature": "voteJUR(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc3ef473c",
+    "signature": "ShareHolderVoted(address,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4ec7ddc0",
+    "signature": "addCommitteeVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf872c9dd",
+    "signature": "Vote(address,string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xae01a8fb",
+    "signature": "toCloseVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb647990a",
+    "signature": "countVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x720de551",
+    "signature": "deleteVoterForCandidate(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd4923d4e",
+    "signature": "getUserVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9cf4cb1e",
+    "signature": "_getVotes(uint256,uint256,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa1f1aa66",
+    "signature": "cancelVoteInternal(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5f74bbde",
+    "signature": "vote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5e44daf3",
+    "signature": "vote(uint256,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xde2184bf",
+    "signature": "voting(address,uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x53d70700",
+    "signature": "setVotingParams(uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x809c5b9e",
+    "signature": "votingDescription()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x581c281c",
+    "signature": "getVotingStatus()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfb32aedb",
+    "signature": "voteB()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2f274d91",
+    "signature": "buyVotes(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbb07576d",
+    "signature": "voteToUpdatePrenup()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x45cfcc42",
+    "signature": "getKeyVotes(string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbca72b59",
+    "signature": "revealVote(string,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4bc2a657",
+    "signature": "setVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc9657441",
+    "signature": "revealManyBallots(uint256,address[],bytes[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6c5649d8",
+    "signature": "setCommunityBallotCentsPrice(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x509bd337",
+    "signature": "voteOption(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x90a53085",
+    "signature": "votesCountByOperation(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x497a7b48",
+    "signature": "taskRewardVote(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x76124dac",
+    "signature": "vote(bytes32,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcab17220",
+    "signature": "VotesNecessary()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6997d166",
+    "signature": "USER_VOTE(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x00e38410",
+    "signature": "getVotingMetadata(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb9b07871",
+    "signature": "voteOnBehalfOfMany(address[],uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x753cb4eb",
+    "signature": "fetchVoteNumForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf8abb93d",
+    "signature": "hasVotedOnUpgradePoll(uint8,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfb4460dd",
+    "signature": "getVoterStakes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x51ec4285",
+    "signature": "unvote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x88a8b341",
+    "signature": "setVoteInternal(uint256,uint160,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x73b1184e",
+    "signature": "setupVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x469737d5",
+    "signature": "forceRejectVotes(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0dc96015",
+    "signature": "getVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaa8d11e3",
+    "signature": "ThirdPartyVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1bbef399",
+    "signature": "isVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x96b86e1d",
+    "signature": "PLCRVoting(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaff36885",
+    "signature": "setBlockMaxVotes(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x43655fd3",
+    "signature": "votesItem(address,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7ba8c064",
+    "signature": "VotedEvent(uint256,address,bool,uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x64821338",
+    "signature": "hasVoted()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf3b35100",
+    "signature": "voteOf(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x48e591ac",
+    "signature": "getVote(address,address,uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x54f9cbb3",
+    "signature": "newVote(uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x13c04769",
+    "signature": "submitBallot(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf975cde3",
+    "signature": "_voting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x02a251a3",
+    "signature": "votingPeriod()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4ddf6795",
+    "signature": "getVoteRulesOfProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0e05a512",
+    "signature": "superVoteAgree(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd712eb4a",
+    "signature": "voteWeight()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x98a892c9",
+    "signature": "getBylawsCashBackVoteRejectedDuration()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc591b3ca",
+    "signature": "itemCanVote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdde8c8d6",
+    "signature": "getUserVote(uint256,uint160,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xff981099",
+    "signature": "getVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x60ec4f73",
+    "signature": "starVoting(uint256,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc1991040",
+    "signature": "getCurrentVotingDescription()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xff470507",
+    "signature": "VaultbankVotingToken()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa67ebf73",
+    "signature": "Voting(uint8,address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7e1cd79c",
+    "signature": "Voting(bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfd32f088",
+    "signature": "calVoteResultByIndex(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdb122ad4",
+    "signature": "committeeJoinVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa034b6cb",
+    "signature": "vote(uint256,uint256,uint256,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2d0a8809",
+    "signature": "testAddVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcdc62d39",
+    "signature": "ballotDetails(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x674942eb",
+    "signature": "VOTING_PREPARE_TIMESPAN()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd23254b4",
+    "signature": "votes(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x70e5bf4d",
+    "signature": "queryVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3219ac2a",
+    "signature": "showMyVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6080af05",
+    "signature": "setVoterStakesContract(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x94a1be9c",
+    "signature": "addVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x42d46a9a",
+    "signature": "castVote(uint256,uint256,bytes32,string,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xed081329",
+    "signature": "vote(address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xba9a4d6e",
+    "signature": "hasAddressVotedInBallot(uint32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa4b195ff",
+    "signature": "numVoters(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1f7b8622",
+    "signature": "getVotingDeadline()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x32bbb8cc",
+    "signature": "mgrVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb31e1d4d",
+    "signature": "delegateVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd2ace0cc",
+    "signature": "_newVoting(bytes,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb9ac38aa",
+    "signature": "test_newProposalAndVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe3b0073e",
+    "signature": "getVoteCounter(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x10f5f6b6",
+    "signature": "free_vote_for_candidate_A()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0f183119",
+    "signature": "vote_for_candidate_D_for_Free()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xac12f3e9",
+    "signature": "partner1_voted_update_prenup()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9451bca7",
+    "signature": "result_votes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6801db98",
+    "signature": "devoteToCar(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x453aa450",
+    "signature": "vote_proposed_address(string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x339e23d1",
+    "signature": "ownerVote(bytes32,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x14307c48",
+    "signature": "addHpbBallotAddress(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbf9a6958",
+    "signature": "createVoterOnElection(uint256,address,address,string,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x329d3346",
+    "signature": "closeVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x160d66ae",
+    "signature": "voteToken()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x65ce7395",
+    "signature": "setMinVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x879b18b6",
+    "signature": "getMemberCanVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6a0c5723",
+    "signature": "getHasVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0d15fd77",
+    "signature": "totalVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa077c657",
+    "signature": "giveRightVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa1a1efe7",
+    "signature": "addBallot(bytes32,bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaf8b912d",
+    "signature": "setVotingMachine(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb95359a1",
+    "signature": "SongVoteReceived(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaca49e35",
+    "signature": "newVoteExt(bytes,string,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd15e3170",
+    "signature": "payoutVoter(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1fc242b9",
+    "signature": "onVote(address,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x851b6ef2",
+    "signature": "getAllVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x82b68f4f",
+    "signature": "actionVotedRate()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x464066f5",
+    "signature": "vote03NoCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbc6c4d0f",
+    "signature": "totalVotesForCandidate(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x345f342e",
+    "signature": "concludeVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7b6e49a8",
+    "signature": "fetchVoteNumForVoterByIndex(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd66fd10d",
+    "signature": "LogVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdd0e2373",
+    "signature": "voterAddresses(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6eb1e09a",
+    "signature": "fechVoteMainInfoByStage(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9094c763",
+    "signature": "vote(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4445b569",
+    "signature": "voteWeightOf(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb4512913",
+    "signature": "voteStatus(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6cbf9c5e",
+    "signature": "commitVote(uint256,bytes32,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8fa65488",
+    "signature": "startRefundInvestorsBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdda0c1d6",
+    "signature": "adminAmendBallot(uint32,string,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x132002fc",
+    "signature": "votingDuration()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa6c94d2e",
+    "signature": "durationVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbcabb0c8",
+    "signature": "getAllProposalVoters(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1f8f69e3",
+    "signature": "fechAllVoteResultForCurrent()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x38db6dd3",
+    "signature": "registerVoter(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0bb4bbaf",
+    "signature": "testInitialNumberOfVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf2561a43",
+    "signature": "voteSuicide(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf98a4eca",
+    "signature": "executeVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa0e984d8",
+    "signature": "buyVotingRights()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3c45b373",
+    "signature": "addVoting(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc3df99b6",
+    "signature": "upvoteComment(bytes32,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x71fa632f",
+    "signature": "newVoterAllocation()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6ece7d88",
+    "signature": "doVote(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3eb76b9c",
+    "signature": "castVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb4ed7ec3",
+    "signature": "getVoteOption(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea2f43c3",
+    "signature": "currentIncreaseWithdrawalTeamBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x843a0459",
+    "signature": "_resetVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x80c0a250",
+    "signature": "fetchVoteResultForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x47a34bcb",
+    "signature": "getBlockMaxVotes(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x90ca27f3",
+    "signature": "vote(string,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcaee4e18",
+    "signature": "CommunityVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x901d7775",
+    "signature": "voteOutMasterKey(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe4eacd70",
+    "signature": "curentBallotId()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbc19bcbf",
+    "signature": "submitBallotWithPk(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x74609899",
+    "signature": "voteOptions(uint256,uint256[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x644e4e4e",
+    "signature": "LogVotes(uint8,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x544ffc9c",
+    "signature": "proposalVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9d327229",
+    "signature": "fechVoteResultForCandidateByStage(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x962c9c8d",
+    "signature": "MAX_VOTED_TOKEN_PERC()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfedfe46c",
+    "signature": "vote(address,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb5e3909e",
+    "signature": "addVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7f9df012",
+    "signature": "VoteRevealed(address,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xccf8ef24",
+    "signature": "undelegateVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xad475113",
+    "signature": "PRESALE_BONUS_VOTING()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x99653fbe",
+    "signature": "submitVote(uint256,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2ef4940f",
+    "signature": "withdrawalsVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9da69180",
+    "signature": "commitVote(uint256,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x37f2beed",
+    "signature": "getProposalVoterList(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x002c8456",
+    "signature": "toOpenVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5ef3f3d1",
+    "signature": "voteRelease()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb278b8df",
+    "signature": "updateVoteInfo(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1fe4ee7f",
+    "signature": "getVoteItemDetails(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe168c3ec",
+    "signature": "votes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x835939d5",
+    "signature": "vote(address,bool,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2b29fbfa",
+    "signature": "testFail_voterNotCertified()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x86a50535",
+    "signature": "voteFor(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7ddb5e65",
+    "signature": "votingReward()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x628746e3",
+    "signature": "getSecondChoiceVotes(uint256,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9e3d154e",
+    "signature": "vote(bool,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb2d23b7d",
+    "signature": "fetchVoteResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa465e6ba",
+    "signature": "committeeKickVoters(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0823d3a7",
+    "signature": "Voted(address,bool,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1eed4e09",
+    "signature": "getVoteBy(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8c9151ae",
+    "signature": "voteProposal(uint256,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x860c851a",
+    "signature": "votePrice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xadbda5a8",
+    "signature": "voteToKickoffNewFiscalYear()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x003259ea",
+    "signature": "voteResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7de576cd",
+    "signature": "vote(uint16,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x141bd92a",
+    "signature": "getBallotInfo(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeceb2945",
+    "signature": "checkProposalCode(uint256,address,uint256,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x58d3b2c8",
+    "signature": "babyBornEndVoting(string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x78abf854",
+    "signature": "_budgetEndAndOfficalVotingTime(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3fbba9a6",
+    "signature": "recordedVote(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0304363a",
+    "signature": "fetchAllVoteResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4cb5ef77",
+    "signature": "closeVoteRevealPhaseIfAllowed(address,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1bacfd66",
+    "signature": "Vote(address,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc06f1bc4",
+    "signature": "updateVoterTimes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b813478",
+    "signature": "FinishBallot(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd2d3d7fb",
+    "signature": "fetchAllVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc088003d",
+    "signature": "getMinThresholdOfVoters(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaddace62",
+    "signature": "getYesVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4e27e916",
+    "signature": "voteLock(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5be5e3ec",
+    "signature": "castVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbaa24fce",
+    "signature": "rightVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x929e902d",
+    "signature": "curVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbaa40e5c",
+    "signature": "getVote(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7a4c96ad",
+    "signature": "vote(string,string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0c0075a3",
+    "signature": "getBallotOptions()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1986d376",
+    "signature": "getVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4bdec44a",
+    "signature": "VotingRightsGranted(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x813faa53",
+    "signature": "getVoteRulesOfProposalTransaction(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5e2e555f",
+    "signature": "RogisterToVoteOnTransfer(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6113611f",
+    "signature": "stakeVoted_Eth()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2247328c",
+    "signature": "vote01YesCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x38f55e59",
+    "signature": "doVote(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x95c47416",
+    "signature": "VoteOnMyTeslaColor()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1840f0ca",
+    "signature": "countVotes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4f66a8ec",
+    "signature": "getVotingData(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf1156cdf",
+    "signature": "getCurrentVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x52091047",
+    "signature": "changeVotingRules(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x090f725b",
+    "signature": "_newVote(bytes,string,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd9db3c73",
+    "signature": "revealVoteOnSpecialProposal(bytes32,bool,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc09689a6",
+    "signature": "tryFinalizeProposalsByVoterIndices(uint256[],uint256[],bool[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x18024acc",
+    "signature": "voteStartTime()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaf81bd03",
+    "signature": "_voteAndCheck(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x75a90144",
+    "signature": "voterExists(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa635d31e",
+    "signature": "Vote(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2bc542a4",
+    "signature": "votePublic(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd21cbffc",
+    "signature": "getIfVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcf2317d5",
+    "signature": "nBallots(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x90fe5609",
+    "signature": "startVoting(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6c4d4f21",
+    "signature": "setVotingProxy(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x980704cf",
+    "signature": "getCastVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe2131378",
+    "signature": "hashVote(uint8,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x56098295",
+    "signature": "getCandidateVotesByIndex(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x86f5114e",
+    "signature": "voteName()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4718dc4d",
+    "signature": "payOutVoterById(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x33849e55",
+    "signature": "voteOnSolution(uint256,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcc9ab267",
+    "signature": "voteForCandidate(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc98a79fb",
+    "signature": "getBallotLogN(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea0217cf",
+    "signature": "setVotingPeriod(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa7542d55",
+    "signature": "canRepresentativesVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc6a8d91c",
+    "signature": "_voteOnBehalfOf(address[],uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf74bc8f4",
+    "signature": "_vote(uint256,bool,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xde63a530",
+    "signature": "setAddressAndFunctionIdVoteRules(address,address,bytes4,bool,uint256[5])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7c129c1c",
+    "signature": "voteXId(uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4a3bf377",
+    "signature": "totalVotesFor(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x006ddae3",
+    "signature": "changevotePrice(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2a711ab4",
+    "signature": "voteTeam(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb655f822",
+    "signature": "Ballot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x089ee2d6",
+    "signature": "likeVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4a0473fe",
+    "signature": "votings_(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1436fb39",
+    "signature": "_isVotingAddress(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaf5a3db8",
+    "signature": "finaliseVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5e986ec7",
+    "signature": "PoezenVoting(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x10e9f2eb",
+    "signature": "_getFetchVoteInterface(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x85fcd363",
+    "signature": "votesArr(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0242f351",
+    "signature": "getVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x99bad2cd",
+    "signature": "testAddExistingVoter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa97b8b4d",
+    "signature": "closeBallot()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9132b81d",
+    "signature": "VotingStarted(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa6c8210e",
+    "signature": "getVotingParams()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x113e2088",
+    "signature": "votingData()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfab2f86b",
+    "signature": "stopVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xada1a34b",
+    "signature": "resetVoteKindnessEvery()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe92e5c34",
+    "signature": "getVoterCount(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6033cdc6",
+    "signature": "voteToUpdateMaritalStatus()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x61a255b5",
+    "signature": "vote(string,string,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaea96513",
+    "signature": "returnSecretVoteHash(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b46a7df",
+    "signature": "ivote(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x59a3b0cf",
+    "signature": "revealBallot(uint256,address,address[],uint256[],uint256[],uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc92728a1",
+    "signature": "_ballotIdToNamespace(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xed4ae6b5",
+    "signature": "isValidVoting(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfb48cf0e",
+    "signature": "getVoter(uint256,uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7e49d530",
+    "signature": "fechVoteMainInfoBySnapshotBlock(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4db9bfe6",
+    "signature": "getPostVoteCount(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd3c0715b",
+    "signature": "vote(uint256,bool,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc2577661",
+    "signature": "getBallotPapper(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb198ef45",
+    "signature": "checkVotingForAllowTransfer()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8d85a70f",
+    "signature": "Vote(address,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7badc7af",
+    "signature": "gaveVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x077f1008",
+    "signature": "tovote(string,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3bf53a89",
+    "signature": "unVoteAll()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa645a33a",
+    "signature": "VotingFinished(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b11e7a0",
+    "signature": "getVotingStart()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xac69c09c",
+    "signature": "changeVotingRules(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4158a326",
+    "signature": "_voteOnBehalfOf(uint256,bool,address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x261c70bd",
+    "signature": "voteMessage(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa15a8613",
+    "signature": "VoteCountPerProcess()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8a61bb91",
+    "signature": "initiateBoardMemberVote(string,bytes32,address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x18577f8d",
+    "signature": "calVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x21e3cdd0",
+    "signature": "voteDn(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xac9d7e0a",
+    "signature": "raisevote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x943e8216",
+    "signature": "vote(uint256,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1906ff98",
+    "signature": "getVotePrice()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2f265cf7",
+    "signature": "totalVotesFor(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x90cf581c",
+    "signature": "voteYes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2b633f77",
+    "signature": "ballotCancelingThreshold()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf3df0bbe",
+    "signature": "startNewBallot(bytes32,bool,bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x865df0ad",
+    "signature": "endVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9593b98",
+    "signature": "changeVote(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaa306d79",
+    "signature": "voteForCandidate_(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xee2dbf86",
+    "signature": "hasvote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf0b534cb",
+    "signature": "getApprovedVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcfebb88b",
+    "signature": "recallVoteToFreezeFund()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0a9ff623",
+    "signature": "voteUID()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeef55c72",
+    "signature": "getBallotOfSender()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7c54aa1a",
+    "signature": "deployCommunityBallot(bytes32,bytes32,uint128)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x36a7cf1f",
+    "signature": "setBallotFactory(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7a72c30d",
+    "signature": "checkMilestoneStateInvestorVotedNoVotingEndedNo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe7b1d43c",
+    "signature": "withdrawVotingRights(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xde63298d",
+    "signature": "addVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x54b5aeac",
+    "signature": "deleteDataPatternVoteRules(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x45232370",
+    "signature": "fechVoteMainInfo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6dd40905",
+    "signature": "getQuestionVotesAllCount(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x78524b2e",
+    "signature": "halveMinQuorum()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc4d07951",
+    "signature": "setVoting(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9f51cf67",
+    "signature": "balance_available_for_custom_voting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x83cbd459",
+    "signature": "_hashVote(uint8,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x14083532",
+    "signature": "depositVoteTokens(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3eac48a0",
+    "signature": "getTotalVoter(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x65b7b357",
+    "signature": "getVotersAnswer()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7f93354b",
+    "signature": "multiVoteNoLock(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcb6b25f3",
+    "signature": "votePassed(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6ae85e0d",
+    "signature": "isAddressNotVoted(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfa193a6e",
+    "signature": "Voter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24888b4a",
+    "signature": "isVoterLocked(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe48db5d4",
+    "signature": "ProofVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3afc7282",
+    "signature": "getVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd9d07fe1",
+    "signature": "voteOnBehalfOf(address,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd5a41695",
+    "signature": "fetchVoteNumForCandidateBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x90938792",
+    "signature": "canVoteAs(uint32,int256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9c409e4d",
+    "signature": "VoteOnTransfer(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7055d368",
+    "signature": "vote(uint256,uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd73a2901",
+    "signature": "setManagedVote(uint256,uint152,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x42545825",
+    "signature": "hasVoted(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x54f81786",
+    "signature": "startTokenVotes(address[10])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcdd72253",
+    "signature": "getVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x36cb8740",
+    "signature": "test_3_accessRestriction_vote_shouldThrow()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb9c3515c",
+    "signature": "votingActive(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x06b764ed",
+    "signature": "addAddressDataPatternVoteRules(address,address,uint256,uint256,bytes,bytes,uint256[5])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb0950b8c",
+    "signature": "canCloseVoteCommitPhase(address,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b81b785",
+    "signature": "showVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24b82a76",
+    "signature": "voterReward(address,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa4adc431",
+    "signature": "fechVoteResultForCandidate()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc858c017",
+    "signature": "testMsgSenderInVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xec22f94f",
+    "signature": "getRedeemableReputationVoter(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4410121f",
+    "signature": "test_voteSpammingFor()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x299e7318",
+    "signature": "resolveVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2cf4db51",
+    "signature": "amountVote(bool,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8fe92aed",
+    "signature": "votedPerCent(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc10fa789",
+    "signature": "withdrawalsVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdac17430",
+    "signature": "lastVoteTime()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x95c5ed9d",
+    "signature": "getVoterStatus(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x93b71fe5",
+    "signature": "Dao1901Votes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe9dc0614",
+    "signature": "vote(bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1d1ce884",
+    "signature": "VoteCommitted(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfe23583d",
+    "signature": "fechVoteResultForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8298c3b5",
+    "signature": "itemVoteDn(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x94f183cb",
+    "signature": "get_votes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbcc3af24",
+    "signature": "hasVotedOnConstitutionPoll(uint8,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6bf52ffa",
+    "signature": "Vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x960834f4",
+    "signature": "dAddBallot(bytes32,uint256,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf4b00513",
+    "signature": "newVote(bytes,string,bool,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x803e8fbb",
+    "signature": "lengthOf_dataPattern_to_voteRulesHash()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfeffd402",
+    "signature": "fetchVoteMainInfo()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb6307f0e",
+    "signature": "nLuckyVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7d9d972d",
+    "signature": "guardian3Vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x095daeb1",
+    "signature": "getVoterProposal(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xed7546b7",
+    "signature": "_checkEvenIfCommBallot(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf0e1f84d",
+    "signature": "setVotingProxy(uint32,int256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3dfd288a",
+    "signature": "checkVotingForTransferWeiFromExchangeToPayment()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x062907d5",
+    "signature": "initiateVotingContractUpdateVote(string,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x839ea3c4",
+    "signature": "startVotingTeam(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc3a96fab",
+    "signature": "newTokenAndVote(address,uint256,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x10fcdecc",
+    "signature": "fechVoteInfoForVoter(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1066cd3c",
+    "signature": "voteFor(uint16,address,bytes32,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0e9ef902",
+    "signature": "join_voter()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x495f9bae",
+    "signature": "getProposalVoterVotesCount(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcd78a3b7",
+    "signature": "processVote(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x00b3c619",
+    "signature": "VoteSvp001(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x70743768",
+    "signature": "voteStake(bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfa5ef276",
+    "signature": "getVotedData(address,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x97709cde",
+    "signature": "ARK_VOTER_1_00(uint256,uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3106fea0",
+    "signature": "voteOnProposal(uint256,bool,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3e5a907f",
+    "signature": "addSrNOfBallotPapper(uint256,uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf1ffde45",
+    "signature": "BasicBallot(address,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x47cf6f76",
+    "signature": "isVotingActive()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x23dddaba",
+    "signature": "simpleVotingDapp(bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe4b0a97b",
+    "signature": "test_doubleVotingAgainst()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdb487d9e",
+    "signature": "_voteEndDate(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x026bb254",
+    "signature": "upVoteHouse(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x23cafc3d",
+    "signature": "voteNoLockByAdminBatch(address[],address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa69358aa",
+    "signature": "voteForTap(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xce11f2bb",
+    "signature": "vote(uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xee3f1bc7",
+    "signature": "changeVoters(address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a443955",
+    "signature": "setNumVotesRequired(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x49285b58",
+    "signature": "getVotingToChangeKeys()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8b7261bd",
+    "signature": "fetchAllVoteResultForNodes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x11dd46b4",
+    "signature": "calVoteResult()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbb205c84",
+    "signature": "getDownVoteCount(bytes12,bytes12)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2ab24e3b",
+    "signature": "commitVote(address,bytes32,bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x13332c6c",
+    "signature": "myVoteFactory()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7c2b8d0a",
+    "signature": "votedFreeze(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x64ab4702",
+    "signature": "voteWeightUnit(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1ad7c199",
+    "signature": "callVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x62a974b6",
+    "signature": "vote01NoCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe92b7f4b",
+    "signature": "AddVoters(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x30092ded",
+    "signature": "changeVoteWeight(address,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x04830ddd",
+    "signature": "getVotersAt(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7086528e",
+    "signature": "DemocracyVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2808241e",
+    "signature": "vote(uint8,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xaf5c4540",
+    "signature": "getVoteTokens()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6dd7d8ea",
+    "signature": "vote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9f07041b",
+    "signature": "votingIsActive()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcc7d4d53",
+    "signature": "totalVotes(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd9037522",
+    "signature": "removeVoter(address,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2c24909c",
+    "signature": "getVotedTokensPerc()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x158e7986",
+    "signature": "addBallotAndVoterWithPk(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd46a5d7e",
+    "signature": "vote(uint256,bool,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2db78d88",
+    "signature": "adminSealBallot(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9cdbc070",
+    "signature": "addVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb96f8a39",
+    "signature": "Voting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb20f3c93",
+    "signature": "_voteOnBehalfOf(uint256,bool,address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdf4604b3",
+    "signature": "submitOrVote(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x27028aae",
+    "signature": "voteOnBounty(uint128,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x568b5915",
+    "signature": "votesMaskByOperation(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5ab4f162",
+    "signature": "getVote(address,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa7491b48",
+    "signature": "votesByAddress(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xad5022a5",
+    "signature": "Votes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0425c357",
+    "signature": "submitVote(uint256,bytes32,bytes)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x187a62d5",
+    "signature": "voteEmergencyWithdrawal(bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea19efb5",
+    "signature": "startVoting(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0b779363",
+    "signature": "checkVotingForChangeAdminAddress()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd34be5be",
+    "signature": "startVotingPrepare(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd6f6b6e7",
+    "signature": "closeFailedVotingAndWithdraw()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x745101dc",
+    "signature": "isVoteOpen(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3b7a3b7f",
+    "signature": "thisVotersName()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x03d4e98a",
+    "signature": "getProposalVote(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7ffcb093",
+    "signature": "addVoter(address,bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb2148d38",
+    "signature": "getBasicExtraBallotFeeWei()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x14fd0c14",
+    "signature": "deadlineVoting()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5df81330",
+    "signature": "votes(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x43d3a4c1",
+    "signature": "getTotalVoters(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2844328f",
+    "signature": "submitVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9528724f",
+    "signature": "votedFreeze()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x99cf5582",
+    "signature": "burnVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9f396cff",
+    "signature": "voteAgainst()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xea118590",
+    "signature": "vote_proposed_address(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcff9293a",
+    "signature": "vote(uint32,uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa294ed7a",
+    "signature": "voterAddressOf(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6e676b69",
+    "signature": "changeVotingRules(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x070b91d1",
+    "signature": "voting(uint256,uint256,bool,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4e85a0e1",
+    "signature": "cancelVoteForCandidateByIndex(uint256,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5c679f7b",
+    "signature": "batchVote(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9c24eedb",
+    "signature": "upvote(uint256,int256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x17111edb",
+    "signature": "DevvotePrefundClosed()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x02d947ef",
+    "signature": "vote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6eb58224",
+    "signature": "castDocumentVote(uint8,bytes32,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xeeaaf19d",
+    "signature": "vote(bytes32,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9ab86b78",
+    "signature": "getVoteHubDetails()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x497b8018",
+    "signature": "getBallotOptNumber()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x53d73718",
+    "signature": "voting_info()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x60dddfb1",
+    "signature": "votingWeightOf(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe01a6ace",
+    "signature": "vote_Candidate_name(bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x01e73b73",
+    "signature": "bulkVote(uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x432ba8be",
+    "signature": "voterToBallotID(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc4788efe",
+    "signature": "resetTotalVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xdbaf023d",
+    "signature": "LogoVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x93830c74",
+    "signature": "solUpDownVote(bool,uint32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x40067c91",
+    "signature": "VoteFactory()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb5e989c7",
+    "signature": "ballotOptions(uint32,uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x60ee66c9",
+    "signature": "setSubcontinentDiscoveryVotingContract(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcadc958f",
+    "signature": "VoteOnTransferStarted(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x20f1895c",
+    "signature": "fechVoteSumNumForCandidate(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x95f59fe1",
+    "signature": "vote(string,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4dfb10bc",
+    "signature": "realVotedSupply()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x55416e06",
+    "signature": "voteA()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf400d37b",
+    "signature": "yesVoteSum()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe2cdd42a",
+    "signature": "vote(uint256,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd9f1a1a9",
+    "signature": "PublicBallot(address,string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x6837ff1e",
+    "signature": "newContract(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb0340123",
+    "signature": "votingToken()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x934a029d",
+    "signature": "getVoteAtTxForUser(bytes32,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb68e7f6e",
+    "signature": "testCastVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x31d31647",
+    "signature": "hasSenderVoted(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2c0a3f89",
+    "signature": "castVote(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd78c20ff",
+    "signature": "voteApprove(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x51df6d27",
+    "signature": "GlobalLotteryToken()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0d5be2df",
+    "signature": "ballotLog(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0399247a",
+    "signature": "isVotingProxy(uint32,int256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2d54f04d",
+    "signature": "changeVotingBlocks(uint256,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5938748e",
+    "signature": "changeVotingRules(address,address,uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x782d6fe1",
+    "signature": "getPriorVotes(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8b45ce03",
+    "signature": "_cancelVote(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x782fb5d4",
+    "signature": "getVoteCounts(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x56412d85",
+    "signature": "getVote(uint256,uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4b1be424",
+    "signature": "getVotesBetweenFor(uint256,uint256,uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x00c2b78e",
+    "signature": "voteFor(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x00e5fc5f",
+    "signature": "rawVotes(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x009b9369",
+    "signature": "getVoteNumber(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9aedb1f1",
+    "signature": "setVotingQuestions(string,string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x04b6ae61",
+    "signature": "failedVotingCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe94bc926",
+    "signature": "cancelVoteForCandidate(address,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x7c64a45c",
+    "signature": "TOTAL_VOTE_PERIOD()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a2e6b40",
+    "signature": "vote(uint80,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9a38bfae",
+    "signature": "voteHash(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x40066733",
+    "signature": "getTotalVotersCount()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0146d0ca",
+    "signature": "sendVote(string)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0f39c6ab",
+    "signature": "removeVotersVote(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x633dfc70",
+    "signature": "vote(bool,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x39ade9aa",
+    "signature": "dDeployBallot(bytes32,bytes32,bytes32,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4a5367bb",
+    "signature": "sumVotingPowerProposer()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xfa954aa0",
+    "signature": "createVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x67202d40",
+    "signature": "fetchAllVotersByIndex(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5ffcbe30",
+    "signature": "voteForCandidateViaProxy(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe927ea7a",
+    "signature": "ballotVoteCount(uint32,uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8f8bbb8c",
+    "signature": "ObjectedVote(bytes32,address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb2fce4ea",
+    "signature": "delegateVote(int256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3ec36b99",
+    "signature": "commitVotes(uint256[],bytes32[],uint256[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0de3b100",
+    "signature": "VoteForProposal(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd07bff0c",
+    "signature": "getVoter(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9225743",
+    "signature": "_commitBallot(bytes32,uint256,uint256,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x108e161b",
+    "signature": "isBallotSealed(uint32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3932abb1",
+    "signature": "votingDelay()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4faed396",
+    "signature": "checkVotingForSendWeiFromExchange()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x24bc1a64",
+    "signature": "quorumVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5e5f2e37",
+    "signature": "startedNewVote(address,uint256,string,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x15cf7a35",
+    "signature": "fechVoteResultForCandidateBySnapshotBlock(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x54a1b431",
+    "signature": "getVoteDetails(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8ee36f05",
+    "signature": "isVoted(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9ede7a37",
+    "signature": "voteCount(uint8,uint8,uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9f2ce678",
+    "signature": "vote(bytes32,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf72f34db",
+    "signature": "getDCountedBasicBallotsN(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8c43a6f0",
+    "signature": "updateBlockVoterProposal(uint256,address,bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3f68fde4",
+    "signature": "removeVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x06db33e4",
+    "signature": "getVotesByCandidate(uint16)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x04c64e25",
+    "signature": "revealMyVote(address,bytes32,bytes32,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb3c7618e",
+    "signature": "getVoteRuling(uint256,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0243aa1b",
+    "signature": "getCurrentNbVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1cabc5ed",
+    "signature": "userVoteFor(address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xff91bb45",
+    "signature": "castVote(address,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xabe7c08e",
+    "signature": "finishVoting(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbb7963e3",
+    "signature": "hasArbiterVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x65fc783c",
+    "signature": "getNumOfVoters()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf01e0648",
+    "signature": "Voted(address,address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf5370884",
+    "signature": "WithdrawalVotedEvent(uint256,address,uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9fd8bfb3",
+    "signature": "voteCandidateOne()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x66bab099",
+    "signature": "getCurrentSupplyVote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xcdb2867b",
+    "signature": "canVote(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x68197360",
+    "signature": "getVotes(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x12f4cbd9",
+    "signature": "Vote(uint8)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x5a55c1f0",
+    "signature": "getVote(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1b58c943",
+    "signature": "getNBallots()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x9f55ecab",
+    "signature": "currentVotingDate()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0151cf1d",
+    "signature": "setVotingWinner(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x757085e3",
+    "signature": "fetchAllVoteResultForCurrent()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x4092a611",
+    "signature": "upVote(bytes12,bytes12)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x05ba2ded",
+    "signature": "voteForCashBackInPercentOfWeight(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x1e8551e3",
+    "signature": "voteRewardPerUnit(uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xf3f16a15",
+    "signature": "voted(address,bool)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe682c9ea",
+    "signature": "rescindVote(bytes32)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x3231a2b9",
+    "signature": "voteSnapshotBalanceAutoBatch(address[],uint256[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x0e7d490d",
+    "signature": "numberOfVotes()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x2157320e",
+    "signature": "votedAddress()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa50cd8e7",
+    "signature": "votesFor(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x43859632",
+    "signature": "hasVoted(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xa9820ead",
+    "signature": "Ballot(bytes32[],bytes32[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xb5ee6f3d",
+    "signature": "isVotingPhaseOver()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x458e18d7",
+    "signature": "AMLOveCoinVoting(address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xad19bd26",
+    "signature": "getVoteCommit(uint256,address)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x063bac1f",
+    "signature": "giveRightToVoteByBatch(address[])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xbbc84d1a",
+    "signature": "voteWorth()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xe06c55e1",
+    "signature": "_getVoteId(uint256,uint256)",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x8f4ccce8",
+    "signature": "startTokenVotes(address[15])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xd935bac3",
+    "signature": "test1Vote()",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0x94f6e8ed",
+    "signature": "initBallotProxy(uint8,bytes32,bytes32,bytes32[4])",
+    "is_erc1202": false
+  },
+  {
+    "hash": "0xc36fff2d",
+    "signature": "availableOptions(uint256)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0x8935ced5",
+    "signature": "weightOf(uint256,address)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0xaff9e954",
+    "signature": "topOptions(uint256,uint256)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0xb384abef",
+    "signature": "vote(uint256,uint256)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0x5c622a0e",
+    "signature": "getStatus(uint256)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0x8719e8ac",
+    "signature": "setStatus(uint256,bool)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0xea2bc862",
+    "signature": "optionDescription(uint256,uint256)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0x32ec991c",
+    "signature": "ballotOf(uint256,address)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0x1e01a172",
+    "signature": "issueDescription(uint256)",
+    "is_erc1202": true
+  },
+  {
+    "hash": "0x6e6a1dc3",
+    "signature": "weightedVoteCountsOf(uint256,uint256)",
+    "is_erc1202": true
+  }
+]

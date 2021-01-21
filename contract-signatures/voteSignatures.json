@@ -1,0 +1,4266 @@
+[
+  {
+    "hash": "0x10c5d848",
+    "signature": "_voteExists(uint256)"
+  },
+  {
+    "hash": "0x4158a326",
+    "signature": "_voteOnBehalfOf(uint256,bool,address,address)"
+  },
+  {
+    "hash": "0xb354d5e0",
+    "signature": "_voteOnBehalfOfMany(address[],uint256,bool)"
+  },
+  {
+    "hash": "0xdc4ad377",
+    "signature": "getVoteCaster(uint256,address)"
+  },
+  {
+    "hash": "0x745101dc",
+    "signature": "isVoteOpen(uint256)"
+  },
+  {
+    "hash": "0x101574ed",
+    "signature": "canVoteOnBehalfOf(uint256,address,address)"
+  },
+  {
+    "hash": "0xb9b07871",
+    "signature": "voteOnBehalfOfMany(address[],uint256,bool)"
+  },
+  {
+    "hash": "0xd9d07fe1",
+    "signature": "voteOnBehalfOf(address,uint256,bool)"
+  },
+  {
+    "hash": "0x68bb8bb6",
+    "signature": "vote(uint256,bytes32)"
+  },
+  {
+    "hash": "0x4e9bea41",
+    "signature": "newTokenAndVote(address,uint256,string)"
+  },
+  {
+    "hash": "0xaca49e35",
+    "signature": "newVoteExt(bytes,string,bool,bool)"
+  },
+  {
+    "hash": "0xb36afdcd",
+    "signature": "_canVote(uint256,address)"
+  },
+  {
+    "hash": "0x60dd1649",
+    "signature": "_unsafeExecuteVote(uint256)"
+  },
+  {
+    "hash": "0xf74bc8f4",
+    "signature": "_vote(uint256,bool,address,bool)"
+  },
+  {
+    "hash": "0x8a6d9926",
+    "signature": "_newVote(bytes,string,bool,bool)"
+  },
+  {
+    "hash": "0xdf133bca",
+    "signature": "vote(uint256,bool,bool)"
+  },
+  {
+    "hash": "0xf4b00513",
+    "signature": "newVote(bytes,string,bool,bool)"
+  },
+  {
+    "hash": "0xd5db2c80",
+    "signature": "newVote(bytes,string)"
+  },
+  {
+    "hash": "0x5aec60b0",
+    "signature": "_voteOptions(uint256,uint256[],uint256[])"
+  },
+  {
+    "hash": "0x843a0459",
+    "signature": "_resetVote(uint256)"
+  },
+  {
+    "hash": "0x4b12311c",
+    "signature": "getVoterState(uint256,address)"
+  },
+  {
+    "hash": "0x509bd337",
+    "signature": "voteOption(uint256,uint256)"
+  },
+  {
+    "hash": "0x74609899",
+    "signature": "voteOptions(uint256,uint256[],uint256[])"
+  },
+  {
+    "hash": "0x0cc3b1c8",
+    "signature": "resetVote(uint256)"
+  },
+  {
+    "hash": "0x8234b7bb",
+    "signature": "mockVoterWeight(address,uint64)"
+  },
+  {
+    "hash": "0x83cbd459",
+    "signature": "_hashVote(uint8,bytes32)"
+  },
+  {
+    "hash": "0x535999fe",
+    "signature": "_ensureVoterCanReveal(uint256,address)"
+  },
+  {
+    "hash": "0xe799b059",
+    "signature": "_ensureVoterCanCommit(uint256,address)"
+  },
+  {
+    "hash": "0xe2131378",
+    "signature": "hashVote(uint8,bytes32)"
+  },
+  {
+    "hash": "0xcfa558ba",
+    "signature": "hasVotedInFavorOf(uint256,uint8,address)"
+  },
+  {
+    "hash": "0x8c8838fb",
+    "signature": "getVoterOutcome(uint256,address)"
+  },
+  {
+    "hash": "0xe06c55e1",
+    "signature": "_getVoteId(uint256,uint256)"
+  },
+  {
+    "hash": "0x11b1a2c1",
+    "signature": "_decodeVoteId(uint256)"
+  },
+  {
+    "hash": "0xd8bff5a5",
+    "signature": "votes(address)"
+  },
+  {
+    "hash": "0x865df0ad",
+    "signature": "endVote(uint256)"
+  },
+  {
+    "hash": "0x7cbcd571",
+    "signature": "removeVote(uint256,address)"
+  },
+  {
+    "hash": "0x77df41b7",
+    "signature": "castVote(uint256,address)"
+  },
+  {
+    "hash": "0xfa954aa0",
+    "signature": "createVote(uint256)"
+  },
+  {
+    "hash": "0x7e4173a8",
+    "signature": "voteExists(uint256)"
+  },
+  {
+    "hash": "0x359afa49",
+    "signature": "vote(bytes32,uint256,uint256,address)"
+  },
+  {
+    "hash": "0x628746e3",
+    "signature": "getSecondChoiceVotes(uint256,address,uint256)"
+  },
+  {
+    "hash": "0x30ca60d4",
+    "signature": "getFirstChoiceVotes(uint256,address,uint256)"
+  },
+  {
+    "hash": "0x241b2e42",
+    "signature": "withdrawVoteTokens(uint256)"
+  },
+  {
+    "hash": "0x14083532",
+    "signature": "depositVoteTokens(uint256)"
+  },
+  {
+    "hash": "0xbe29783f",
+    "signature": "commitVoteOnSpecialProposal(bytes32,bytes32)"
+  },
+  {
+    "hash": "0x610af570",
+    "signature": "voteOnDraft(bytes32,bool)"
+  },
+  {
+    "hash": "0xd9db3c73",
+    "signature": "revealVoteOnSpecialProposal(bytes32,bool,bytes32)"
+  },
+  {
+    "hash": "0x5e8254ea",
+    "signature": "commitVoteOnProposal(bytes32,uint8,bytes32)"
+  },
+  {
+    "hash": "0x2b051b50",
+    "signature": "revealVoteOnProposal(bytes32,uint8,bool,bytes32)"
+  },
+  {
+    "hash": "0xd15e3170",
+    "signature": "payoutVoter(uint256,uint256)"
+  },
+  {
+    "hash": "0x7b02f6e1",
+    "signature": "_vote(address,address,uint256)"
+  },
+  {
+    "hash": "0x64a8a11f",
+    "signature": "voteJUR(address,address,uint256)"
+  },
+  {
+    "hash": "0x99653fbe",
+    "signature": "submitVote(uint256,uint8)"
+  },
+  {
+    "hash": "0xdfd0163e",
+    "signature": "voteNoLockBatchByAdmin(address[],address[],uint256[])"
+  },
+  {
+    "hash": "0xc26b93df",
+    "signature": "vote(uint80,uint256)"
+  },
+  {
+    "hash": "0x0304363a",
+    "signature": "fetchAllVoteResult()"
+  },
+  {
+    "hash": "0x05ac9bce",
+    "signature": "voteVoting(uint256)"
+  },
+  {
+    "hash": "0x878edb66",
+    "signature": "getVotesByPollingStation(address)"
+  },
+  {
+    "hash": "0xcc4d96df",
+    "signature": "_refreshVoteForVoter(uint256)"
+  },
+  {
+    "hash": "0x9e3d154e",
+    "signature": "vote(bool,bool,bool)"
+  },
+  {
+    "hash": "0x9b8ebc54",
+    "signature": "checkVoter(address)"
+  },
+  {
+    "hash": "0x8a5cd1ca",
+    "signature": "updateBlockVoter(uint256,address,bytes32,uint256,uint256)"
+  },
+  {
+    "hash": "0x8c43a6f0",
+    "signature": "updateBlockVoterProposal(uint256,address,bytes32)"
+  },
+  {
+    "hash": "0x3de46340",
+    "signature": "getBlockVoterBalance(uint256,address)"
+  },
+  {
+    "hash": "0xaff36885",
+    "signature": "setBlockMaxVotes(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0xe01a6ace",
+    "signature": "vote_Candidate_name(bytes32[])"
+  },
+  {
+    "hash": "0x200308ee",
+    "signature": "rewardVoteResultForCandidate(address,uint256)"
+  },
+  {
+    "hash": "0x1a0a617d",
+    "signature": "fetchVoteInfoForCandidateByIndex(uint256,address)"
+  },
+  {
+    "hash": "0x7b6e49a8",
+    "signature": "fetchVoteNumForVoterByIndex(uint256,address)"
+  },
+  {
+    "hash": "0x84b00eb6",
+    "signature": "fetchVoteNumForCandidateByIndex(uint256,address)"
+  },
+  {
+    "hash": "0x6fb84e84",
+    "signature": "fetchVoteInfoForVoterByIndex(uint256,address)"
+  },
+  {
+    "hash": "0x67202d40",
+    "signature": "fetchAllVotersByIndex(uint256)"
+  },
+  {
+    "hash": "0xc75c6a06",
+    "signature": "batchCancelVoteForCandidateByIndex(uint256,address[],uint256[])"
+  },
+  {
+    "hash": "0xcc5f0240",
+    "signature": "batchCancelVoteForCandidate(address[],uint256[])"
+  },
+  {
+    "hash": "0x4e85a0e1",
+    "signature": "cancelVoteForCandidateByIndex(uint256,address,uint256)"
+  },
+  {
+    "hash": "0x081b8bb4",
+    "signature": "refreshVoteForAllByIndex(uint256)"
+  },
+  {
+    "hash": "0x09f41822",
+    "signature": "batchVoteByIndex(uint256,address[],uint256[])"
+  },
+  {
+    "hash": "0x5c679f7b",
+    "signature": "batchVote(address[],uint256[])"
+  },
+  {
+    "hash": "0xb8b359b8",
+    "signature": "voteByIndex(uint256,address,uint256)"
+  },
+  {
+    "hash": "0xfd32f088",
+    "signature": "calVoteResultByIndex(uint256)"
+  },
+  {
+    "hash": "0x10e9f2eb",
+    "signature": "_getFetchVoteInterface(uint256)"
+  },
+  {
+    "hash": "0x056bcc72",
+    "signature": "_getVoteInterface(uint256)"
+  },
+  {
+    "hash": "0x87dd1908",
+    "signature": "_voteAndContinue()"
+  },
+  {
+    "hash": "0xdf4604b3",
+    "signature": "submitOrVote(bytes32)"
+  },
+  {
+    "hash": "0xffa59501",
+    "signature": "votesRemaining(uint64,uint64,uint8)"
+  },
+  {
+    "hash": "0xf0bea8c7",
+    "signature": "downVoteHouse(address)"
+  },
+  {
+    "hash": "0x026bb254",
+    "signature": "upVoteHouse(address)"
+  },
+  {
+    "hash": "0xfa07153a",
+    "signature": "commitVote(uint256,bytes32,uint256)"
+  },
+  {
+    "hash": "0xcb0cfaa2",
+    "signature": "finalizeProposalByVoterIndices(uint256,uint256[],bool,int256)"
+  },
+  {
+    "hash": "0xc09689a6",
+    "signature": "tryFinalizeProposalsByVoterIndices(uint256[],uint256[],bool[])"
+  },
+  {
+    "hash": "0xd1b53d2d",
+    "signature": "tryFinalizeProposalByVoterIndices(uint256,uint256[],bool,int256)"
+  },
+  {
+    "hash": "0x4ddf6795",
+    "signature": "getVoteRulesOfProposal(uint256)"
+  },
+  {
+    "hash": "0x813faa53",
+    "signature": "getVoteRulesOfProposalTransaction(uint256,uint256)"
+  },
+  {
+    "hash": "0x37246f43",
+    "signature": "getVoteRulesOfTransaction(address,uint256,bytes)"
+  },
+  {
+    "hash": "0xf625ca7d",
+    "signature": "lengthOf_addressAndDataPattern_to_voteRulesHash(address,address)"
+  },
+  {
+    "hash": "0x803e8fbb",
+    "signature": "lengthOf_dataPattern_to_voteRulesHash()"
+  },
+  {
+    "hash": "0xfac6fb16",
+    "signature": "getVoteStatusFromProposal(uint256,address)"
+  },
+  {
+    "hash": "0x17b3c7ea",
+    "signature": "getAllProposalVotersAndVotes(uint256)"
+  },
+  {
+    "hash": "0xbcabb0c8",
+    "signature": "getAllProposalVoters(uint256)"
+  },
+  {
+    "hash": "0x9cb61295",
+    "signature": "getVoterFromProposal(uint256,uint256)"
+  },
+  {
+    "hash": "0xee6f3a55",
+    "signature": "getAmountOfVotersInProposal(uint256)"
+  },
+  {
+    "hash": "0x54b5aeac",
+    "signature": "deleteDataPatternVoteRules(uint256)"
+  },
+  {
+    "hash": "0xa1ccc49c",
+    "signature": "addDataPatternVoteRules(uint256,uint256,bytes,bytes,uint256[5])"
+  },
+  {
+    "hash": "0x80ad639d",
+    "signature": "deleteAddressDataPatternVoteRules(address,address,uint256)"
+  },
+  {
+    "hash": "0x06b764ed",
+    "signature": "addAddressDataPatternVoteRules(address,address,uint256,uint256,bytes,bytes,uint256[5])"
+  },
+  {
+    "hash": "0x7ec82929",
+    "signature": "setFunctionIdVoteRules(bytes4,bool,uint256[5])"
+  },
+  {
+    "hash": "0xac516951",
+    "signature": "setAddressVoteRules(address,address,bool,uint256[5])"
+  },
+  {
+    "hash": "0xde63a530",
+    "signature": "setAddressAndFunctionIdVoteRules(address,address,bytes4,bool,uint256[5])"
+  },
+  {
+    "hash": "0x8e69eeb9",
+    "signature": "setDefaultVoteRules(uint256[5])"
+  },
+  {
+    "hash": "0xb81f3be0",
+    "signature": "deleteVotersWithoutShares(uint256[],uint256[],bool)"
+  },
+  {
+    "hash": "0x261c70bd",
+    "signature": "voteMessage(bytes32,uint256)"
+  },
+  {
+    "hash": "0xc8cfe153",
+    "signature": "revealVote(uint8,string)"
+  },
+  {
+    "hash": "0xf6de4b81",
+    "signature": "_doVote(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x8b45ce03",
+    "signature": "_cancelVote(address,address,uint256)"
+  },
+  {
+    "hash": "0x4efd0848",
+    "signature": "_refreshVoteForVoter(address)"
+  },
+  {
+    "hash": "0xef113b69",
+    "signature": "_internalVote(address,address,uint256)"
+  },
+  {
+    "hash": "0x8b7261bd",
+    "signature": "fetchAllVoteResultForNodes(uint256)"
+  },
+  {
+    "hash": "0xf25d2422",
+    "signature": "fetchVoteInfoForCandidate(address)"
+  },
+  {
+    "hash": "0x062ff957",
+    "signature": "fetchVoteNumForVoter(address)"
+  },
+  {
+    "hash": "0xd2d3d7fb",
+    "signature": "fetchAllVoters()"
+  },
+  {
+    "hash": "0x816194f8",
+    "signature": "refreshVoteForAll()"
+  },
+  {
+    "hash": "0x60da4bd7",
+    "signature": "batchCancelVoteForCandidate(address,address[],uint256[])"
+  },
+  {
+    "hash": "0xe94bc926",
+    "signature": "cancelVoteForCandidate(address,address,uint256)"
+  },
+  {
+    "hash": "0xd3cc0c37",
+    "signature": "batchVote(address,address[],uint256[])"
+  },
+  {
+    "hash": "0xefa5d431",
+    "signature": "vote(address,address,uint256)"
+  },
+  {
+    "hash": "0x11dd46b4",
+    "signature": "calVoteResult()"
+  },
+  {
+    "hash": "0x68784493",
+    "signature": "votesUser(address,uint256)"
+  },
+  {
+    "hash": "0xda5c5b55",
+    "signature": "noVotes(uint256,address)"
+  },
+  {
+    "hash": "0x7c64a45c",
+    "signature": "TOTAL_VOTE_PERIOD()"
+  },
+  {
+    "hash": "0x6a1cf721",
+    "signature": "voteYes(uint256)"
+  },
+  {
+    "hash": "0x5d9dacb5",
+    "signature": "OPEN_VOTE_PERIOD()"
+  },
+  {
+    "hash": "0x3f68fde4",
+    "signature": "removeVote(uint256)"
+  },
+  {
+    "hash": "0x1a6f7be5",
+    "signature": "voteNo(uint256)"
+  },
+  {
+    "hash": "0x0bc43490",
+    "signature": "yesVotes(uint256,address)"
+  },
+  {
+    "hash": "0xe3b0073e",
+    "signature": "getVoteCounter(uint256,uint256)"
+  },
+  {
+    "hash": "0x8ce7ff4a",
+    "signature": "getVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x3850f804",
+    "signature": "castVote(uint256,uint256[],uint256,uint256)"
+  },
+  {
+    "hash": "0xa9593b98",
+    "signature": "changeVote(uint256,uint256)"
+  },
+  {
+    "hash": "0x5df8f17b",
+    "signature": "createVote(uint256,address[])"
+  },
+  {
+    "hash": "0x70e5bf4d",
+    "signature": "queryVote(uint256)"
+  },
+  {
+    "hash": "0x43d3a4c1",
+    "signature": "getTotalVoters(uint256)"
+  },
+  {
+    "hash": "0xc7dea777",
+    "signature": "areOldMiningKeysVoted(uint256,address)"
+  },
+  {
+    "hash": "0xc14bfd29",
+    "signature": "hasAlreadyVoted(uint256,address)"
+  },
+  {
+    "hash": "0xc088003d",
+    "signature": "getMinThresholdOfVoters(uint256)"
+  },
+  {
+    "hash": "0x288fa739",
+    "signature": "isValidVote(uint256,address)"
+  },
+  {
+    "hash": "0xf73294b8",
+    "signature": "isValidatorAlreadyVoted(address,address)"
+  },
+  {
+    "hash": "0xaa306d79",
+    "signature": "voteForCandidate_(uint256,address)"
+  },
+  {
+    "hash": "0xcb1ba60f",
+    "signature": "voteOnElection(address,address,address,address,uint256)"
+  },
+  {
+    "hash": "0x12c0af96",
+    "signature": "getVoterOnElection(address,address,uint256,address,address)"
+  },
+  {
+    "hash": "0xbf9a6958",
+    "signature": "createVoterOnElection(uint256,address,address,string,string,string)"
+  },
+  {
+    "hash": "0x1391ff43",
+    "signature": "fetchVoteInfoForVoter(address)"
+  },
+  {
+    "hash": "0x7b1c5368",
+    "signature": "fetchVoteMainInfoForVoter(address)"
+  },
+  {
+    "hash": "0xfeffd402",
+    "signature": "fetchVoteMainInfo()"
+  },
+  {
+    "hash": "0x0b1c5b76",
+    "signature": "fetchVoteMainInfoBySnapshotBlock(uint256)"
+  },
+  {
+    "hash": "0xab97e196",
+    "signature": "revokeAmountVote(uint8)"
+  },
+  {
+    "hash": "0x2cf4db51",
+    "signature": "amountVote(bool,uint8)"
+  },
+  {
+    "hash": "0xb43d42ec",
+    "signature": "revokeRatioVote(uint8)"
+  },
+  {
+    "hash": "0x1aefce3b",
+    "signature": "ratioVote(bool,uint8)"
+  },
+  {
+    "hash": "0x329d3346",
+    "signature": "closeVote()"
+  },
+  {
+    "hash": "0x0e5d4b99",
+    "signature": "fechVoteMainInfoForVoter(address)"
+  },
+  {
+    "hash": "0x4b27a2ca",
+    "signature": "fechVoteMainInfoForVoterBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0xbb7963e3",
+    "signature": "hasArbiterVoted(uint256,address)"
+  },
+  {
+    "hash": "0x30e44278",
+    "signature": "howVotesHasDispute(uint256)"
+  },
+  {
+    "hash": "0x43655fd3",
+    "signature": "votesItem(address,uint8)"
+  },
+  {
+    "hash": "0x01e73b73",
+    "signature": "bulkVote(uint256[])"
+  },
+  {
+    "hash": "0x4dc3ba8f",
+    "signature": "assignVoterMoreVotes(address,uint256)"
+  },
+  {
+    "hash": "0x859e25df",
+    "signature": "giveProjectMoreVotes(address,uint256)"
+  },
+  {
+    "hash": "0xee2dbf86",
+    "signature": "hasvote()"
+  },
+  {
+    "hash": "0x40ad654c",
+    "signature": "transferForVote(address,uint256)"
+  },
+  {
+    "hash": "0x770fe154",
+    "signature": "ApplyVote()"
+  },
+  {
+    "hash": "0xf0b534cb",
+    "signature": "getApprovedVotes()"
+  },
+  {
+    "hash": "0x98da8121",
+    "signature": "lock_vote_amount(bool)"
+  },
+  {
+    "hash": "0x09eef43e",
+    "signature": "hasVoted(address)"
+  },
+  {
+    "hash": "0x757085e3",
+    "signature": "fetchAllVoteResultForCurrent()"
+  },
+  {
+    "hash": "0x8a19ac6d",
+    "signature": "fechAllVoteResultPreRoundByBlock(uint256)"
+  },
+  {
+    "hash": "0x1beb4b5e",
+    "signature": "fetchAllVoteResultBySnapshotBlock(uint256)"
+  },
+  {
+    "hash": "0x80c0a250",
+    "signature": "fetchVoteResultForCandidate(address)"
+  },
+  {
+    "hash": "0x432b3f85",
+    "signature": "fetchVoteResultForCandidateBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0x753cb4eb",
+    "signature": "fetchVoteNumForCandidate(address)"
+  },
+  {
+    "hash": "0xd5a41695",
+    "signature": "fetchVoteNumForCandidateBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0xd723bb73",
+    "signature": "fetchVoteInfoForVoterBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0xd768d95e",
+    "signature": "fetchVoteMainInfoForVoterBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0xb2d23b7d",
+    "signature": "fetchVoteResult()"
+  },
+  {
+    "hash": "0x49231598",
+    "signature": "fetchAllVotersBySnapshotBlock(uint256)"
+  },
+  {
+    "hash": "0x82fb3b7c",
+    "signature": "voteNoLockByAdmin()"
+  },
+  {
+    "hash": "0x47a34bcb",
+    "signature": "getBlockMaxVotes(uint256,uint256)"
+  },
+  {
+    "hash": "0x921f5dec",
+    "signature": "getBlockVoter(uint256,address)"
+  },
+  {
+    "hash": "0xfc58452e",
+    "signature": "castVote(bytes32,uint16)"
+  },
+  {
+    "hash": "0x06db33e4",
+    "signature": "getVotesByCandidate(uint16)"
+  },
+  {
+    "hash": "0x76f9fd38",
+    "signature": "castVote(string,uint16)"
+  },
+  {
+    "hash": "0x8ed09bc9",
+    "signature": "registerVoter(bytes32,address)"
+  },
+  {
+    "hash": "0xbb205c84",
+    "signature": "getDownVoteCount(bytes12,bytes12)"
+  },
+  {
+    "hash": "0xb109bc6d",
+    "signature": "getUpVoteCount(bytes12,bytes12)"
+  },
+  {
+    "hash": "0x843e8d27",
+    "signature": "downVote(bytes12,bytes12)"
+  },
+  {
+    "hash": "0x4092a611",
+    "signature": "upVote(bytes12,bytes12)"
+  },
+  {
+    "hash": "0x579fe761",
+    "signature": "vote(uint80,uint80)"
+  },
+  {
+    "hash": "0xd4bdc45f",
+    "signature": "downvote(uint256,int256)"
+  },
+  {
+    "hash": "0x9c24eedb",
+    "signature": "upvote(uint256,int256)"
+  },
+  {
+    "hash": "0x4170ee08",
+    "signature": "reVote(uint256)"
+  },
+  {
+    "hash": "0x3219ac2a",
+    "signature": "showMyVote()"
+  },
+  {
+    "hash": "0x2844328f",
+    "signature": "submitVote(uint256)"
+  },
+  {
+    "hash": "0xeae00565",
+    "signature": "getVotesResult()"
+  },
+  {
+    "hash": "0x200b0fa6",
+    "signature": "initVote(uint8)"
+  },
+  {
+    "hash": "0x9a2e6b40",
+    "signature": "vote(uint80,bool)"
+  },
+  {
+    "hash": "0x25387eed",
+    "signature": "tallyTheVotes()"
+  },
+  {
+    "hash": "0x0519bb83",
+    "signature": "getVoteStatus(uint256)"
+  },
+  {
+    "hash": "0x5ffcbe30",
+    "signature": "voteForCandidateViaProxy(uint256,address)"
+  },
+  {
+    "hash": "0xf69e739e",
+    "signature": "voteForCandidate(uint256,address,address)"
+  },
+  {
+    "hash": "0x0b967584",
+    "signature": "voteForCandidate(uint256,address)"
+  },
+  {
+    "hash": "0x56098295",
+    "signature": "getCandidateVotesByIndex(uint256)"
+  },
+  {
+    "hash": "0xe89927ef",
+    "signature": "voteForCandidate(string)"
+  },
+  {
+    "hash": "0xe5920ab5",
+    "signature": "getNoVotes()"
+  },
+  {
+    "hash": "0xaddace62",
+    "signature": "getYesVotes()"
+  },
+  {
+    "hash": "0xd2f1f712",
+    "signature": "getVoters(uint128)"
+  },
+  {
+    "hash": "0x3ca63675",
+    "signature": "getNumberOfVotes(uint128)"
+  },
+  {
+    "hash": "0x27028aae",
+    "signature": "voteOnBounty(uint128,uint256,bool)"
+  },
+  {
+    "hash": "0x51de5541",
+    "signature": "castUpgradeVote(uint8,address,bool)"
+  },
+  {
+    "hash": "0xf8abb93d",
+    "signature": "hasVotedOnUpgradePoll(uint8,address)"
+  },
+  {
+    "hash": "0x90938792",
+    "signature": "canVoteAs(uint32,int256,address)"
+  },
+  {
+    "hash": "0x6b0dd90f",
+    "signature": "getVote(address,uint256)"
+  },
+  {
+    "hash": "0x5e983156",
+    "signature": "getJudgeVoted(uint256,address)"
+  },
+  {
+    "hash": "0x65fc783c",
+    "signature": "getNumOfVoters()"
+  },
+  {
+    "hash": "0x19e6e158",
+    "signature": "totalVotes(uint256)"
+  },
+  {
+    "hash": "0x22ce9bac",
+    "signature": "numberOfVotesCast()"
+  },
+  {
+    "hash": "0x8d85a70f",
+    "signature": "Vote(address,uint256,bool)"
+  },
+  {
+    "hash": "0x818097c5",
+    "signature": "getVotesForCandidate(address)"
+  },
+  {
+    "hash": "0x2d776793",
+    "signature": "downvoteComment(bytes32,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xc3df99b6",
+    "signature": "upvoteComment(bytes32,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xa54ff9ac",
+    "signature": "downvotePost(bytes32)"
+  },
+  {
+    "hash": "0xe2fc2691",
+    "signature": "upvotePost(bytes32)"
+  },
+  {
+    "hash": "0x4cb5ef77",
+    "signature": "closeVoteRevealPhaseIfAllowed(address,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xedc41d06",
+    "signature": "canCloseVoteRevealPhase(address,bytes32,bytes32)"
+  },
+  {
+    "hash": "0x3402b841",
+    "signature": "closeVoteCommitPhaseIfAllowed(address,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xb0950b8c",
+    "signature": "canCloseVoteCommitPhase(address,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xf1b8a5bf",
+    "signature": "commitPhaseMinVotes()"
+  },
+  {
+    "hash": "0xf9191b18",
+    "signature": "revealVotes(address,bytes32,bytes32,address[],uint256[],uint256[])"
+  },
+  {
+    "hash": "0x04c64e25",
+    "signature": "revealMyVote(address,bytes32,bytes32,uint256,uint256)"
+  },
+  {
+    "hash": "0x6a27c41d",
+    "signature": "revealVote(address,bytes32,bytes32,address,uint256,uint256)"
+  },
+  {
+    "hash": "0x2726f061",
+    "signature": "commitVotes(address[],bytes32[],bytes32[],bytes32[])"
+  },
+  {
+    "hash": "0x2ab24e3b",
+    "signature": "commitVote(address,bytes32,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xd1a75e0d",
+    "signature": "VOTE_FOR()"
+  },
+  {
+    "hash": "0x8b4a781c",
+    "signature": "getVoters(bytes32)"
+  },
+  {
+    "hash": "0x782fb5d4",
+    "signature": "getVoteCounts(bytes32)"
+  },
+  {
+    "hash": "0x5dfd3278",
+    "signature": "VOTE_AGAINST()"
+  },
+  {
+    "hash": "0xfe2dc64b",
+    "signature": "finalizeProposalVoteResults(bytes32,bytes32)"
+  },
+  {
+    "hash": "0xf01e0648",
+    "signature": "Voted(address,address,bool)"
+  },
+  {
+    "hash": "0x43de82f3",
+    "signature": "revealVote(uint256,uint8,bytes32,bytes32,uint32,bytes32)"
+  },
+  {
+    "hash": "0x6080af05",
+    "signature": "setVoterStakesContract(address)"
+  },
+  {
+    "hash": "0x9528724f",
+    "signature": "votedFreeze()"
+  },
+  {
+    "hash": "0x26bf2051",
+    "signature": "KickCommitteeVoteEvent(address,address)"
+  },
+  {
+    "hash": "0xdb122ad4",
+    "signature": "committeeJoinVotes(address)"
+  },
+  {
+    "hash": "0x85fcd363",
+    "signature": "votesArr(address)"
+  },
+  {
+    "hash": "0x86abfce9",
+    "signature": "Voted(uint256,bool,address)"
+  },
+  {
+    "hash": "0x90a53085",
+    "signature": "votesCountByOperation(bytes32)"
+  },
+  {
+    "hash": "0x644e4e4e",
+    "signature": "LogVotes(uint8,uint256)"
+  },
+  {
+    "hash": "0x9fa50ab2",
+    "signature": "voteDescription()"
+  },
+  {
+    "hash": "0x0eedc7b5",
+    "signature": "voteDescription(uint256)"
+  },
+  {
+    "hash": "0xa465e6ba",
+    "signature": "committeeKickVoters(address,address)"
+  },
+  {
+    "hash": "0x6b7ffb92",
+    "signature": "revote()"
+  },
+  {
+    "hash": "0xc3ef473c",
+    "signature": "ShareHolderVoted(address,uint256,bool)"
+  },
+  {
+    "hash": "0x2ef4940f",
+    "signature": "withdrawalsVotes()"
+  },
+  {
+    "hash": "0xa53830e3",
+    "signature": "numVotes(address)"
+  },
+  {
+    "hash": "0x4ec7ddc0",
+    "signature": "addCommitteeVote(address)"
+  },
+  {
+    "hash": "0x9da69180",
+    "signature": "commitVote(uint256,bytes32)"
+  },
+  {
+    "hash": "0xc8a4c767",
+    "signature": "kickCommitteeVote(address)"
+  },
+  {
+    "hash": "0xad22ccc0",
+    "signature": "committeeJoinVoters(address,address)"
+  },
+  {
+    "hash": "0x05ba2ded",
+    "signature": "voteForCashBackInPercentOfWeight(uint256)"
+  },
+  {
+    "hash": "0x8820e2d6",
+    "signature": "newVote(address,string,uint256,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x1d755c8d",
+    "signature": "recieveVote(address,bytes32)"
+  },
+  {
+    "hash": "0x0823d3a7",
+    "signature": "Voted(address,bool,string)"
+  },
+  {
+    "hash": "0x67389944",
+    "signature": "voteB(uint256)"
+  },
+  {
+    "hash": "0xf872c9dd",
+    "signature": "Vote(address,string,uint256)"
+  },
+  {
+    "hash": "0x37f2beed",
+    "signature": "getProposalVoterList(uint256)"
+  },
+  {
+    "hash": "0x78a29c66",
+    "signature": "votesAvailable(address)"
+  },
+  {
+    "hash": "0xc34f869b",
+    "signature": "Voted(uint256,bool,address,string)"
+  },
+  {
+    "hash": "0x8fe92aed",
+    "signature": "votedPerCent(address)"
+  },
+  {
+    "hash": "0xe50beffb",
+    "signature": "voteStart(uint256)"
+  },
+  {
+    "hash": "0x7315f446",
+    "signature": "votedKickoff()"
+  },
+  {
+    "hash": "0xe927ea7a",
+    "signature": "ballotVoteCount(uint32,uint32)"
+  },
+  {
+    "hash": "0x4a915ea2",
+    "signature": "votedHarvest()"
+  },
+  {
+    "hash": "0x32bbb8cc",
+    "signature": "mgrVotes(uint256)"
+  },
+  {
+    "hash": "0x7f9df012",
+    "signature": "VoteRevealed(address,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x24d1c28b",
+    "signature": "changeVoteRules(uint256)"
+  },
+  {
+    "hash": "0x490fc399",
+    "signature": "votedKickoff(uint256,address)"
+  },
+  {
+    "hash": "0x13332c6c",
+    "signature": "myVoteFactory()"
+  },
+  {
+    "hash": "0x1d69ccdc",
+    "signature": "SuccessfulVote(address,bytes32,bytes32)"
+  },
+  {
+    "hash": "0x591a89b2",
+    "signature": "Voted(address,bool,uint256)"
+  },
+  {
+    "hash": "0x7c2b8d0a",
+    "signature": "votedFreeze(address)"
+  },
+  {
+    "hash": "0x81269a18",
+    "signature": "voteBalance(address)"
+  },
+  {
+    "hash": "0x2772dffd",
+    "signature": "votes(bytes8)"
+  },
+  {
+    "hash": "0xad19bd26",
+    "signature": "getVoteCommit(uint256,address)"
+  },
+  {
+    "hash": "0xb1135686",
+    "signature": "votesIter()"
+  },
+  {
+    "hash": "0x0e05a512",
+    "signature": "superVoteAgree(address)"
+  },
+  {
+    "hash": "0x5e2e555f",
+    "signature": "RogisterToVoteOnTransfer(address)"
+  },
+  {
+    "hash": "0xf7efd408",
+    "signature": "votesIter(uint256)"
+  },
+  {
+    "hash": "0x2d8a4dca",
+    "signature": "committeeKickVotes(address)"
+  },
+  {
+    "hash": "0x8f8bbb8c",
+    "signature": "ObjectedVote(bytes32,address,uint256)"
+  },
+  {
+    "hash": "0x32aae34d",
+    "signature": "LogVoteToFreeze(address,uint256,uint8,bool)"
+  },
+  {
+    "hash": "0xbfa0fc93",
+    "signature": "getVoteResult(uint256)"
+  },
+  {
+    "hash": "0x568b5915",
+    "signature": "votesMaskByOperation(bytes32)"
+  },
+  {
+    "hash": "0x5a52da30",
+    "signature": "didVoteForName(address,string)"
+  },
+  {
+    "hash": "0x2fed3c9e",
+    "signature": "VoteCast(address,uint16)"
+  },
+  {
+    "hash": "0x64ab4702",
+    "signature": "voteWeightUnit(uint256)"
+  },
+  {
+    "hash": "0x911ef2e9",
+    "signature": "Voted(uint256,bool,address,uint256)"
+  },
+  {
+    "hash": "0x09603109",
+    "signature": "Vote_Customly(address)"
+  },
+  {
+    "hash": "0xfb48cf0e",
+    "signature": "getVoter(uint256,uint32)"
+  },
+  {
+    "hash": "0x4a3d3510",
+    "signature": "updateVotesOnTransfer(address,address)"
+  },
+  {
+    "hash": "0xea22ee15",
+    "signature": "LOG_EmergencyWithdrawalVote(address,bool)"
+  },
+  {
+    "hash": "0x4e27e916",
+    "signature": "voteLock(address)"
+  },
+  {
+    "hash": "0xd10c504f",
+    "signature": "has_voted(address)"
+  },
+  {
+    "hash": "0x7247390b",
+    "signature": "vote_beneficiary(string)"
+  },
+  {
+    "hash": "0x5ab4f162",
+    "signature": "getVote(address,address)"
+  },
+  {
+    "hash": "0x93997075",
+    "signature": "AddCommitteeVoteEvent(address,address)"
+  },
+  {
+    "hash": "0xf594f13f",
+    "signature": "votedFor(address)"
+  },
+  {
+    "hash": "0xc10fa789",
+    "signature": "withdrawalsVotes(address,uint256)"
+  },
+  {
+    "hash": "0xa636f4a1",
+    "signature": "VoterAdded(address)"
+  },
+  {
+    "hash": "0x02e0b293",
+    "signature": "LogVote(address,uint256,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x1fc242b9",
+    "signature": "onVote(address,int256)"
+  },
+  {
+    "hash": "0xec810684",
+    "signature": "registrationVote(address,uint256)"
+  },
+  {
+    "hash": "0xfb4460dd",
+    "signature": "getVoterStakes(address,uint256)"
+  },
+  {
+    "hash": "0x9c409e4d",
+    "signature": "VoteOnTransfer(address)"
+  },
+  {
+    "hash": "0x7b6d7a4a",
+    "signature": "VoteIntentionSet(uint256,bool,bool)"
+  },
+  {
+    "hash": "0x80e5d7b0",
+    "signature": "Voted(uint256,uint256,uint256,bool,address)"
+  },
+  {
+    "hash": "0xd66fd10d",
+    "signature": "LogVote(address)"
+  },
+  {
+    "hash": "0x2269f1c9",
+    "signature": "voteA(uint256)"
+  },
+  {
+    "hash": "0xd496a4f1",
+    "signature": "cashBackVotes()"
+  },
+  {
+    "hash": "0xf5370884",
+    "signature": "WithdrawalVotedEvent(uint256,address,uint256,uint256)"
+  },
+  {
+    "hash": "0x98063de4",
+    "signature": "LogPollVoted(bytes32,address,uint256)"
+  },
+  {
+    "hash": "0xe652f4cc",
+    "signature": "getVoteCount(address)"
+  },
+  {
+    "hash": "0x3b81b785",
+    "signature": "showVotes(address)"
+  },
+  {
+    "hash": "0x3b930294",
+    "signature": "voteTokenBalance(address)"
+  },
+  {
+    "hash": "0x3891c320",
+    "signature": "vote(int256)"
+  },
+  {
+    "hash": "0xcadc958f",
+    "signature": "VoteOnTransferStarted(address)"
+  },
+  {
+    "hash": "0x764c6dd3",
+    "signature": "voteToFreeze(address)"
+  },
+  {
+    "hash": "0xdd932c5b",
+    "signature": "voteEnd(uint256)"
+  },
+  {
+    "hash": "0x56412d85",
+    "signature": "getVote(uint256,uint32)"
+  },
+  {
+    "hash": "0x0242fc62",
+    "signature": "voteNo(string)"
+  },
+  {
+    "hash": "0xc31ad7dc",
+    "signature": "voteYes(string)"
+  },
+  {
+    "hash": "0x1e8551e3",
+    "signature": "voteRewardPerUnit(uint256)"
+  },
+  {
+    "hash": "0xa3ec138d",
+    "signature": "voters(address)"
+  },
+  {
+    "hash": "0x184c703d",
+    "signature": "LogVoteInitiate(uint256,uint256,uint256,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x1eed4e09",
+    "signature": "getVoteBy(address)"
+  },
+  {
+    "hash": "0x33756534",
+    "signature": "LogVote(address,bool,uint256)"
+  },
+  {
+    "hash": "0x8899fa0d",
+    "signature": "onUnVote(address,int256)"
+  },
+  {
+    "hash": "0x1bacfd66",
+    "signature": "Vote(address,bytes)"
+  },
+  {
+    "hash": "0x7e4d25c5",
+    "signature": "Refundably_if_gasprice_more50gwei_Send_Votes_From_Your_Balance(address,uint256)"
+  },
+  {
+    "hash": "0x845381c0",
+    "signature": "FailedVote(address,string)"
+  },
+  {
+    "hash": "0x1d1ce884",
+    "signature": "VoteCommitted(address,uint256,uint256)"
+  },
+  {
+    "hash": "0xb2bbae69",
+    "signature": "payForVote(address,bytes32,uint256)"
+  },
+  {
+    "hash": "0x7ba8c064",
+    "signature": "VotedEvent(uint256,address,bool,uint256,string)"
+  },
+  {
+    "hash": "0x432ba8be",
+    "signature": "voterToBallotID(address)"
+  },
+  {
+    "hash": "0xba3b60ed",
+    "signature": "rawVotes()"
+  },
+  {
+    "hash": "0x2fb9d203",
+    "signature": "VoteSubmitted(address,bytes8)"
+  },
+  {
+    "hash": "0xf3f16a15",
+    "signature": "voted(address,bool)"
+  },
+  {
+    "hash": "0x87c19bcb",
+    "signature": "votelog(bool,address,uint256)"
+  },
+  {
+    "hash": "0xb6974d87",
+    "signature": "cancelVoteForCashBack()"
+  },
+  {
+    "hash": "0xdd0e2373",
+    "signature": "voterAddresses(uint256)"
+  },
+  {
+    "hash": "0x53358fc4",
+    "signature": "castVote(address)"
+  },
+  {
+    "hash": "0x51b9a2f8",
+    "signature": "ballotVoters(uint32,address)"
+  },
+  {
+    "hash": "0xa7491b48",
+    "signature": "votesByAddress(address)"
+  },
+  {
+    "hash": "0x0c103837",
+    "signature": "votedHarvest(address)"
+  },
+  {
+    "hash": "0x7a294055",
+    "signature": "VoteReceived(string,address,uint256)"
+  },
+  {
+    "hash": "0x9a38bfae",
+    "signature": "voteHash(address)"
+  },
+  {
+    "hash": "0xeb3a867b",
+    "signature": "LogVote(bytes32,bool,address)"
+  },
+  {
+    "hash": "0x52d3592a",
+    "signature": "VoteExecuted(uint256)"
+  },
+  {
+    "hash": "0x5e5f2e37",
+    "signature": "startedNewVote(address,uint256,string,uint256)"
+  },
+  {
+    "hash": "0xe5a3363c",
+    "signature": "luckyVoters(uint256)"
+  },
+  {
+    "hash": "0x433c39ff",
+    "signature": "transferVoteController(address)"
+  },
+  {
+    "hash": "0x7badc7af",
+    "signature": "gaveVote(address)"
+  },
+  {
+    "hash": "0x1b538bcc",
+    "signature": "getCurrentVotes(uint256)"
+  },
+  {
+    "hash": "0xb31e1d4d",
+    "signature": "delegateVote(address)"
+  },
+  {
+    "hash": "0xccf8ef24",
+    "signature": "undelegateVote()"
+  },
+  {
+    "hash": "0xdb93f375",
+    "signature": "startTokenVotes(address[],uint256,uint256,uint256,address[])"
+  },
+  {
+    "hash": "0x497a7b48",
+    "signature": "taskRewardVote(bytes32,uint256)"
+  },
+  {
+    "hash": "0x544ffc9c",
+    "signature": "proposalVotes(uint256)"
+  },
+  {
+    "hash": "0x88f34bc2",
+    "signature": "depositAndVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x51ec4285",
+    "signature": "unvote(uint256)"
+  },
+  {
+    "hash": "0x7055d368",
+    "signature": "vote(uint256,uint256[])"
+  },
+  {
+    "hash": "0x77a9037b",
+    "signature": "updateLastVotedOnParameter(bytes32,address)"
+  },
+  {
+    "hash": "0x18946e8f",
+    "signature": "voteOnParameter(bytes32,int256)"
+  },
+  {
+    "hash": "0x7c129c1c",
+    "signature": "voteXId(uint256,bool)"
+  },
+  {
+    "hash": "0x1565f12f",
+    "signature": "createVote(bytes32,address,address,uint256,bool,string,string,uint256)"
+  },
+  {
+    "hash": "0x63d494ea",
+    "signature": "becomeVoter()"
+  },
+  {
+    "hash": "0xe682c9ea",
+    "signature": "rescindVote(bytes32)"
+  },
+  {
+    "hash": "0x6403a9ed",
+    "signature": "getVoteCountForOption(uint8)"
+  },
+  {
+    "hash": "0xae01a8fb",
+    "signature": "toCloseVote()"
+  },
+  {
+    "hash": "0x002c8456",
+    "signature": "toOpenVote()"
+  },
+  {
+    "hash": "0xf353108b",
+    "signature": "fechVoteResultForCandidate(address,uint256)"
+  },
+  {
+    "hash": "0x37e531c0",
+    "signature": "fechVoteNumForCandidate(address,uint256)"
+  },
+  {
+    "hash": "0x10fcdecc",
+    "signature": "fechVoteInfoForVoter(address,uint256)"
+  },
+  {
+    "hash": "0x0021d364",
+    "signature": "getNOVotesByEntity(uint256)"
+  },
+  {
+    "hash": "0x6a83662e",
+    "signature": "getYESVotesByEntity(uint256)"
+  },
+  {
+    "hash": "0x5be5e3ec",
+    "signature": "castVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0xaf91c5fd",
+    "signature": "getVotersChoice()"
+  },
+  {
+    "hash": "0xda280fe5",
+    "signature": "resetHasAutoVote()"
+  },
+  {
+    "hash": "0x3231a2b9",
+    "signature": "voteSnapshotBalanceAutoBatch(address[],uint256[])"
+  },
+  {
+    "hash": "0x85dacd5b",
+    "signature": "voteSnapshotBalanceAuto(address,uint256)"
+  },
+  {
+    "hash": "0x50eba4eb",
+    "signature": "voteSnapshotBalanceBatch(address[],uint256[])"
+  },
+  {
+    "hash": "0x063bac1f",
+    "signature": "giveRightToVoteByBatch(address[])"
+  },
+  {
+    "hash": "0x18bffce9",
+    "signature": "voteToResult(uint256)"
+  },
+  {
+    "hash": "0x3b5251b7",
+    "signature": "getPlayerVoteRewards(address,uint256)"
+  },
+  {
+    "hash": "0x851b6ef2",
+    "signature": "getAllVotes()"
+  },
+  {
+    "hash": "0xc1440167",
+    "signature": "Voterplayer()"
+  },
+  {
+    "hash": "0xb9ce795f",
+    "signature": "createVoter(string)"
+  },
+  {
+    "hash": "0x3eac48a0",
+    "signature": "getTotalVoter(address,address)"
+  },
+  {
+    "hash": "0x5d307c6f",
+    "signature": "giveToVoter(uint256,uint256)"
+  },
+  {
+    "hash": "0x5992f2a1",
+    "signature": "_createVoter(string)"
+  },
+  {
+    "hash": "0x20f1895c",
+    "signature": "fechVoteSumNumForCandidate(address)"
+  },
+  {
+    "hash": "0x79a3510d",
+    "signature": "thisVoterExists()"
+  },
+  {
+    "hash": "0x36c8c5ee",
+    "signature": "voteForCandidate(uint256)"
+  },
+  {
+    "hash": "0x1f8f69e3",
+    "signature": "fechAllVoteResultForCurrent()"
+  },
+  {
+    "hash": "0xc90189e4",
+    "signature": "fechAllVoteResultPreStageByBlock(uint256)"
+  },
+  {
+    "hash": "0xf206e7c9",
+    "signature": "fechAllVoteResultBySnapshotBlock(uint256)"
+  },
+  {
+    "hash": "0x15cf7a35",
+    "signature": "fechVoteResultForCandidateBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0x7973c57f",
+    "signature": "fechVoteNumForCandidateBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0xa6ba250c",
+    "signature": "fechVoteInfoForVoterBySnapshotBlock(address,uint256)"
+  },
+  {
+    "hash": "0x7e49d530",
+    "signature": "fechVoteMainInfoBySnapshotBlock(uint256)"
+  },
+  {
+    "hash": "0x3e1b0d29",
+    "signature": "fechAllVotersBySnapshotBlock(uint256)"
+  },
+  {
+    "hash": "0x3108bd87",
+    "signature": "voteNoLockBatch(address[],uint256[])"
+  },
+  {
+    "hash": "0x23cafc3d",
+    "signature": "voteNoLockByAdminBatch(address[],address[],uint256[])"
+  },
+  {
+    "hash": "0xce53ee2d",
+    "signature": "voteNoLockByAdmin(address,address,uint256)"
+  },
+  {
+    "hash": "0x94a0c1cc",
+    "signature": "cancelVoteForCandidateBySnapshotBlock(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x8c9151ae",
+    "signature": "voteProposal(uint256,bytes32)"
+  },
+  {
+    "hash": "0x39500019",
+    "signature": "voteWithSpecifiedAmounts(bytes32,uint256,uint256,uint256,address)"
+  },
+  {
+    "hash": "0x76124dac",
+    "signature": "vote(bytes32,uint256,address)"
+  },
+  {
+    "hash": "0x9d327229",
+    "signature": "fechVoteResultForCandidateByStage(address,uint256)"
+  },
+  {
+    "hash": "0x0e4a4e8c",
+    "signature": "fechVoteNumForCandidateByStage(address,uint256)"
+  },
+  {
+    "hash": "0x01c1de96",
+    "signature": "fechVoteInfoForVoterByStage(address,uint256)"
+  },
+  {
+    "hash": "0x6eb1e09a",
+    "signature": "fechVoteMainInfoByStage(uint256)"
+  },
+  {
+    "hash": "0xd3c567c1",
+    "signature": "cancelVoteForCandidateByStage(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x4d79ddb2",
+    "signature": "getVotesForItemFromVoterIndex(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0xd9037522",
+    "signature": "removeVoter(address,string)"
+  },
+  {
+    "hash": "0xd9e95a98",
+    "signature": "addVoter(address,string)"
+  },
+  {
+    "hash": "0xd4975d71",
+    "signature": "changeVoter(address,address,string)"
+  },
+  {
+    "hash": "0x95f59fe1",
+    "signature": "vote(string,string,string)"
+  },
+  {
+    "hash": "0xc83126ed",
+    "signature": "generateVoteForDelegationSchemaHash(uint16,address,bytes32,address)"
+  },
+  {
+    "hash": "0xcc5061da",
+    "signature": "voteForUser(uint16,address)"
+  },
+  {
+    "hash": "0x1066cd3c",
+    "signature": "voteFor(uint16,address,bytes32,bytes)"
+  },
+  {
+    "hash": "0xddb6e116",
+    "signature": "vote(uint16)"
+  },
+  {
+    "hash": "0xacb02f7c",
+    "signature": "VotePumpCoin0x()"
+  },
+  {
+    "hash": "0x24b82a76",
+    "signature": "voterReward(address,bytes32,uint256)"
+  },
+  {
+    "hash": "0xbd0ae405",
+    "signature": "voterReward(address,uint256)"
+  },
+  {
+    "hash": "0x5d69f68c",
+    "signature": "getVotersName()"
+  },
+  {
+    "hash": "0x65b7b357",
+    "signature": "getVotersAnswer()"
+  },
+  {
+    "hash": "0x150a5655",
+    "signature": "giveVote(string,uint8)"
+  },
+  {
+    "hash": "0xab6f9e4a",
+    "signature": "votesPerChoice(uint8)"
+  },
+  {
+    "hash": "0x3b7a3b7f",
+    "signature": "thisVotersName()"
+  },
+  {
+    "hash": "0xa9f16529",
+    "signature": "thisVotersChoice()"
+  },
+  {
+    "hash": "0x33b3dc04",
+    "signature": "castVote(string,uint8)"
+  },
+  {
+    "hash": "0x18024acc",
+    "signature": "voteStartTime()"
+  },
+  {
+    "hash": "0xb033cab9",
+    "signature": "voterStakes()"
+  },
+  {
+    "hash": "0x1421c1a4",
+    "signature": "vote_for_candidate_C_for_free()"
+  },
+  {
+    "hash": "0x86f5114e",
+    "signature": "voteName()"
+  },
+  {
+    "hash": "0x815bc7a0",
+    "signature": "vote_reward_pool_amount()"
+  },
+  {
+    "hash": "0xa31f2c52",
+    "signature": "partner2_voted_update_prenup()"
+  },
+  {
+    "hash": "0x82b68f4f",
+    "signature": "actionVotedRate()"
+  },
+  {
+    "hash": "0x21d3523c",
+    "signature": "voteToHarvestFund()"
+  },
+  {
+    "hash": "0x9e6cb42b",
+    "signature": "voteEndTime()"
+  },
+  {
+    "hash": "0x1ad7c199",
+    "signature": "callVote()"
+  },
+  {
+    "hash": "0xa3bef4d7",
+    "signature": "numVotes()"
+  },
+  {
+    "hash": "0xeb4fe500",
+    "signature": "logoVote()"
+  },
+  {
+    "hash": "0x17111edb",
+    "signature": "DevvotePrefundClosed()"
+  },
+  {
+    "hash": "0xc6384071",
+    "signature": "voteCount()"
+  },
+  {
+    "hash": "0xed5863f6",
+    "signature": "agaisnt_votes()"
+  },
+  {
+    "hash": "0xbaa24fce",
+    "signature": "rightVotes()"
+  },
+  {
+    "hash": "0x56624ce6",
+    "signature": "minVoteWeightK()"
+  },
+  {
+    "hash": "0xc6279ab1",
+    "signature": "voteClose()"
+  },
+  {
+    "hash": "0x10f5f6b6",
+    "signature": "free_vote_for_candidate_A()"
+  },
+  {
+    "hash": "0x7c24b295",
+    "signature": "votedYes()"
+  },
+  {
+    "hash": "0xd712eb4a",
+    "signature": "voteWeight()"
+  },
+  {
+    "hash": "0x6113611f",
+    "signature": "stakeVoted_Eth()"
+  },
+  {
+    "hash": "0xea5b561f",
+    "signature": "guardian1Vote()"
+  },
+  {
+    "hash": "0x47115192",
+    "signature": "voteCut()"
+  },
+  {
+    "hash": "0xdac17430",
+    "signature": "lastVoteTime()"
+  },
+  {
+    "hash": "0x64e08644",
+    "signature": "stakeRemainingToVote_Eth()"
+  },
+  {
+    "hash": "0xd8055812",
+    "signature": "votesDecline()"
+  },
+  {
+    "hash": "0x0f183119",
+    "signature": "vote_for_candidate_D_for_Free()"
+  },
+  {
+    "hash": "0x6d4d907c",
+    "signature": "maxNumVotesPerAccount()"
+  },
+  {
+    "hash": "0xf79a3c25",
+    "signature": "voteForDisable()"
+  },
+  {
+    "hash": "0x4dfb10bc",
+    "signature": "realVotedSupply()"
+  },
+  {
+    "hash": "0x8d0fc05a",
+    "signature": "votesYes()"
+  },
+  {
+    "hash": "0x359d393d",
+    "signature": "votes_against()"
+  },
+  {
+    "hash": "0xb6307f0e",
+    "signature": "nLuckyVoters()"
+  },
+  {
+    "hash": "0xa39ad747",
+    "signature": "minVote()"
+  },
+  {
+    "hash": "0x2ab13037",
+    "signature": "votesNo()"
+  },
+  {
+    "hash": "0x55416e06",
+    "signature": "voteA()"
+  },
+  {
+    "hash": "0x6cbef5a7",
+    "signature": "sumVote()"
+  },
+  {
+    "hash": "0xcb1faac1",
+    "signature": "leftVotes()"
+  },
+  {
+    "hash": "0xac12f3e9",
+    "signature": "partner1_voted_update_prenup()"
+  },
+  {
+    "hash": "0x4093b49c",
+    "signature": "votes_for()"
+  },
+  {
+    "hash": "0x98fb2eca",
+    "signature": "voteStopped()"
+  },
+  {
+    "hash": "0x0e7d490d",
+    "signature": "numberOfVotes()"
+  },
+  {
+    "hash": "0x98668b24",
+    "signature": "tokensVotedForDisable()"
+  },
+  {
+    "hash": "0x98a892c9",
+    "signature": "getBylawsCashBackVoteRejectedDuration()"
+  },
+  {
+    "hash": "0x2247328c",
+    "signature": "vote01YesCount()"
+  },
+  {
+    "hash": "0xd6106696",
+    "signature": "withdrawal_last_voter()"
+  },
+  {
+    "hash": "0x17a7eb4c",
+    "signature": "vote02NoCount()"
+  },
+  {
+    "hash": "0xcfebb88b",
+    "signature": "recallVoteToFreezeFund()"
+  },
+  {
+    "hash": "0x15e82e87",
+    "signature": "Free_vote_for_candidate_B()"
+  },
+  {
+    "hash": "0x1a750945",
+    "signature": "vote03YesCount()"
+  },
+  {
+    "hash": "0x464066f5",
+    "signature": "vote03NoCount()"
+  },
+  {
+    "hash": "0x023e36d8",
+    "signature": "nVotesCast()"
+  },
+  {
+    "hash": "0xf247016c",
+    "signature": "isVoteOngoing()"
+  },
+  {
+    "hash": "0x929e902d",
+    "signature": "curVotes()"
+  },
+  {
+    "hash": "0x14a1231f",
+    "signature": "guardian2Vote()"
+  },
+  {
+    "hash": "0xe2649caf",
+    "signature": "voteToFreezeFund()"
+  },
+  {
+    "hash": "0x0a9ff623",
+    "signature": "voteUID()"
+  },
+  {
+    "hash": "0x1ea5efc4",
+    "signature": "partner1_voted_update_marriage_status()"
+  },
+  {
+    "hash": "0x07b8ef24",
+    "signature": "votesSupport()"
+  },
+  {
+    "hash": "0xf400d37b",
+    "signature": "yesVoteSum()"
+  },
+  {
+    "hash": "0x84219204",
+    "signature": "minVotedTokensPerc()"
+  },
+  {
+    "hash": "0xb8fa7778",
+    "signature": "for_votes()"
+  },
+  {
+    "hash": "0x9451bca7",
+    "signature": "result_votes()"
+  },
+  {
+    "hash": "0x9dcee160",
+    "signature": "voteC()"
+  },
+  {
+    "hash": "0x5008cfcc",
+    "signature": "votePerETH()"
+  },
+  {
+    "hash": "0x7a72c30d",
+    "signature": "checkMilestoneStateInvestorVotedNoVotingEndedNo()"
+  },
+  {
+    "hash": "0x62a974b6",
+    "signature": "vote01NoCount()"
+  },
+  {
+    "hash": "0xd454f92e",
+    "signature": "mNumVoters()"
+  },
+  {
+    "hash": "0xfb32aedb",
+    "signature": "voteB()"
+  },
+  {
+    "hash": "0xada1a34b",
+    "signature": "resetVoteKindnessEvery()"
+  },
+  {
+    "hash": "0x6c6c39fb",
+    "signature": "votersLength()"
+  },
+  {
+    "hash": "0x2c70d64e",
+    "signature": "unVote()"
+  },
+  {
+    "hash": "0x7d9d972d",
+    "signature": "guardian3Vote()"
+  },
+  {
+    "hash": "0x46d7195d",
+    "signature": "vote_until()"
+  },
+  {
+    "hash": "0xcab17220",
+    "signature": "VotesNecessary()"
+  },
+  {
+    "hash": "0x962c9c8d",
+    "signature": "MAX_VOTED_TOKEN_PERC()"
+  },
+  {
+    "hash": "0x07f5888b",
+    "signature": "vote02YesCount()"
+  },
+  {
+    "hash": "0xcfd94b01",
+    "signature": "votersLen()"
+  },
+  {
+    "hash": "0xad5022a5",
+    "signature": "Votes()"
+  },
+  {
+    "hash": "0xe623a93b",
+    "signature": "votesForAnswer()"
+  },
+  {
+    "hash": "0x3cc228fd",
+    "signature": "minVotes()"
+  },
+  {
+    "hash": "0xa15a8613",
+    "signature": "VoteCountPerProcess()"
+  },
+  {
+    "hash": "0x2277466b",
+    "signature": "voteToClose()"
+  },
+  {
+    "hash": "0x6b863578",
+    "signature": "noVoteSum()"
+  },
+  {
+    "hash": "0x860c851a",
+    "signature": "votePrice()"
+  },
+  {
+    "hash": "0x1187d66e",
+    "signature": "votedNo()"
+  },
+  {
+    "hash": "0x85defaf4",
+    "signature": "voteEnds()"
+  },
+  {
+    "hash": "0x2157320e",
+    "signature": "votedAddress()"
+  },
+  {
+    "hash": "0xc7e975b8",
+    "signature": "partner2_voted_update_marriage_status()"
+  },
+  {
+    "hash": "0x41f4793a",
+    "signature": "getCurrentImpeachmentVotesSupporting()"
+  },
+  {
+    "hash": "0xadbda5a8",
+    "signature": "voteToKickoffNewFiscalYear()"
+  },
+  {
+    "hash": "0xe048d0fc",
+    "signature": "voteCancelCurrent()"
+  },
+  {
+    "hash": "0xb647990a",
+    "signature": "countVotes()"
+  },
+  {
+    "hash": "0x5ef3f3d1",
+    "signature": "voteRelease()"
+  },
+  {
+    "hash": "0x4c1b8ffd",
+    "signature": "voteCost()"
+  },
+  {
+    "hash": "0x1725b847",
+    "signature": "voteAgree()"
+  },
+  {
+    "hash": "0x160d66ae",
+    "signature": "voteToken()"
+  },
+  {
+    "hash": "0x2c684eb6",
+    "signature": "afterVoteNoCashBackTime()"
+  },
+  {
+    "hash": "0x6908ea00",
+    "signature": "_checkVotes(uint256,bytes32,bytes32)"
+  },
+  {
+    "hash": "0xaf81bd03",
+    "signature": "_voteAndCheck(uint256)"
+  },
+  {
+    "hash": "0x249559ad",
+    "signature": "computeVoteOutcome(uint256)"
+  },
+  {
+    "hash": "0x6e48a035",
+    "signature": "closeVote(uint256)"
+  },
+  {
+    "hash": "0x54a1b431",
+    "signature": "getVoteDetails(uint256)"
+  },
+  {
+    "hash": "0xcee024dc",
+    "signature": "getNumberOfVotes()"
+  },
+  {
+    "hash": "0x062907d5",
+    "signature": "initiateVotingContractUpdateVote(string,address)"
+  },
+  {
+    "hash": "0x59198827",
+    "signature": "initiateDocumentVote(string,bytes32)"
+  },
+  {
+    "hash": "0x8a61bb91",
+    "signature": "initiateBoardMemberVote(string,bytes32,address[])"
+  },
+  {
+    "hash": "0xd4d0e931",
+    "signature": "resetAllVotes()"
+  },
+  {
+    "hash": "0xbcbf7229",
+    "signature": "resetVoteCount(uint256)"
+  },
+  {
+    "hash": "0xb2fce4ea",
+    "signature": "delegateVote(int256,address)"
+  },
+  {
+    "hash": "0x15373e3d",
+    "signature": "castVote(uint256,bool)"
+  },
+  {
+    "hash": "0x8329ac52",
+    "signature": "voteForCandidate(string,string)"
+  },
+  {
+    "hash": "0x4a3bf377",
+    "signature": "totalVotesFor(string)"
+  },
+  {
+    "hash": "0x7d112d64",
+    "signature": "authenticateVoter(string)"
+  },
+  {
+    "hash": "0x14a0069a",
+    "signature": "getVoter(string)"
+  },
+  {
+    "hash": "0xe92b7f4b",
+    "signature": "AddVoters(string)"
+  },
+  {
+    "hash": "0xf2d73dc6",
+    "signature": "VoteZoneToken()"
+  },
+  {
+    "hash": "0x2351baca",
+    "signature": "fechVoteNum(address)"
+  },
+  {
+    "hash": "0x18577f8d",
+    "signature": "calVote(address)"
+  },
+  {
+    "hash": "0x6cf75170",
+    "signature": "cancelVote(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x13e1d1d2",
+    "signature": "multiCancelVoteForCandidate(address[],uint256[])"
+  },
+  {
+    "hash": "0x21e3cdd0",
+    "signature": "voteDn(uint256)"
+  },
+  {
+    "hash": "0xd4ebc5ff",
+    "signature": "voteUp(uint256)"
+  },
+  {
+    "hash": "0x25746251",
+    "signature": "canVote(uint256)"
+  },
+  {
+    "hash": "0xfe23583d",
+    "signature": "fechVoteResultForCandidate(address)"
+  },
+  {
+    "hash": "0x58b255ea",
+    "signature": "fechVoteNumForCandidate(address)"
+  },
+  {
+    "hash": "0xcd197ff6",
+    "signature": "fechVoteInfoForVoter(address)"
+  },
+  {
+    "hash": "0x45232370",
+    "signature": "fechVoteMainInfo()"
+  },
+  {
+    "hash": "0x850a1532",
+    "signature": "voteSnapshotBalance(address,uint256)"
+  },
+  {
+    "hash": "0x5b68a49d",
+    "signature": "cancelVoteForCandidate(address,uint256)"
+  },
+  {
+    "hash": "0xa4adc431",
+    "signature": "fechVoteResultForCandidate()"
+  },
+  {
+    "hash": "0xacb09dde",
+    "signature": "fechVoteNumForCandidate()"
+  },
+  {
+    "hash": "0xe47d914a",
+    "signature": "fechVoteInfoForVoter()"
+  },
+  {
+    "hash": "0x003259ea",
+    "signature": "voteResult()"
+  },
+  {
+    "hash": "0x4aa5b398",
+    "signature": "voteCurrentResult()"
+  },
+  {
+    "hash": "0x720de551",
+    "signature": "deleteVoterForCandidate(uint256)"
+  },
+  {
+    "hash": "0xb278b8df",
+    "signature": "updateVoteInfo(address)"
+  },
+  {
+    "hash": "0xc9620770",
+    "signature": "doVote(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x5dc824b9",
+    "signature": "voteNoLock(address,uint256)"
+  },
+  {
+    "hash": "0x7f93354b",
+    "signature": "multiVoteNoLock(address[],uint256[])"
+  },
+  {
+    "hash": "0xb9223946",
+    "signature": "endVote()"
+  },
+  {
+    "hash": "0x28bc5ee4",
+    "signature": "beginVote()"
+  },
+  {
+    "hash": "0x02d947ef",
+    "signature": "vote(uint256,address)"
+  },
+  {
+    "hash": "0xe3ccb809",
+    "signature": "voteOnProposal(bool)"
+  },
+  {
+    "hash": "0x6125fd20",
+    "signature": "voteForRefund(bool)"
+  },
+  {
+    "hash": "0xa69358aa",
+    "signature": "voteForTap(bool)"
+  },
+  {
+    "hash": "0xa6593562",
+    "signature": "getamountvotes()"
+  },
+  {
+    "hash": "0x0324d0d9",
+    "signature": "calculatVotePrice()"
+  },
+  {
+    "hash": "0xac9d7e0a",
+    "signature": "raisevote()"
+  },
+  {
+    "hash": "0x9ef40238",
+    "signature": "getcoinsvotes(string)"
+  },
+  {
+    "hash": "0x00badc85",
+    "signature": "getcvotesid(string)"
+  },
+  {
+    "hash": "0x077f1008",
+    "signature": "tovote(string,uint256,uint256)"
+  },
+  {
+    "hash": "0xb5040f0a",
+    "signature": "getLastSessionVote(uint256,address)"
+  },
+  {
+    "hash": "0x6c973248",
+    "signature": "getVoteCount(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0xb3c7618e",
+    "signature": "getVoteRuling(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x3f58f8c0",
+    "signature": "voteRuling(uint256,uint256,uint256[])"
+  },
+  {
+    "hash": "0xd4923d4e",
+    "signature": "getUserVote(address)"
+  },
+  {
+    "hash": "0x1fe4ee7f",
+    "signature": "getVoteItemDetails(uint256)"
+  },
+  {
+    "hash": "0x182ae5f2",
+    "signature": "getVotesForItem(uint256)"
+  },
+  {
+    "hash": "0x35bbe70e",
+    "signature": "getAllVoters()"
+  },
+  {
+    "hash": "0xce11f2bb",
+    "signature": "vote(uint256[])"
+  },
+  {
+    "hash": "0x629f4028",
+    "signature": "getVoteNum(address)"
+  },
+  {
+    "hash": "0xb81c6453",
+    "signature": "vote(uint8,address)"
+  },
+  {
+    "hash": "0x4b1be424",
+    "signature": "getVotesBetweenFor(uint256,uint256,uint256,address)"
+  },
+  {
+    "hash": "0x176416ed",
+    "signature": "getVotesBetween(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x9cf4cb1e",
+    "signature": "_getVotes(uint256,uint256,uint256,address)"
+  },
+  {
+    "hash": "0xe168c3ec",
+    "signature": "votes()"
+  },
+  {
+    "hash": "0xb54c71eb",
+    "signature": "weightedVoteCountsOf(uint256)"
+  },
+  {
+    "hash": "0xbf24a794",
+    "signature": "getMostVotedOptions()"
+  },
+  {
+    "hash": "0x8298c3b5",
+    "signature": "itemVoteDn(address,uint256)"
+  },
+  {
+    "hash": "0x3f6ec73a",
+    "signature": "itemVoteUp(address,uint256)"
+  },
+  {
+    "hash": "0xc591b3ca",
+    "signature": "itemCanVote(address,uint256)"
+  },
+  {
+    "hash": "0x6e6a1dc3",
+    "signature": "weightedVoteCountsOf(uint256,uint256)"
+  },
+  {
+    "hash": "0x38f55e59",
+    "signature": "doVote(bytes32)"
+  },
+  {
+    "hash": "0xaadc3b72",
+    "signature": "hasVoted(bytes32,address)"
+  },
+  {
+    "hash": "0x50ef3bae",
+    "signature": "getQuestionVote(string,uint256)"
+  },
+  {
+    "hash": "0x6dd40905",
+    "signature": "getQuestionVotesAllCount(string)"
+  },
+  {
+    "hash": "0xe5fe7870",
+    "signature": "vote(string,uint128,uint256)"
+  },
+  {
+    "hash": "0xd1a40ce1",
+    "signature": "_rewardVote(address,address,uint256)"
+  },
+  {
+    "hash": "0x90ca27f3",
+    "signature": "vote(string,uint8)"
+  },
+  {
+    "hash": "0x047f993d",
+    "signature": "_vote(bytes32,uint8)"
+  },
+  {
+    "hash": "0x5a1e0a46",
+    "signature": "cancelVote(uint8)"
+  },
+  {
+    "hash": "0x943e8216",
+    "signature": "vote(uint256,uint8)"
+  },
+  {
+    "hash": "0x9bb192fd",
+    "signature": "getVotes(uint32)"
+  },
+  {
+    "hash": "0x8e7a9687",
+    "signature": "check_vote(string)"
+  },
+  {
+    "hash": "0x94f183cb",
+    "signature": "get_votes()"
+  },
+  {
+    "hash": "0x62a44fe9",
+    "signature": "has_voted()"
+  },
+  {
+    "hash": "0xb224c40a",
+    "signature": "vote(uint8,string)"
+  },
+  {
+    "hash": "0x0e9ef902",
+    "signature": "join_voter()"
+  },
+  {
+    "hash": "0xef2fd54d",
+    "signature": "viewVotes()"
+  },
+  {
+    "hash": "0x7fb0fe14",
+    "signature": "voteCandidateTwo()"
+  },
+  {
+    "hash": "0x9fd8bfb3",
+    "signature": "voteCandidateOne()"
+  },
+  {
+    "hash": "0x129b873b",
+    "signature": "addVote(uint256,address)"
+  },
+  {
+    "hash": "0x94a1be9c",
+    "signature": "addVotes(uint256)"
+  },
+  {
+    "hash": "0x99cf5582",
+    "signature": "burnVotes()"
+  },
+  {
+    "hash": "0x62c655f5",
+    "signature": "removeVoters(uint256[])"
+  },
+  {
+    "hash": "0x3b8ffa5e",
+    "signature": "addVoters(address[],bytes32[])"
+  },
+  {
+    "hash": "0x934a029d",
+    "signature": "getVoteAtTxForUser(bytes32,address)"
+  },
+  {
+    "hash": "0x4d8c3ea6",
+    "signature": "getTxVoteDetails(bytes32)"
+  },
+  {
+    "hash": "0x091a79b2",
+    "signature": "getVoteAndTime(uint256,uint256)"
+  },
+  {
+    "hash": "0xee3f1bc7",
+    "signature": "changeVoters(address,string)"
+  },
+  {
+    "hash": "0x3b4159da",
+    "signature": "voteProposal(address,address,uint256,string,bytes)"
+  },
+  {
+    "hash": "0xea470d33",
+    "signature": "voteForAnswer(uint256,address,bool)"
+  },
+  {
+    "hash": "0x30092ded",
+    "signature": "changeVoteWeight(address,int256)"
+  },
+  {
+    "hash": "0xf9bbcc6d",
+    "signature": "setMinVoteWeightK(uint256)"
+  },
+  {
+    "hash": "0x4b9b808d",
+    "signature": "setResetVoteKindnessEvery(uint256)"
+  },
+  {
+    "hash": "0x95c5ed9d",
+    "signature": "getVoterStatus(bytes32,address)"
+  },
+  {
+    "hash": "0xa7bc8c46",
+    "signature": "howManyVoters(bytes32)"
+  },
+  {
+    "hash": "0x64821338",
+    "signature": "hasVoted()"
+  },
+  {
+    "hash": "0xc4788efe",
+    "signature": "resetTotalVotes()"
+  },
+  {
+    "hash": "0x92893fb9",
+    "signature": "hasAddressVoted()"
+  },
+  {
+    "hash": "0xddbe8f09",
+    "signature": "voteEnd()"
+  },
+  {
+    "hash": "0xbaa40e5c",
+    "signature": "getVote(string)"
+  },
+  {
+    "hash": "0x65e93b3f",
+    "signature": "getUserVotes()"
+  },
+  {
+    "hash": "0x4cb6f4a5",
+    "signature": "voteRequest(uint256)"
+  },
+  {
+    "hash": "0x4db9bfe6",
+    "signature": "getPostVoteCount(uint256)"
+  },
+  {
+    "hash": "0x8c6b6085",
+    "signature": "supportNewVoter(address,address)"
+  },
+  {
+    "hash": "0x44669e40",
+    "signature": "purgeVoter(address,uint256)"
+  },
+  {
+    "hash": "0x71fa632f",
+    "signature": "newVoterAllocation()"
+  },
+  {
+    "hash": "0x08891c0a",
+    "signature": "addVoter(address,address,bytes32)"
+  },
+  {
+    "hash": "0x9b671604",
+    "signature": "proposeVoter(bytes32)"
+  },
+  {
+    "hash": "0x7de576cd",
+    "signature": "vote(uint16,uint256)"
+  },
+  {
+    "hash": "0x2aebcbb6",
+    "signature": "finishVote()"
+  },
+  {
+    "hash": "0x3eaf7591",
+    "signature": "makeVote(uint256)"
+  },
+  {
+    "hash": "0x0243aa1b",
+    "signature": "getCurrentNbVote()"
+  },
+  {
+    "hash": "0x58c8c0a7",
+    "signature": "getVoteNumberList()"
+  },
+  {
+    "hash": "0x57796e1c",
+    "signature": "setVote(uint256,uint256)"
+  },
+  {
+    "hash": "0xcb6b25f3",
+    "signature": "votePassed(uint256)"
+  },
+  {
+    "hash": "0x4d318b0e",
+    "signature": "tallyVotes(uint256)"
+  },
+  {
+    "hash": "0x88a8b341",
+    "signature": "setVoteInternal(uint256,uint160,bool,bool)"
+  },
+  {
+    "hash": "0xd73a2901",
+    "signature": "setManagedVote(uint256,uint152,bool)"
+  },
+  {
+    "hash": "0xd3516b7e",
+    "signature": "setVote(uint256,bool)"
+  },
+  {
+    "hash": "0xdde8c8d6",
+    "signature": "getUserVote(uint256,uint160,bool)"
+  },
+  {
+    "hash": "0x95c47416",
+    "signature": "VoteOnMyTeslaColor()"
+  },
+  {
+    "hash": "0x03b103ea",
+    "signature": "Vote(uint256,string,bytes32[])"
+  },
+  {
+    "hash": "0x6a7b988c",
+    "signature": "votePopularity(bytes32)"
+  },
+  {
+    "hash": "0x6801db98",
+    "signature": "devoteToCar(string)"
+  },
+  {
+    "hash": "0x38d4d73e",
+    "signature": "isVotedGood(uint256)"
+  },
+  {
+    "hash": "0xcd9745f2",
+    "signature": "voteForTransaction(uint256)"
+  },
+  {
+    "hash": "0x6eb58224",
+    "signature": "castDocumentVote(uint8,bytes32,bool)"
+  },
+  {
+    "hash": "0xa48515fc",
+    "signature": "castConstitutionVote(uint8,address,bool)"
+  },
+  {
+    "hash": "0x69422924",
+    "signature": "hasVotedOnDocumentPoll(uint8,bytes32)"
+  },
+  {
+    "hash": "0xbcc3af24",
+    "signature": "hasVotedOnConstitutionPoll(uint8,address)"
+  },
+  {
+    "hash": "0x246d41a9",
+    "signature": "incrementTotalVoters()"
+  },
+  {
+    "hash": "0x8912ab5c",
+    "signature": "dropVotes(address[])"
+  },
+  {
+    "hash": "0x1906ff98",
+    "signature": "getVotePrice()"
+  },
+  {
+    "hash": "0xf276e1c7",
+    "signature": "voteResultPublish(address[],uint256[])"
+  },
+  {
+    "hash": "0x8742fc3b",
+    "signature": "getVoteResult()"
+  },
+  {
+    "hash": "0x006ddae3",
+    "signature": "changevotePrice(uint256)"
+  },
+  {
+    "hash": "0xc71f4253",
+    "signature": "getNumberOfVotes(uint256)"
+  },
+  {
+    "hash": "0x8e455a1d",
+    "signature": "_createVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x6ece7d88",
+    "signature": "doVote(uint256,uint256)"
+  },
+  {
+    "hash": "0x308879bf",
+    "signature": "setVoteCost(uint256)"
+  },
+  {
+    "hash": "0xb4402991",
+    "signature": "userVoteFor(address,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x00c2b78e",
+    "signature": "voteFor(uint256,uint256)"
+  },
+  {
+    "hash": "0x24d6d601",
+    "signature": "voteFor(address,uint256)"
+  },
+  {
+    "hash": "0x8a54d6a4",
+    "signature": "recordVotes(uint256[])"
+  },
+  {
+    "hash": "0x095daeb1",
+    "signature": "getVoterProposal(address,uint256)"
+  },
+  {
+    "hash": "0xff5feb3e",
+    "signature": "getVoterVotesCount(address)"
+  },
+  {
+    "hash": "0x236ed5a6",
+    "signature": "getVoterProposalsCount(address)"
+  },
+  {
+    "hash": "0x495f9bae",
+    "signature": "getProposalVoterVotesCount(uint256,address)"
+  },
+  {
+    "hash": "0xbc597d9f",
+    "signature": "getProposalVotesCount(uint256)"
+  },
+  {
+    "hash": "0xc3b66bed",
+    "signature": "getProposalVotersCount(uint256)"
+  },
+  {
+    "hash": "0x40066733",
+    "signature": "getTotalVotersCount()"
+  },
+  {
+    "hash": "0x58480d41",
+    "signature": "setVotesPerProposal(uint256)"
+  },
+  {
+    "hash": "0xbf7f3cfe",
+    "signature": "getVotesPerProposal()"
+  },
+  {
+    "hash": "0xc06f1bc4",
+    "signature": "updateVoterTimes(address,uint256)"
+  },
+  {
+    "hash": "0xf72918ef",
+    "signature": "addVoterVote(address)"
+  },
+  {
+    "hash": "0x881abe3e",
+    "signature": "addProposalVote(uint256,address)"
+  },
+  {
+    "hash": "0xca8f9651",
+    "signature": "voterVotingTime(address)"
+  },
+  {
+    "hash": "0x75a90144",
+    "signature": "voterExists(address)"
+  },
+  {
+    "hash": "0x166a3952",
+    "signature": "createVoter(address)"
+  },
+  {
+    "hash": "0x2495c0ce",
+    "signature": "stopVote()"
+  },
+  {
+    "hash": "0x1cabc5ed",
+    "signature": "userVoteFor(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x02d77954",
+    "signature": "getVoteOf(uint256)"
+  },
+  {
+    "hash": "0xe5b7ec88",
+    "signature": "setVoteCut(uint256)"
+  },
+  {
+    "hash": "0x65ce7395",
+    "signature": "setMinVote(uint256)"
+  },
+  {
+    "hash": "0x189ca316",
+    "signature": "setVoteWeight(uint256)"
+  },
+  {
+    "hash": "0xf3b35100",
+    "signature": "voteOf(address)"
+  },
+  {
+    "hash": "0xdbaf023d",
+    "signature": "LogoVote()"
+  },
+  {
+    "hash": "0x5ba1a1d4",
+    "signature": "viewKarmaVotesBySymbol(string,address)"
+  },
+  {
+    "hash": "0x703950ff",
+    "signature": "viewKarmaVotes(uint256)"
+  },
+  {
+    "hash": "0xa50cd8e7",
+    "signature": "votesFor(address)"
+  },
+  {
+    "hash": "0xbad84416",
+    "signature": "eligibleVotes(address)"
+  },
+  {
+    "hash": "0x523f891c",
+    "signature": "totalEligibleVotes()"
+  },
+  {
+    "hash": "0x453aa450",
+    "signature": "vote_proposed_address(string,string)"
+  },
+  {
+    "hash": "0xf0ecadcc",
+    "signature": "voteSvp03(bool)"
+  },
+  {
+    "hash": "0xf4916f05",
+    "signature": "VoteSvp002(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x9094c763",
+    "signature": "vote(uint32)"
+  },
+  {
+    "hash": "0x7b5bc2e4",
+    "signature": "isVoted()"
+  },
+  {
+    "hash": "0x2f274d91",
+    "signature": "buyVotes(uint8)"
+  },
+  {
+    "hash": "0xe92e5c34",
+    "signature": "getVoterCount(uint256)"
+  },
+  {
+    "hash": "0x6f94e502",
+    "signature": "getVoter(uint256,uint256)"
+  },
+  {
+    "hash": "0x42d46a9a",
+    "signature": "castVote(uint256,uint256,bytes32,string,bytes32)"
+  },
+  {
+    "hash": "0x9f396cff",
+    "signature": "voteAgainst()"
+  },
+  {
+    "hash": "0xffaa3608",
+    "signature": "voteFor()"
+  },
+  {
+    "hash": "0x1c226164",
+    "signature": "isAddressVoted(address,address)"
+  },
+  {
+    "hash": "0x6ae85e0d",
+    "signature": "isAddressNotVoted(address,address)"
+  },
+  {
+    "hash": "0xf25e34a9",
+    "signature": "checkJuryVoted(address)"
+  },
+  {
+    "hash": "0xed081329",
+    "signature": "vote(address[])"
+  },
+  {
+    "hash": "0xea118590",
+    "signature": "vote_proposed_address(string)"
+  },
+  {
+    "hash": "0xbacbe2da",
+    "signature": "cancelVote(uint256)"
+  },
+  {
+    "hash": "0x73b1184e",
+    "signature": "setupVote(uint256)"
+  },
+  {
+    "hash": "0x42545825",
+    "signature": "hasVoted(address,uint256)"
+  },
+  {
+    "hash": "0xb84fe73b",
+    "signature": "voteAll(address)"
+  },
+  {
+    "hash": "0xbb07576d",
+    "signature": "voteToUpdatePrenup()"
+  },
+  {
+    "hash": "0x6033cdc6",
+    "signature": "voteToUpdateMaritalStatus()"
+  },
+  {
+    "hash": "0x7fc5f05c",
+    "signature": "changeVoters(bytes32,address,string)"
+  },
+  {
+    "hash": "0xa828251e",
+    "signature": "voteProposal(bytes32,address,address,uint256,bytes32,string,bytes)"
+  },
+  {
+    "hash": "0xa635d31e",
+    "signature": "Vote(address,bool)"
+  },
+  {
+    "hash": "0xee89bb87",
+    "signature": "unlockVoterMusic(uint256)"
+  },
+  {
+    "hash": "0x87e70933",
+    "signature": "VoteMusic(uint256,address)"
+  },
+  {
+    "hash": "0x04830ddd",
+    "signature": "getVotersAt(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x8884b807",
+    "signature": "getVoters(uint256,uint256)"
+  },
+  {
+    "hash": "0x98c07938",
+    "signature": "votersCount()"
+  },
+  {
+    "hash": "0x8f4ccce8",
+    "signature": "startTokenVotes(address[15])"
+  },
+  {
+    "hash": "0x612c56fa",
+    "signature": "submitVote(uint256,bool)"
+  },
+  {
+    "hash": "0xcfefcfb0",
+    "signature": "VotedForProposal(uint256,address)"
+  },
+  {
+    "hash": "0xcd78a3b7",
+    "signature": "processVote(bool)"
+  },
+  {
+    "hash": "0x064c4ebc",
+    "signature": "backDevvoteOwner()"
+  },
+  {
+    "hash": "0xa9390454",
+    "signature": "DevvotePrefund(address,address)"
+  },
+  {
+    "hash": "0x7086528e",
+    "signature": "DemocracyVote()"
+  },
+  {
+    "hash": "0xe7e9e106",
+    "signature": "rewardVote(address,address,uint256)"
+  },
+  {
+    "hash": "0x8090f92e",
+    "signature": "revealVotes(uint256[],uint256[],uint256[])"
+  },
+  {
+    "hash": "0x3ec36b99",
+    "signature": "commitVotes(uint256[],bytes32[],uint256[],uint256[])"
+  },
+  {
+    "hash": "0xaa6e4858",
+    "signature": "VoteAdvertisement(uint256,address)"
+  },
+  {
+    "hash": "0x6997d166",
+    "signature": "USER_VOTE(uint256,uint256)"
+  },
+  {
+    "hash": "0xfedfe46c",
+    "signature": "vote(address,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x72159335",
+    "signature": "voteInitiate(uint256,uint256,uint256,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0xc4e12e1d",
+    "signature": "updateMinVotedTokens(uint256)"
+  },
+  {
+    "hash": "0x2c24909c",
+    "signature": "getVotedTokensPerc()"
+  },
+  {
+    "hash": "0x43c14b22",
+    "signature": "revokeVote()"
+  },
+  {
+    "hash": "0x469737d5",
+    "signature": "forceRejectVotes(bytes32,address)"
+  },
+  {
+    "hash": "0x54f81786",
+    "signature": "startTokenVotes(address[10])"
+  },
+  {
+    "hash": "0xe1f69952",
+    "signature": "voteSvp02(bool)"
+  },
+  {
+    "hash": "0x3c648ddd",
+    "signature": "voteSvp01(bool)"
+  },
+  {
+    "hash": "0x00b3c619",
+    "signature": "VoteSvp001(address,uint256,uint256)"
+  },
+  {
+    "hash": "0xf6d72acd",
+    "signature": "setVoter(uint256,address,uint256)"
+  },
+  {
+    "hash": "0xb74cf3b6",
+    "signature": "setVoterCount(uint256)"
+  },
+  {
+    "hash": "0xfa193a6e",
+    "signature": "Voter()"
+  },
+  {
+    "hash": "0x9a0e7d66",
+    "signature": "getTotalVotes()"
+  },
+  {
+    "hash": "0xcf756935",
+    "signature": "determineLuckyVoters()"
+  },
+  {
+    "hash": "0x00e5fc5f",
+    "signature": "rawVotes(address)"
+  },
+  {
+    "hash": "0x49330cb8",
+    "signature": "getVote(uint256,uint256)"
+  },
+  {
+    "hash": "0x579f20d8",
+    "signature": "submitProxyVote(bytes32[5],bytes)"
+  },
+  {
+    "hash": "0x0425c357",
+    "signature": "submitVote(uint256,bytes32,bytes)"
+  },
+  {
+    "hash": "0x0d2ce376",
+    "signature": "submitVote(bytes32,bytes32)"
+  },
+  {
+    "hash": "0xd33b79d9",
+    "signature": "addBallotAndVoterNoPk(bytes32)"
+  },
+  {
+    "hash": "0x158e7986",
+    "signature": "addBallotAndVoterWithPk(bytes32,bytes32)"
+  },
+  {
+    "hash": "0x405bd7bb",
+    "signature": "getCurrentNumberOfVoters()"
+  },
+  {
+    "hash": "0x728880c2",
+    "signature": "payOutVoterByAddress(address)"
+  },
+  {
+    "hash": "0x4718dc4d",
+    "signature": "payOutVoterById(uint256)"
+  },
+  {
+    "hash": "0x00f9ac78",
+    "signature": "setVoteFactory(address)"
+  },
+  {
+    "hash": "0x8ab21fb6",
+    "signature": "delegateVote()"
+  },
+  {
+    "hash": "0xeeaaf19d",
+    "signature": "vote(bytes32,bytes32)"
+  },
+  {
+    "hash": "0x91e0b6c0",
+    "signature": "ProofPublicVote()"
+  },
+  {
+    "hash": "0x80664ba0",
+    "signature": "ProofTeamVote()"
+  },
+  {
+    "hash": "0x9ab86b78",
+    "signature": "getVoteHubDetails()"
+  },
+  {
+    "hash": "0xdfeb1fd3",
+    "signature": "getUserVotes(address,string,string)"
+  },
+  {
+    "hash": "0x45cfcc42",
+    "signature": "getKeyVotes(string,string)"
+  },
+  {
+    "hash": "0x61a255b5",
+    "signature": "vote(string,string,uint256,bool)"
+  },
+  {
+    "hash": "0x424e94da",
+    "signature": "VoteHub(address)"
+  },
+  {
+    "hash": "0x0048d680",
+    "signature": "testTransferVotes()"
+  },
+  {
+    "hash": "0xb68e7f6e",
+    "signature": "testCastVote()"
+  },
+  {
+    "hash": "0xca1c3bb3",
+    "signature": "testNonExistingVoteWeight()"
+  },
+  {
+    "hash": "0x9ee61c9d",
+    "signature": "testExistingVoteWeight()"
+  },
+  {
+    "hash": "0xc858c017",
+    "signature": "testMsgSenderInVoters()"
+  },
+  {
+    "hash": "0xcdf05ab5",
+    "signature": "voteTime(uint256)"
+  },
+  {
+    "hash": "0xad2da239",
+    "signature": "calculateVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x66bab099",
+    "signature": "getCurrentSupplyVote()"
+  },
+  {
+    "hash": "0x8e4fa788",
+    "signature": "accountHasCurrentVote(address)"
+  },
+  {
+    "hash": "0xba9a4d6e",
+    "signature": "hasAddressVotedInBallot(uint32,address)"
+  },
+  {
+    "hash": "0xcff9293a",
+    "signature": "vote(uint32,uint32)"
+  },
+  {
+    "hash": "0xbc3f931f",
+    "signature": "getVote(uint256,address)"
+  },
+  {
+    "hash": "0x24108475",
+    "signature": "vote(uint256,string)"
+  },
+  {
+    "hash": "0x93b71fe5",
+    "signature": "Dao1901Votes(address)"
+  },
+  {
+    "hash": "0xfd994513",
+    "signature": "executeVote(uint256[])"
+  },
+  {
+    "hash": "0x0dc96015",
+    "signature": "getVotes()"
+  },
+  {
+    "hash": "0xcdd72253",
+    "signature": "getVoters()"
+  },
+  {
+    "hash": "0x7701f361",
+    "signature": "test_newProposalAndNotEnoughVotes()"
+  },
+  {
+    "hash": "0x1f2d8d66",
+    "signature": "getNumberVote(uint256)"
+  },
+  {
+    "hash": "0x2808241e",
+    "signature": "vote(uint8,bool)"
+  },
+  {
+    "hash": "0xf9c397f8",
+    "signature": "VoteInOrganizationScheme()"
+  },
+  {
+    "hash": "0xa1f1aa66",
+    "signature": "cancelVoteInternal(bytes32,address)"
+  },
+  {
+    "hash": "0x835939d5",
+    "signature": "vote(address,bool,string)"
+  },
+  {
+    "hash": "0x8d1c3b8b",
+    "signature": "sHasDownvoted(uint256,uint256,address)"
+  },
+  {
+    "hash": "0xaf0a078e",
+    "signature": "tHasUpvoted(uint256,address)"
+  },
+  {
+    "hash": "0x33849e55",
+    "signature": "voteOnSolution(uint256,uint256,bool)"
+  },
+  {
+    "hash": "0xb18019bd",
+    "signature": "_executeVote(uint256)"
+  },
+  {
+    "hash": "0x012a08f8",
+    "signature": "_vote(uint256,bool,address)"
+  },
+  {
+    "hash": "0xcdb2867b",
+    "signature": "canVote(uint256,address)"
+  },
+  {
+    "hash": "0x63472fad",
+    "signature": "setVote(address,string,uint256,address,bool)"
+  },
+  {
+    "hash": "0xc1f1d116",
+    "signature": "internalVote(bytes32,address,uint256,uint256)"
+  },
+  {
+    "hash": "0xec22f94f",
+    "signature": "getRedeemableReputationVoter(bytes32,address)"
+  },
+  {
+    "hash": "0xc52cde58",
+    "signature": "getRedeemableTokensVoter(bytes32,address)"
+  },
+  {
+    "hash": "0x3c133818",
+    "signature": "winningVote(bytes32)"
+  },
+  {
+    "hash": "0x70743768",
+    "signature": "voteStake(bytes32,uint256)"
+  },
+  {
+    "hash": "0x119ce91b",
+    "signature": "voteInfo(bytes32,address)"
+  },
+  {
+    "hash": "0xbcfb9b61",
+    "signature": "voteProposal(uint256,bool)"
+  },
+  {
+    "hash": "0x3eb76b9c",
+    "signature": "castVote(uint256)"
+  },
+  {
+    "hash": "0x8b67430e",
+    "signature": "voteToCandidateIndex(uint256)"
+  },
+  {
+    "hash": "0x44e4d226",
+    "signature": "alreadyVoted(string)"
+  },
+  {
+    "hash": "0x7a4c96ad",
+    "signature": "vote(string,string,uint256)"
+  },
+  {
+    "hash": "0x6ea521d9",
+    "signature": "_voteAs(address,uint256,uint256,uint256,string)"
+  },
+  {
+    "hash": "0x1f23a9bc",
+    "signature": "getAcceptedAndRejectedVotes(uint256,uint256)"
+  },
+  {
+    "hash": "0x03d4e98a",
+    "signature": "getProposalVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x7fff9f1a",
+    "signature": "getProposalVoteCount(uint256,uint256)"
+  },
+  {
+    "hash": "0xa034b6cb",
+    "signature": "vote(uint256,uint256,uint256,string)"
+  },
+  {
+    "hash": "0x0242f351",
+    "signature": "getVote()"
+  },
+  {
+    "hash": "0x860c5ed6",
+    "signature": "testVote()"
+  },
+  {
+    "hash": "0xdac05adc",
+    "signature": "test_1_ensureVoteWorks_increaseBlocksBy100()"
+  },
+  {
+    "hash": "0xfa5ef276",
+    "signature": "getVotedData(address,uint256,address)"
+  },
+  {
+    "hash": "0xbbc64582",
+    "signature": "getVotesCount(address,uint256,bytes32)"
+  },
+  {
+    "hash": "0x0c693110",
+    "signature": "getVoted(address,uint256)"
+  },
+  {
+    "hash": "0x8ee36f05",
+    "signature": "isVoted(address,uint256)"
+  },
+  {
+    "hash": "0x01cb0261",
+    "signature": "getWeightedVote(bytes20,uint256)"
+  },
+  {
+    "hash": "0xaa33ab1b",
+    "signature": "getVoted(uint256)"
+  },
+  {
+    "hash": "0x24888b4a",
+    "signature": "isVoterLocked(address)"
+  },
+  {
+    "hash": "0x02aa9be2",
+    "signature": "unvote(address,uint256)"
+  },
+  {
+    "hash": "0xcd496e35",
+    "signature": "votePositionOf(uint256,uint256)"
+  },
+  {
+    "hash": "0x4445b569",
+    "signature": "voteWeightOf(uint256,uint256)"
+  },
+  {
+    "hash": "0x77ca4d11",
+    "signature": "loadVotesForParticipant(bytes32,bytes32,uint8)"
+  },
+  {
+    "hash": "0xcd3a7531",
+    "signature": "loadVotesForParticipantVerify(bytes32,bytes32,uint8)"
+  },
+  {
+    "hash": "0xb4512913",
+    "signature": "voteStatus(bytes32,uint256)"
+  },
+  {
+    "hash": "0x9525c0cc",
+    "signature": "cancelVote(bytes32)"
+  },
+  {
+    "hash": "0xac5d8745",
+    "signature": "voteWithSpecifiedAmounts(bytes32,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x339e23d1",
+    "signature": "ownerVote(bytes32,uint256,address)"
+  },
+  {
+    "hash": "0xb3e7c2bd",
+    "signature": "getVote(bytes32,address)"
+  },
+  {
+    "hash": "0x730ad454",
+    "signature": "vote(bytes32,address,bool)"
+  },
+  {
+    "hash": "0xcaee4e18",
+    "signature": "CommunityVotes(uint256)"
+  },
+  {
+    "hash": "0x86a66dc3",
+    "signature": "getVoteResults()"
+  },
+  {
+    "hash": "0x95c96554",
+    "signature": "cancelVote()"
+  },
+  {
+    "hash": "0x38db6dd3",
+    "signature": "registerVoter(address)"
+  },
+  {
+    "hash": "0x5d95738b",
+    "signature": "vHasVoted(uint256,address)"
+  },
+  {
+    "hash": "0x48e591ac",
+    "signature": "getVote(address,address,uint32)"
+  },
+  {
+    "hash": "0x93830c74",
+    "signature": "solUpDownVote(bool,uint32,address)"
+  },
+  {
+    "hash": "0x807896d5",
+    "signature": "voteProposal(uint256)"
+  },
+  {
+    "hash": "0x2d0a8809",
+    "signature": "testAddVoters()"
+  },
+  {
+    "hash": "0x99bad2cd",
+    "signature": "testAddExistingVoter()"
+  },
+  {
+    "hash": "0xc906a5aa",
+    "signature": "testDeleteVoter()"
+  },
+  {
+    "hash": "0x3bf81b91",
+    "signature": "testAddVoter()"
+  },
+  {
+    "hash": "0x0bb4bbaf",
+    "signature": "testInitialNumberOfVoters()"
+  },
+  {
+    "hash": "0xfd609b91",
+    "signature": "DelVoteMemberCandidate(uint256)"
+  },
+  {
+    "hash": "0x986ee316",
+    "signature": "VoteMemberCandidate(uint256)"
+  },
+  {
+    "hash": "0x0de3b100",
+    "signature": "VoteForProposal(uint256)"
+  },
+  {
+    "hash": "0x10ccbbdb",
+    "signature": "_checkVotes(address)"
+  },
+  {
+    "hash": "0xaa8d11e3",
+    "signature": "ThirdPartyVoter()"
+  },
+  {
+    "hash": "0x36cb8740",
+    "signature": "test_3_accessRestriction_vote_shouldThrow()"
+  },
+  {
+    "hash": "0x4b9e7ecd",
+    "signature": "test_1_restrictDoubleVote_shouldThrow()"
+  },
+  {
+    "hash": "0xd417f18d",
+    "signature": "getTopicNameAndVotesAt(uint256)"
+  },
+  {
+    "hash": "0x31d31647",
+    "signature": "hasSenderVoted(uint256)"
+  },
+  {
+    "hash": "0x1364326c",
+    "signature": "countVotes(uint256,uint256)"
+  },
+  {
+    "hash": "0x8f33df77",
+    "signature": "countAllVotes(uint256)"
+  },
+  {
+    "hash": "0x2a711ab4",
+    "signature": "voteTeam(bool)"
+  },
+  {
+    "hash": "0x51c72c87",
+    "signature": "ProofTeamVote(address)"
+  },
+  {
+    "hash": "0x09a55b65",
+    "signature": "votePreProposal(uint256)"
+  },
+  {
+    "hash": "0x879b18b6",
+    "signature": "getMemberCanVote(address)"
+  },
+  {
+    "hash": "0x8c529628",
+    "signature": "getVoteFromProposal(uint256,uint256)"
+  },
+  {
+    "hash": "0x5f74bbde",
+    "signature": "vote(address,uint256)"
+  },
+  {
+    "hash": "0x2b29fbfa",
+    "signature": "testFail_voterNotCertified()"
+  },
+  {
+    "hash": "0xc4b7c4cf",
+    "signature": "communityVote(bytes32,bool)"
+  },
+  {
+    "hash": "0xbfcdca48",
+    "signature": "CastVote(bool)"
+  },
+  {
+    "hash": "0x9ede7a37",
+    "signature": "voteCount(uint8,uint8,uint8)"
+  },
+  {
+    "hash": "0xd32ab21d",
+    "signature": "voteFor(uint8,uint8,uint8)"
+  },
+  {
+    "hash": "0xb0417e98",
+    "signature": "checkVote()"
+  },
+  {
+    "hash": "0x0146d0ca",
+    "signature": "sendVote(string)"
+  },
+  {
+    "hash": "0x36cd24aa",
+    "signature": "prepareVote(bytes32,uint256)"
+  },
+  {
+    "hash": "0xd4f50f98",
+    "signature": "getVoter(address)"
+  },
+  {
+    "hash": "0xaf5c4540",
+    "signature": "getVoteTokens()"
+  },
+  {
+    "hash": "0x033e7ef4",
+    "signature": "registerVoteToken(bytes32,bytes32)"
+  },
+  {
+    "hash": "0xbd041c4d",
+    "signature": "vote(address,bool)"
+  },
+  {
+    "hash": "0x3bf53a89",
+    "signature": "unVoteAll()"
+  },
+  {
+    "hash": "0x9fd6adb3",
+    "signature": "unVote(uint256)"
+  },
+  {
+    "hash": "0x39c7967d",
+    "signature": "vote(address,uint256,uint256,string)"
+  },
+  {
+    "hash": "0x0f39c6ab",
+    "signature": "removeVotersVote(address)"
+  },
+  {
+    "hash": "0x22518a75",
+    "signature": "getVotersCandidateVote()"
+  },
+  {
+    "hash": "0x3b7ff404",
+    "signature": "getVotersPartyVote()"
+  },
+  {
+    "hash": "0xbc6c4d0f",
+    "signature": "totalVotesForCandidate(uint256)"
+  },
+  {
+    "hash": "0x9a6dfeff",
+    "signature": "totalVotesForParty(uint256)"
+  },
+  {
+    "hash": "0x90f0fef0",
+    "signature": "test2ContractVote()"
+  },
+  {
+    "hash": "0xd935bac3",
+    "signature": "test1Vote()"
+  },
+  {
+    "hash": "0x07df18d3",
+    "signature": "test0Vote()"
+  },
+  {
+    "hash": "0xecca031f",
+    "signature": "hasVoted(uint256)"
+  },
+  {
+    "hash": "0xbbc84d1a",
+    "signature": "voteWorth()"
+  },
+  {
+    "hash": "0x82495626",
+    "signature": "getVoteAccount(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x3c890e4c",
+    "signature": "getVoteStake(uint256,uint256,uint256,bool)"
+  },
+  {
+    "hash": "0x6a0c5723",
+    "signature": "getHasVoted(uint256,address)"
+  },
+  {
+    "hash": "0x788d3851",
+    "signature": "voteOpen()"
+  },
+  {
+    "hash": "0x359d04a2",
+    "signature": "voteRuling(uint256,bool)"
+  },
+  {
+    "hash": "0xcc9ab267",
+    "signature": "voteForCandidate(bytes32)"
+  },
+  {
+    "hash": "0x632a9a52",
+    "signature": "vote()"
+  },
+  {
+    "hash": "0x1d7fb62f",
+    "signature": "initVote(uint256)"
+  },
+  {
+    "hash": "0x43859632",
+    "signature": "hasVoted(uint256,address)"
+  },
+  {
+    "hash": "0x45ddc85d",
+    "signature": "voteOf(uint256,address)"
+  },
+  {
+    "hash": "0xa4b195ff",
+    "signature": "numVoters(uint256)"
+  },
+  {
+    "hash": "0xa294ed7a",
+    "signature": "voterAddressOf(uint256,uint256)"
+  },
+  {
+    "hash": "0xf43532ac",
+    "signature": "changeWaveVoteContract(address,string)"
+  },
+  {
+    "hash": "0x56ce6377",
+    "signature": "WaveVoteContractRegistery()"
+  },
+  {
+    "hash": "0xd07bff0c",
+    "signature": "getVoter(uint256)"
+  },
+  {
+    "hash": "0xe7b3387c",
+    "signature": "getVoteCount()"
+  },
+  {
+    "hash": "0x62715547",
+    "signature": "castVote(bytes32[])"
+  },
+  {
+    "hash": "0x7ffcb093",
+    "signature": "addVoter(address,bytes32[])"
+  },
+  {
+    "hash": "0xc05e5776",
+    "signature": "giveRightToVote(address,address)"
+  },
+  {
+    "hash": "0xbca72b59",
+    "signature": "revealVote(string,uint256,uint256)"
+  },
+  {
+    "hash": "0xaea96513",
+    "signature": "returnSecretVoteHash(uint256)"
+  },
+  {
+    "hash": "0x0469d644",
+    "signature": "storeSecretVote(bytes32,uint256)"
+  },
+  {
+    "hash": "0x0e741a36",
+    "signature": "generateVoteSecret(string,uint256)"
+  },
+  {
+    "hash": "0xb384abef",
+    "signature": "vote(uint256,uint256)"
+  },
+  {
+    "hash": "0x4410121f",
+    "signature": "test_voteSpammingFor()"
+  },
+  {
+    "hash": "0x735a80b1",
+    "signature": "test_voteSpammingAgainst()"
+  },
+  {
+    "hash": "0x2a4a1b73",
+    "signature": "vote(address,uint256,uint256)"
+  },
+  {
+    "hash": "0x2bc542a4",
+    "signature": "votePublic(address,bool)"
+  },
+  {
+    "hash": "0xaa284a4a",
+    "signature": "ProofPublicVote(address)"
+  },
+  {
+    "hash": "0x4b9f5c98",
+    "signature": "vote(bool)"
+  },
+  {
+    "hash": "0xe48db5d4",
+    "signature": "ProofVote(address)"
+  },
+  {
+    "hash": "0x1f4f9ab1",
+    "signature": "supervisorVote(uint256,bool)"
+  },
+  {
+    "hash": "0xba42c8e5",
+    "signature": "resolveSupervisorVote(uint256)"
+  },
+  {
+    "hash": "0x633dfc70",
+    "signature": "vote(bool,address)"
+  },
+  {
+    "hash": "0xc851ed7c",
+    "signature": "startNewVote(uint256,string)"
+  },
+  {
+    "hash": "0x54f9cbb3",
+    "signature": "newVote(uint256,string)"
+  },
+  {
+    "hash": "0x40067c91",
+    "signature": "VoteFactory()"
+  },
+  {
+    "hash": "0x4d4d2b1c",
+    "signature": "hasVoted(address,address)"
+  },
+  {
+    "hash": "0x79e097f0",
+    "signature": "addVotePair(address,address)"
+  },
+  {
+    "hash": "0xff91bb45",
+    "signature": "castVote(address,uint256)"
+  },
+  {
+    "hash": "0x9bfc80fc",
+    "signature": "TopSciFiVoter()"
+  },
+  {
+    "hash": "0x9ef1204c",
+    "signature": "vote(bytes32,uint256)"
+  },
+  {
+    "hash": "0x0d15fd77",
+    "signature": "totalVotes()"
+  },
+  {
+    "hash": "0xd7c8e90c",
+    "signature": "voteAmendment(uint256)"
+  },
+  {
+    "hash": "0x6645c0dc",
+    "signature": "transferVotes(address,uint256)"
+  },
+  {
+    "hash": "0xd46a5d7e",
+    "signature": "vote(uint256,bool,uint256)"
+  },
+  {
+    "hash": "0xfdf56d57",
+    "signature": "voteElection(uint256)"
+  },
+  {
+    "hash": "0xb11d8bb8",
+    "signature": "revealVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x6cbf9c5e",
+    "signature": "commitVote(uint256,bytes32,uint256,uint256)"
+  },
+  {
+    "hash": "0xefcee869",
+    "signature": "vote(bool,string)"
+  },
+  {
+    "hash": "0x4a716adf",
+    "signature": "transferVotes(uint256,address)"
+  },
+  {
+    "hash": "0x2c0a3f89",
+    "signature": "castVote(uint256,uint256)"
+  },
+  {
+    "hash": "0x585f9b7a",
+    "signature": "addVoteOption(uint256,string)"
+  },
+  {
+    "hash": "0x413499f1",
+    "signature": "deleteVoters()"
+  },
+  {
+    "hash": "0x68197360",
+    "signature": "getVotes(uint256,address)"
+  },
+  {
+    "hash": "0xf1e6bb1c",
+    "signature": "getVoteOptions(uint256)"
+  },
+  {
+    "hash": "0x66b728d5",
+    "signature": "getVoteOptionId(uint256,string)"
+  },
+  {
+    "hash": "0xb4ed7ec3",
+    "signature": "getVoteOption(uint256,uint256)"
+  },
+  {
+    "hash": "0xa7771ee3",
+    "signature": "isVoter(address)"
+  },
+  {
+    "hash": "0xde2237d3",
+    "signature": "getVotersLength()"
+  },
+  {
+    "hash": "0x9a443955",
+    "signature": "setNumVotesRequired(uint256)"
+  },
+  {
+    "hash": "0x0fb524ce",
+    "signature": "castVote()"
+  },
+  {
+    "hash": "0x8a6655d6",
+    "signature": "vote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0xa077c657",
+    "signature": "giveRightVote(address)"
+  },
+  {
+    "hash": "0x19eb8d48",
+    "signature": "canVote(address,uint256)"
+  },
+  {
+    "hash": "0xfc78b430",
+    "signature": "delegateVote(address,address,uint256)"
+  },
+  {
+    "hash": "0x12f4cbd9",
+    "signature": "Vote(uint8)"
+  },
+  {
+    "hash": "0xa7aad3db",
+    "signature": "voterReward(address,uint256,uint256)"
+  },
+  {
+    "hash": "0xa69beaba",
+    "signature": "vote(bytes32)"
+  },
+  {
+    "hash": "0x2f265cf7",
+    "signature": "totalVotesFor(bytes32)"
+  },
+  {
+    "hash": "0xf4ab9adf",
+    "signature": "addVoter(address)"
+  },
+  {
+    "hash": "0x4444c51f",
+    "signature": "_recalculateTopQuestionsOnVote(uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x5a55c1f0",
+    "signature": "getVote(uint256)"
+  },
+  {
+    "hash": "0xf7553098",
+    "signature": "voteForOutcome(int256,uint256)"
+  },
+  {
+    "hash": "0xf2ba18ed",
+    "signature": "calculateVotes()"
+  },
+  {
+    "hash": "0x6dd7d8ea",
+    "signature": "vote(address)"
+  },
+  {
+    "hash": "0xa5e8c5d6",
+    "signature": "setVoteRight(address,uint256)"
+  },
+  {
+    "hash": "0xee650248",
+    "signature": "vote(uint256,int8)"
+  },
+  {
+    "hash": "0xd21cbffc",
+    "signature": "getIfVoted(uint256,address)"
+  },
+  {
+    "hash": "0x47c66140",
+    "signature": "getProposalVotes(uint256)"
+  },
+  {
+    "hash": "0x0121b93f",
+    "signature": "vote(uint256)"
+  },
+  {
+    "hash": "0xe2cdd42a",
+    "signature": "vote(uint256,address,bool)"
+  },
+  {
+    "hash": "0xb3f98adc",
+    "signature": "vote(uint8)"
+  },
+  {
+    "hash": "0x0bf75567",
+    "signature": "voteSuperQuorum(uint256,bool)"
+  },
+  {
+    "hash": "0xf2561a43",
+    "signature": "voteSuicide(address)"
+  },
+  {
+    "hash": "0x76e4ca0d",
+    "signature": "voteQuorum(uint256,bool)"
+  },
+  {
+    "hash": "0x23637e60",
+    "signature": "votePrice(uint256,bool)"
+  },
+  {
+    "hash": "0x901d7775",
+    "signature": "voteOutMasterKey(address)"
+  },
+  {
+    "hash": "0x58ae8bcf",
+    "signature": "voteInMasterKey(address)"
+  },
+  {
+    "hash": "0x045c6ce0",
+    "signature": "voteForProposal(uint256)"
+  },
+  {
+    "hash": "0x187a62d5",
+    "signature": "voteEmergencyWithdrawal(bool)"
+  },
+  {
+    "hash": "0x52a554a1",
+    "signature": "voteBoardProposal(uint256,address,bool)"
+  },
+  {
+    "hash": "0x5f09952e",
+    "signature": "voteAllowTransactions(bool)"
+  },
+  {
+    "hash": "0x6bf52ffa",
+    "signature": "Vote()"
+  },
+  {
+    "hash": "0x7318b453",
+    "signature": "setVotetUntil(uint8)"
+  },
+  {
+    "hash": "0x4bc2a657",
+    "signature": "setVoter(address)"
+  },
+  {
+    "hash": "0x3b46a7df",
+    "signature": "ivote(bool)"
+  },
+  {
+    "hash": "0x9e7b8d61",
+    "signature": "giveRightToVote(address)"
+  },
+  {
+    "hash": "0xff981099",
+    "signature": "getVotes(uint256)"
+  },
+  {
+    "hash": "0x1840f0ca",
+    "signature": "countVotes(uint256)"
+  },
+  {
+    "hash": "0x5aa94a68",
+    "signature": "computeResultVoteExtraInvestFeesRate()"
+  },
+  {
+    "hash": "0x22d8cf5b",
+    "signature": "CheckUserVote(uint8,uint8)"
+  },
+  {
+    "hash": "0x97709cde",
+    "signature": "ARK_VOTER_1_00(uint256,uint256,uint256,uint256,uint256,uint256)"
+  },
+  {
+    "hash": "0x3b0506f7",
+    "signature": "getVoteByAddress(address,uint256)"
+  },
+  {
+    "hash": "0x291e6777",
+    "signature": "sendVote(uint256,uint256)"
+  },
+  {
+    "hash": "0x009b9369",
+    "signature": "getVoteNumber(uint256)"
+  },
+  {
+    "hash": "0x49aa4ee2",
+    "signature": "removeVote()"
+  },
+  {
+    "hash": "0x41c12a70",
+    "signature": "voteNo()"
+  },
+  {
+    "hash": "0x90cf581c",
+    "signature": "voteYes()"
+  },
+  {
+    "hash": "0x323082d7",
+    "signature": "Vote(string)"
+  },
+  {
+    "hash": "0x2e0ef395",
+    "signature": "voteOnNewEntryFees_only_VIP(uint8)"
+  },
+  {
+    "hash": "0x9f2ce678",
+    "signature": "vote(bytes32,bool)"
+  },
+  {
+    "hash": "0x7b395487",
+    "signature": "voteForUltimateOutcome(bytes32,uint16)"
+  },
+  {
+    "hash": "0x41095b60",
+    "signature": "voteForUltimateOutcome(bytes,uint16)"
+  },
+  {
+    "hash": "0x3106fea0",
+    "signature": "voteOnProposal(uint256,bool,uint256)"
+  },
+  {
+    "hash": "0x750e443a",
+    "signature": "voteAgainst(uint256)"
+  },
+  {
+    "hash": "0x5e44daf3",
+    "signature": "vote(uint256,int256)"
+  },
+  {
+    "hash": "0x86a50535",
+    "signature": "voteFor(uint256)"
+  },
+  {
+    "hash": "0xfc36e15b",
+    "signature": "vote(string)"
+  },
+  {
+    "hash": "0x64ed31fe",
+    "signature": "authVotes(address)"
+  },
+  {
+    "hash": "0xd3c0715b",
+    "signature": "vote(uint256,bool,string)"
+  },
+  {
+    "hash": "0xb21bce4c",
+    "signature": "vote(bytes,bool)"
+  },
+  {
+    "hash": "0x378a2178",
+    "signature": "tallyVotes()"
+  },
+  {
+    "hash": "0xe9dc0614",
+    "signature": "vote(bytes)"
+  },
+  {
+    "hash": "0x10e6e06c",
+    "signature": "vote(bool,uint256)"
+  },
+  {
+    "hash": "0x27a5c7c6",
+    "signature": "voteDecline(uint256)"
+  },
+  {
+    "hash": "0xd78c20ff",
+    "signature": "voteApprove(uint256)"
+  },
+  {
+    "hash": "0x921f98bb",
+    "signature": "resolveFailVote()"
+  },
+  {
+    "hash": "0xe45ebe93",
+    "signature": "checkVoteStatus()"
+  },
+  {
+    "hash": "0xf98a4eca",
+    "signature": "executeVote(uint256)"
+  },
+  {
+    "hash": "0x4da74ee6",
+    "signature": "setVoteIntention(uint256,bool,bool,string)"
+  },
+  {
+    "hash": "0xc9d27afe",
+    "signature": "vote(uint256,bool)"
+  }
+]

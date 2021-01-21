@@ -1,0 +1,287 @@
+% Number of method hashes (aka signatures)
+\newcommand{\signatures}[0]{$1\,458$\@\xspace} % 2020-10-30
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%SELECT SUM(count)
+%FROM (
+%SELECT
+%  substr(cast(date(votingContract.block_timestamp) as string), 0, 4) as year,
+%  count(*) as count
+%FROM
+%  `evotinggasanalysis.20201027.20201027` votingContract,
+%  `evotinggasanalysis.20201027.votingContractMethods` count
+%WHERE
+%  1=1
+%  AND count.address = votingContract.address
+%--  AND count.voting_methods > 1
+%  AND DATE(votingContract.block_timestamp) <= "2020-04-21"
+%group by year
+%order by year ASC
+%);
+
+% Number of voting smart contracts (unique by their address)
+\newcommand{\deployedVotingSmartContracts}[0]{$5\,185$\@\xspace}
+
+% ... and the sum of their Ether balanaces
+\newcommand{\deployedVotingSmartContractsBalanaces}[0]{$11\,794$\@\xspace}
+
+%SELECT
+%  SUM(balances.eth_balance / 1000000000000000000) AS balance,
+%FROM
+%  `evotinggasanalysis.20201027.20201027` votingContract,
+%  `evotinggasanalysis.20201027.votingContractMethods` count,
+%  bigquery-public-data.crypto_ethereum.balances balances
+%WHERE
+%  1=1
+%  AND count.address = votingContract.address
+%  AND votingContract.address = balances.address
+%  AND count.voting_methods > 1
+%  AND DATE(votingContract.block_timestamp) <= "2020-04-21"
+  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Sum all received Ether to voting smart contracts
+\newcommand{\deployedVotingSmartContractsReceivedEther}[0]{$29\,337$\@\xspace} % 2020-10-30
+
+%SELECT
+%  SUM(transactions.value / 1000000000000000000) AS txs_balance,
+%FROM
+%  `evotinggasanalysis.20201027.20201027` votingContract,
+%  `evotinggasanalysis.20201027.votingContractMethods` count,
+%  bigquery-public-data.crypto_ethereum.transactions transactions
+%WHERE
+%  1=1
+%  AND count.address = votingContract.address
+%  AND count.voting_methods > 1
+%  AND DATE(transactions.block_timestamp) <= "2020-04-21"
+%  AND transactions.to_address = votingContract.address
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newcommand{\votingSmartContractUniqueBytecodes}[0]{$1\,030$\@\xspace}
+
+%SELECT
+%  COUNT(DISTINCT contracts.bytecode) AS contracts,
+%FROM
+%  `evotinggasanalysis.20201027.20201027` votingContract,
+%  `evotinggasanalysis.20201027.votingContractMethods` count,
+%  `bigquery-public-data.crypto_ethereum.contracts` contracts
+%WHERE
+%  DATE(votingContract.block_timestamp) <= "2020-04-21" AND
+%      count.address = votingContract.address
+%  AND votingContract.address = contracts.address
+%  AND count.voting_methods > 1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newcommand{\votingTransactions}[0]{$124\,302$\@\xspace}
+\newcommand{\votingTransactions}[0]{$129\,855$\@\xspace}
+
+%SELECT 
+%  COUNT(*) 
+%FROM 
+%  evotinggasanalysis.20201027.votingTransactions
+%WHERE DATE(block_timestamp) <= "2020-04-21"
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\newcommand{\allTransactionsToVotingSmartContracts}[0]{$468\,336$\@\xspace}
+\newcommand{\allTransactionsToVotingSmartContracts}[0]{$1\,272\,059$\@\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%SELECT
+%  COUNT(*)
+%FROM
+%  evotinggasanalysis.20201027.votingTransactions votingTransactions,
+%  evotinggasanalysis.20201027.functionSighashes functionSighashes,
+%  evotinggasanalysis.20201027.votingContractMethods votingContractMethods,
+%  bigquery-public-data.crypto_ethereum.contracts contracts
+%WHERE
+%  functionSighashes.HASH = votingTransactions.function_sighash
+%  AND DATE(votingTransactions.block_timestamp) <= "2020-04-21"
+%  AND contracts.address = votingTransactions.to_address
+%  AND contracts.address = votingContractMethods.address
+%  AND votingContractMethods.voting_methods > 1
+%  AND (signature like "%vote%" OR signature like "%Vote%") AND NOT (signature like "%votes%" OR signature like "%Votes%")
+
+\newcommand{\voteMethodCalls}[0]{$110\,361$\@\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% SELECT SUM(count)
+% FROM (
+% SELECT
+%  substr(cast(date(votingContract.block_timestamp) as string), 0, 4) as year,
+%  count(*) as count
+% FROM
+%  `evotinggasanalysis.20201027.20201027` votingContract,
+%  `evotinggasanalysis.20201027.votingContractMethods` count
+% WHERE
+%  1=1
+%  AND count.address = votingContract.address
+%  AND count.voting_methods > 1
+%  AND DATE(votingContract.block_timestamp) <= "2020-04-21"
+% group by year
+% order by year ASC
+% );
+
+%\newcommand{\votingSmartContractsWithMoreThanOneMethod}[0]{$2\,888$\@\xspace}
+\newcommand{\votingSmartContractsWithMoreThanOneMethod}[0]{$3\,173$\@\xspace}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% SELECT COUNT(*) FROM (
+% SELECT
+%  votingContract.address,
+%  (SELECT CAST(SUM(value) / 1000000000000000000 AS INT64) FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND to_address = votingContract.address and date(block_timestamp) < "2020-10-30") as received_ether,
+% CAST((SELECT SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND to_address = votingContract.address and date(block_timestamp) <= "2020-10-30") - IFNULL((SELECT 0 + SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND from_address = votingContract.address and date(block_timestamp) <= "2020-10-30"),0) AS INT64) as balance_ether
+% FROM
+%  `evotinggasanalysis.20201027.votingContracts` votingContract
+%  , bigquery-public-data.crypto_ethereum.balances balances
+%  , `evotinggasanalysis.20201027.votingContractMethods` count
+% WHERE
+%  1=1
+%  AND date(votingContract.block_timestamp) <= "2020-10-30"
+%  AND votingContract.address = balances.address
+%  AND count.address = votingContract.address
+%  AND count.voting_methods > 1
+%  group by votingContract.address
+% order by received_ether DESC
+% )
+%\newcommand{\votingSmartContractsWhichReceivedEther}[0]{$582$\@\xspace}
+\newcommand{\votingSmartContractsWhichReceivedEther}[0]{$3\,173$\@\xspace}
+
+
+%SELECT COUNT(*) FROM (
+%SELECT
+%  votingContract.address,
+%  (SELECT SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND to_address = votingContract.address and date(block_timestamp) <= "2020-04-21") - IFNULL((SELECT 0 + SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND from_address = votingContract.address and date(block_timestamp) <= "2020-04-21"),0) unrounded,
+%  ROUND((SELECT SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND to_address = votingContract.address and date(block_timestamp) < "2020-04-21"), 1) as received_ether,
+%  ROUND((SELECT SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND to_address = votingContract.address and date(block_timestamp) <= "2020-04-21") - IFNULL((SELECT 0 + SUM(value) / 1000000000000000000 FROM `bigquery-public-data`.crypto_ethereum.traces WHERE status = 1 AND from_address = votingContract.address and date(block_timestamp) <= "2020-04-21"),0), 1) as balance_ether
+%FROM
+%  `evotinggasanalysis.20201027.20201027` votingContract
+%  , bigquery-public-data.crypto_ethereum.balances balances
+%  , `evotinggasanalysis.20201027.votingContractMethods` count
+%WHERE
+%  1=1
+%  AND date(votingContract.block_timestamp) <= "2020-04-21"
+%  AND votingContract.address = balances.address
+%  AND count.address = votingContract.address
+%  AND count.voting_methods > 1
+%  group by votingContract.address
+%HAVING unrounded > 0
+%order by received_ether DESC
+%)
+
+\newcommand{\votingSmartContractsWhichStillHaveEther}[0]{$165$\@\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%select count(*) from (
+%SELECT
+%  votingTransactions.function_sighash sig_hash,
+%  functionSighashes.signature signature,
+%  votingTransactions.gas_price gas_price
+%FROM
+%  evotinggasanalysis.20201027.votingTransactions votingTransactions,
+%  evotinggasanalysis.20201027.functionSighashes functionSighashes
+%WHERE
+%  functionSighashes.hash = votingTransactions.function_sighash
+%  and date(votingTransactions.block_timestamp) <= "2020-04-21"
+%  AND (signature like "%vote%" OR signature like "%Vote%") AND NOT (signature like "%votes%" OR signature like "%Votes%")
+%  )
+
+\newcommand{\votingMethodCalls}[0]{$121\,980$\@\xspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%CREATE TEMP FUNCTION MEDIAN(arr ANY TYPE) AS ((
+%  SELECT
+%    IF(
+%      MOD(ARRAY_LENGTH(arr), 2) = 0,
+%      (arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2) - 1)] + arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2))]) / 2,
+%      arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2))]
+%    )
+%  FROM (SELECT ARRAY_AGG(x ORDER BY x) AS arr FROM UNNEST(arr) AS x)
+%));
+%
+%SELECT
+%  MEDIAN(array_agg(gas_price / 1000000000)) median,
+%  STDDEV(gas_price / 1000000000) stddev
+%FROM
+%  evotinggasanalysis.20201027.votingTransactions votingTransactions,
+%  evotinggasanalysis.20201027.functionSighashes functionSighashes
+%WHERE
+%  functionSighashes.hash = votingTransactions.function_sighash
+%  and date(votingTransactions.block_timestamp) <= "2020-04-21"
+%  AND (signature like "%vote%" OR signature like "%Vote%") AND NOT (signature like "%votes%" OR signature like "%Votes%")
+
+\newcommand{\votingMethodsMedianGasPrice}[0]{$2.0$\@\xspace} % Gwei
+\newcommand{\votingMethodsMedianGasPriceStdDev}[0]{$5.92$\@\xspace} % Gwei
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% CREATE TEMP FUNCTION MEDIAN(arr ANY TYPE) AS ((
+%  SELECT
+%    IF(
+%      MOD(ARRAY_LENGTH(arr), 2) = 0,
+%      (arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2) - 1)] + arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2))]) / 2,
+%      arr[OFFSET(DIV(ARRAY_LENGTH(arr), 2))]
+%    )
+%  FROM (SELECT ARRAY_AGG(x ORDER BY x) AS arr FROM UNNEST(arr) AS x)
+% ));
+
+% SELECT
+%  avg(votingTransactions.receipt_gas_used) avg,
+%  median(array_agg(votingTransactions.receipt_gas_used)) median,
+%  stddev(votingTransactions.receipt_gas_used) stddev
+% FROM
+%  `evotinggasanalysis.20201027.votingTransactions` votingTransactions,
+%  `evotinggasanalysis.20201027.functionSighashes` functionSighashes,
+%  `evotinggasanalysis.20201027.votingContractMethods` votingContractMethods,
+%  bigquery-public-data.crypto_ethereum.contracts contracts
+% WHERE
+%  functionSighashes.HASH = votingTransactions.function_sighash
+%  AND DATE(votingTransactions.block_timestamp) <= "2020-10-30"
+%  AND contracts.address = votingTransactions.to_address
+%  AND contracts.address = votingContractMethods.address
+%  AND votingContractMethods.voting_methods > 1
+%  AND (signature like "%vote%" OR signature like "%Vote%") AND NOT (signature like "%votes%" OR signature like "%Votes%")
+
+ 
+\newcommand{\votingMethodsGasAvg}[0]{$82\,431$\@\xspace} % gas
+\newcommand{\votingMethodsGasMedian}[0]{$69\,696$\@\xspace} % gas
+\newcommand{\votingMethodsGasStddev}[0]{$69\,015$\@\xspace} % gas
+ 
+\newcommand{\votingSmartContractsTotalDeposits}[0]{$24\,671\,000$\@\xspace}
+\newcommand{\votingSmartContractsTotalWithdrawls}[0]{$24\,659\,059$\@\xspace}
+\newcommand{\votingSmartContractsTotalBalance}[0]{$11\,941$\@\xspace}
+\newcommand{\votingSmartContractsTotalBalancePercent}[0]{$0.05$\@\xspace} 
+ 
+\newcommand{\theDAOContractsDeployments}[0]{$88$\@\xspace}
+\newcommand{\theDAOContractsVotingTransactions}[0]{$5\,928$\@\xspace}
+\newcommand{\theDAOContractsVotingTransactionsGasMedian}[0]{$150\,000$\@\xspace}
+\newcommand{\theDAOContractsVotingTransactionsGaspriceMedian}[0]{$21\,000\,000\,000$\@\xspace}
+
+ 
+ 
+ 
+ 
+\newcommand{\dashFirstProposal}[0]{\mbox{2015-08-27}\@\xspace}
+\newcommand{\dashLastProposal}[0]{\mbox{2020-10-26}\@\xspace}
+\newcommand{\dashProposals}[0]{\mbox{577}\@\xspace}
+\newcommand{\dashFunded}[0]{$131\,453$\@\xspace}
+\newcommand{\dashFundedUsd}[0]{$14.7$\@\xspace}
+\newcommand{\dashProposalsWillBeFunded}[0]{\mbox{379}\@\xspace}
+
+
+
+% Avg P2PKH transaction weight and stddev
+\newcommand{\bitcoinPToPKHWeight}[0]{$110$\@\xspace}
+\newcommand{\bitcoinPToPKHWeightStd}[0]{$0.069$\@\xspace}
+ 

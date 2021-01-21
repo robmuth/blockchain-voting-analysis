@@ -1,0 +1,42 @@
+[
+  {
+    "hash": "0x612e45a3",
+    "signature": "newProposal(address,uint256,string,bytes,uint256,bool)"
+  },
+  {
+    "hash": "0xeceb2945",
+    "signature": "checkProposalCode(uint256,address,uint256,bytes)"
+  },
+  {
+    "hash": "0xc9d27afe",
+    "signature": "vote(uint256,bool)"
+  },
+  {
+    "hash": "0x237e9492",
+    "signature": "executeProposal(uint256,bytes)"
+  },
+  {
+    "hash": "0x6837ff1e",
+    "signature": "newContract(address)"
+  },
+  {
+    "hash": "0x749f9889",
+    "signature": "changeAllowedRecipients(address,bool)"
+  },
+  {
+    "hash": "0xe33734fd",
+    "signature": "changeProposalDeposit(uint256)"
+  },
+  {
+    "hash": "0x78524b2e",
+    "signature": "halveMinQuorum()"
+  },
+  {
+    "hash": "0x8d7af473",
+    "signature": "numberOfProposals()"
+  },
+  {
+    "hash": "0x2632bf20",
+    "signature": "unblockMe()"
+  }
+]
