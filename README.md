@@ -78,7 +78,7 @@ Cache table for all transactions which call a voting method.
 | block_timestamp    | TIMESTAMP |          |
 | function_sighash   | STRING    |          |
 
-Inserts see [functionSighashes.sql](./sql/insertVotingTransactions.sql).
+Inserts see [insertVotingTransactions.sql](./sql/insertVotingTransactions.sql).
 
 ## SQL Queries
 ### Number of voting contracts and sum of their Ether balance
@@ -251,6 +251,6 @@ GROUP BY gas
 ## Minimal Implementations
 The minimal voting implementations are implemented within the [Truffle Framework](https://www.trufflesuite.com). Our measurements can be reproduced with the test cases (run ```truffle test```). The test cases require an npm/Node.JS environment and ganache-cli.
 
-- Truffle project: [./minimalImplementations/](./minimalImplementations/)
-- Smart contracts: [./minimalImplementations/contracts/](./minimalImplementations/contracts/)
-- ZoKrates zero-knowledge-proof the hash/proof files can be found in [./minimalImplementations/zokrates/](./minimalImplementations/zokrates/) and require a ZoKrates environment or the corresponding [Remix](http://remix.ethereum.org/) Plugin.
+- Truffle project: [./solidity-minimalImplementations/](./solidity-minimalImplementations/)
+- Smart contracts: [./solidity-minimalImplementations/contracts/](./solidity-minimalImplementations/contracts/)
+- ZoKrates zero-knowledge-proof the hash/proof files can be found in [./solidity-minimalImplementations/zokrates/](./solidity-minimalImplementations/zokrates/) and require a ZoKrates environment or the corresponding [Remix](http://remix.ethereum.org/) Plugin.
