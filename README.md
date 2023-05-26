@@ -10,7 +10,7 @@ Required prerequisites:
 
 We generated the following tables for caching/saving results.
 
-> **Important note:** we limit our SQL analysis to 2020-10-27 due to repeatability for our paper.
+> **Important note:** we limit our SQL analysis to 2022-12-31 due to repeatability for our paper.
 
 ## Method Signatures
 Expected voting method signatures and their sources. For the 4byte.directory we searched for the keywords and scrapped them with the API. We then generated SQL inserts for the functionSighashes table (see below).
@@ -87,11 +87,11 @@ SELECT
   COUNT(DISTINCT votingContract.address) AS contracts,
   SUM(balances.eth_balance / 1000000000000000000) AS balance_eth,
 FROM
-  `evotinggasanalysis.20201027.votingContracts` votingContract,
-  `evotinggasanalysis.20201027.votingContractMethods` count,
+  `diss-377408.diss.votingContracts` votingContract,
+  `diss-377408.diss.votingContractMethods` count,
   bigquery-public-data.crypto_ethereum.balances balances
 WHERE
-  DATE(votingContract.block_timestamp) <= "2020-10-27" AND 
+  DATE(votingContract.block_timestamp) <= "2022-12-31" AND 
       count.address = votingContract.address
   AND votingContract.address = balances.address
   AND count.voting_methods > 1
@@ -102,11 +102,11 @@ WHERE
 SELECT
   SUM(transactions.value / 1000000000000000000) AS txs_balance,
 FROM
-  `evotinggasanalysis.20201027.votingContracts` votingContract,
-  `evotinggasanalysis.20201027.votingContractMethods` count,
+  `diss-377408.diss.votingContracts` votingContract,
+  `diss-377408.diss.votingContractMethods` count,
   bigquery-public-data.crypto_ethereum.transactions transactions
 WHERE
-DATE(transactions.block_timestamp) <= "2020-10-27" AND
+DATE(transactions.block_timestamp) <= "2022-12-31" AND
       count.address = votingContract.address
   AND count.voting_methods > 1
   AND transactions.to_address = votingContract.address
@@ -117,11 +117,11 @@ DATE(transactions.block_timestamp) <= "2020-10-27" AND
 SELECT
   COUNT(DISTINCT contracts.bytecode) AS contracts,
 FROM
-  `evotinggasanalysis.20201027.votingContracts` votingContract,
-  `evotinggasanalysis.20201027.votingContractMethods` count,
+  `diss-377408.diss.votingContracts` votingContract,
+  `diss-377408.diss.votingContractMethods` count,
   `bigquery-public-data.crypto_ethereum.contracts` contracts
 WHERE
-DATE(votingContract.block_timestamp) <= "2020-10-27" AND
+DATE(votingContract.block_timestamp) <= "2022-12-31" AND
       count.address = votingContract.address
   AND votingContract.address = contracts.address
   AND count.voting_methods > 1
@@ -132,10 +132,10 @@ DATE(votingContract.block_timestamp) <= "2020-10-27" AND
 SELECT 
   COUNT(*) 
 FROM 
-  evotinggasanalysis.20201027.votingContracts contracts,
-  evotinggasanalysis.20201027.votingContractMethods count,
+  diss-377408.diss.votingContracts contracts,
+  diss-377408.diss.votingContractMethods count,
   bigquery-public-data.crypto_ethereum.transactions transactions
-WHERE DATE(contracts.block_timestamp) <= "2020-10-27" AND DATE(transactions.block_timestamp) <= "2020-10-27" AND
+WHERE DATE(contracts.block_timestamp) <= "2022-12-31" AND DATE(transactions.block_timestamp) <= "2022-12-31" AND
       count.address = contracts.address
   AND count.voting_methods >  1
   AND contracts.address = transactions.to_address
@@ -165,62 +165,7 @@ Table **gasMeasurements** for saving the measurement results.
 
 > **Caution:** Runs potentially long and may cost some real $$$ ;-)
 
-```sql
---- INPUT
-DECLARE day DATE DEFAULT "2020-10-27"; -- Start date
-DECLARE max DATE DEFAULT "2015-07-30"; -- Genesis
-DECLARE gas INT64 DEFAULT 791970000;   -- Free gas needed
-
---- RUN
-DECLARE foundBlock INT64 DEFAULT 0;
-DECLARE dayTimestamp TIMESTAMP DEFAULT TIMESTAMP(day);
-  
-CREATE TEMP FUNCTION measureNeededBlocks (gas INT64, startDate DATE)
-  RETURNS INT64 AS ( (
-    SELECT
-      number
-    FROM (
-      SELECT number, SUM(gas_limit - gas_used) OVER (ORDER BY number DESC) AS gas_free_sum,
-      FROM `bigquery-public-data.crypto_ethereum.blocks`
-      WHERE DATE(timestamp) <= startDate
-      ORDER BY number DESC )
-    WHERE
-      gas_free_sum > gas
-    LIMIT 1 ));
-    
-LOOP
-  SET dayTimestamp = (SELECT MAX(b.timestamp) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE DATE(b.timestamp) = day );
-  
-  SET foundBlock = (SELECT measureNeededBlocks(gas, day));
-  
-  INSERT INTO evotinggasanalysis.20201027.gasMeasurements (
-    date,
-    gas,
-    block,
-    blocks,
-    duration,
-    `from_timestamp`,
-    `to_timestamp`,
-    `from_block`,
-    `to_block`,
-    `blockgaslimit_avg`)
-  VALUES
-    (day, gas, foundBlock,
-  
-    (SELECT MAX(number) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE date(b.timestamp) = day) - foundBlock,
-    (SELECT TIMESTAMP_DIFF(dayTimestamp, bb.timestamp, MINUTE) FROM `bigquery-public-data`.crypto_ethereum.blocks bb WHERE bb.number = foundBlock),
-    dayTimestamp,
-    (SELECT bb.timestamp FROM `bigquery-public-data`.crypto_ethereum.blocks bb WHERE bb.number = foundBlock),
-    (SELECT MAX(number) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE date(b.timestamp) = day),
-    foundBlock,
-    (SELECT CAST(AVG(gas_limit) AS INT64) FROM `bigquery-public-data`.crypto_ethereum.blocks b WHERE b.number >= foundBlock AND b.number <= (SELECT MAX(bc.number) FROM `bigquery-public-data`.crypto_ethereum.blocks bc WHERE date(bc.timestamp) = day))
-  );
-SET day = DATE_ADD(day, INTERVAL -1 month);
-IF day < max THEN
-  LEAVE ;
-END IF ;
-END LOOP ;
-```
+See SQL queries in ```./sql/```
 
 ### Get median of gas measurement results
 Get the median of all gas measurement results (grouped by initial gas input).
@@ -244,7 +189,7 @@ SELECT
   CAST(CEIL(MEDIAN(ARRAY_AGG(blockgaslimit_avg))) AS INT64) blockgaslimit_median,
   CAST(STDDEV(blockgaslimit_avg) AS INT64) blockgaslimit_std,
   COUNT(*) as datapoints
-FROM (SELECT DISTINCT * FROM `evotinggasanalysis.20201027.gasMeasurements` WHERE blocks IS NOT NULL)
+FROM (SELECT DISTINCT * FROM `diss-377408.diss.gasMeasurements` WHERE blocks IS NOT NULL)
 GROUP BY gas
 ```
 
